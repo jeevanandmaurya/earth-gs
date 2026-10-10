@@ -1,6 +1,6 @@
 import base64, json, pathlib, sys, time
 from playwright.sync_api import sync_playwright
-DS = pathlib.Path(r'D:\\Programming\\Artificial Intelligence\\earth-gs\\source-models\\datasets\\europe-1km')
+DS = pathlib.Path(r'D:\\Programming\\Artificial Intelligence\\earth-gs-data\\datasets\\europe-1km')
 FOCUS = '43,-2;43,22;43,42;52,-2;52,22;52,42;61,-2;61,22;61,42'
 PER = 80
 N = PER * 9

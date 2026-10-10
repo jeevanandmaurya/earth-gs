@@ -1,5 +1,5 @@
 import numpy as np, pathlib, struct, json
-ds = pathlib.Path(r'D:\Programming\Artificial Intelligence\earth-gs\source-models\datasets\europe-west-1km')
+ds = pathlib.Path(r'D:\Programming\Artificial Intelligence\earth-gs-data\datasets\europe-west-1km')
 def read_images_bin(path):
     out = {}
     with open(path, 'rb') as f:

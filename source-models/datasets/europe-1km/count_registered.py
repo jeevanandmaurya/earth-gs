@@ -1,5 +1,5 @@
 import json, struct, pathlib, collections
-ds = pathlib.Path(r'D:\\Programming\\Artificial Intelligence\\earth-gs\\source-models\\datasets\\europe-1km')
+ds = pathlib.Path(r'D:\\Programming\\Artificial Intelligence\\earth-gs-data\\datasets\\europe-1km')
 def names(path):
     out = set()
     with open(path, 'rb') as f:

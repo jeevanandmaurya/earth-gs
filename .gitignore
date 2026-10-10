@@ -29,3 +29,5 @@ web/live/
 web/regions/
 **/map/block_r*.jpg
 *.glb
+source-models/datasets/**/*.json
+source-models/datasets/**/*.log
