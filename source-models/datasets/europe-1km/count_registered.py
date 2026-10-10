@@ -1,5 +1,5 @@
-import json, struct, pathlib, collections
-ds = pathlib.Path(r'D:\\Programming\\Artificial Intelligence\\earth-gs-data\\datasets\\europe-1km')
+import json, struct, pathlib, collections, os
+ds = pathlib.Path(os.environ.get('EARTH_GS_DATA', r'D:\\Programming\\Artificial Intelligence\\earth-gs-data')) / 'datasets' / 'europe-1km'
 def names(path):
     out = set()
     with open(path, 'rb') as f:

@@ -27,7 +27,7 @@ Plan: plan.md (renderer = PlayCanvas, data rules, licence tiers A/B/C/D/Hold).
 
 ## Splat pipeline
 - Source model now: source-models/earth-bluemarble-2to1.glb (built by source-models/build_globe_glb.py) using source-models/bluemarble_2to1.jpg (NASA Blue Marble, cloud-free, 4096x2048; verified at 9 known places). Geometry and UVs use the globe's latitude/longitude convention (frame = identity).
-- Dataset in use: source-models/datasets/earth-2to1-hr (480 frames 2048px unlit, SfM 480/480 0.34 px, alignment residual 0.36 units, training run1 finished 12000 steps, 1,000,000-splat cap, PSNR 44.6). Final checkpoint published (757,778 splats shown).
+- Dataset in use: earth-gs-data/datasets/earth-2to1-hr (480 frames 2048px unlit, SfM 480/480 0.34 px, alignment residual 0.36 units, training run1 finished 12000 steps, 1,000,000-splat cap, PSNR 44.6). Final checkpoint published (757,778 splats shown).
 - Older datasets moved to source-models/_backup_old_datasets (earth-clouds, earth-hr, earth-noclouds-hr, earth-flat-hr).
 - Pipeline: render (source-models/render/orbit.html + render_hr.py, unlit) -> Spirula SfM (sfm auto) -> align.py (similarity to render poses) + frame.npz -> Spirula train centered-object -> watch.py (converts checkpoint PLY to app .splat, status.json). Watcher is NOT auto-started; restart it when training runs (args: ROOT RUN_DIR LOG DATASET_DIR [STEP_OFFSET]).
 - Spirula CLI: D:\Downloads\spirula-2026.9.30-windows-vulkan-x86_64\spirula.exe. Flags used: --num-iterations, --cap-max, --steps-per-save, --disable-viewer 1, --init-ply (warm start; no optimizer resume).
