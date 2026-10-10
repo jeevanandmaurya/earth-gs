@@ -1,0 +1,21 @@
+{
+    "name":  "earth-gs-web",
+    "private":  true,
+    "version":  "0.2.0",
+    "type":  "module",
+    "scripts":  {
+                    "dev":  "vite",
+                    "build":  "vite build",
+                    "preview":  "vite preview",
+                    "test":  "node --test test/geo.test.mjs"
+                },
+    "dependencies":  {
+                         "astronomy-engine":  "2.1.19",
+                         "lucide":  "1.54.0",
+                         "playcanvas":  "2.23.2"
+                     },
+    "devDependencies":  {
+                            "three":  "0.160.0",
+                            "vite":  "5.4.0"
+                        }
+}

@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <title>Settings · earth·gs</title>
+  <meta name="description" content="Preferences for earth-gs: theme, units, data budget and start-up options." />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <script>
+    (function () {
+      var theme = 'dark';
+      try {
+        var s = JSON.parse(localStorage.getItem('earth-gs:settings') || '{}');
+        if (s.theme === 'light' || s.theme === 'dark') theme = s.theme;
+        else if (s.theme === 'system') theme = matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+      } catch (e) {}
+      document.documentElement.dataset.theme = theme;
+    })();
+  </script>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='12' fill='%2305070b' stroke='%23d9a84f' stroke-width='2'/%3E%3Cpath d='M4 16h24' stroke='%23d9a84f' stroke-width='1.5'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400&family=JetBrains+Mono:wght@400;500&display=swap"
+  />
+  <link rel="stylesheet" href="/src/style.css" /></head>
+<body data-page="settings">
+  <div class="app">
+    <header class="masthead">
+      <a class="brand" href="./index.html" aria-label="earth gs, go to globe">
+        <span class="brand-name"><em>earth</em><span class="brand-dot">·</span>gs</span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a class="nav-link" href="./index.html" data-route="globe">Globe</a>
+        <a class="nav-link" href="./docs.html" data-route="docs">Docs</a>
+        <a class="nav-link" href="./settings.html" data-route="settings">Settings</a>
+      </nav>
+      <div class="mast-tools">
+        <button id="fullscreen-toggle" class="icon-tool" type="button" aria-pressed="false" aria-label="Full screen" title="Full screen (F)"><span data-icon="expand" class="i-expand"></span><span data-icon="collapse" class="i-collapse"></span></button>
+        <button id="theme-toggle" class="icon-tool" type="button" title="Switch light and dark theme" aria-label="Switch light and dark theme"><span data-icon="sun" class="i-sun"></span><span data-icon="moon" class="i-moon"></span></button>
+      </div>
+    </header>
+    <main class="main view-scroll">
+      <div class="settings">
+        <header class="doc-head">
+          <p class="kicker">Settings</p>
+          <h1>Preferences</h1>
+          <p class="doc-lede">Saved in this browser. Changes apply straight away.</p>
+        </header>
+
+        <div class="setting">
+          <div><h3>Theme</h3><p>Light or dark. “System” follows your operating system.</p></div>
+          <select id="set-theme" aria-label="Theme">
+            <option value="system">System</option>
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+          </select>
+        </div>
+
+        <div class="setting">
+          <div><h3>Units</h3><p>Used for distances and altitudes in the readouts.</p></div>
+          <select id="set-units" aria-label="Units">
+            <option value="metric">Metric (m, km)</option>
+            <option value="imperial">Imperial (ft, mi)</option>
+          </select>
+        </div>
+
+        <div class="setting">
+          <div><h3>Data budget</h3><p>How many splats the globe may draw. Use Phone on slower devices.</p></div>
+          <select id="set-quality" aria-label="Data budget">
+            <option value="phone">Phone · about 0.5M splats</option>
+            <option value="desktop">Desktop · about 2.5M splats</option>
+          </select>
+        </div>
+
+        <div class="setting">
+          <div><h3>Start in</h3><p>The time mode used when the globe opens without a link.</p></div>
+          <select id="set-start-mode" aria-label="Start time mode">
+            <option value="live">Live sky</option>
+            <option value="capture">Capture time</option>
+          </select>
+        </div>
+
+        <div class="setting">
+          <div><h3>Side panel</h3><p>Show the Places, Details and Camera panel when the globe opens.</p></div>
+          <label class="switch"><input id="set-rail" type="checkbox" /><span>Show</span></label>
+        </div>
+
+        <div class="setting">
+          <div><h3>Labels and readout</h3><p>Show place labels and the coordinate readout on the globe.</p></div>
+          <label class="switch"><input id="set-overlays" type="checkbox" /><span>Show</span></label>
+        </div>
+
+        <div class="setting">
+          <div><h3>Time bar</h3><p>Open the time bar automatically when the globe opens.</p></div>
+          <label class="switch"><input id="set-timeline" type="checkbox" /><span>Open</span></label>
+        </div>
+
+        <div class="settings-actions">
+          <button id="set-reset" class="btn ghost" type="button">Reset to defaults</button>
+        </div>
+      </div>
+    </main>
+    <footer class="foot">
+      Basemap is a placeholder grid. Replace it with OpenStreetMap, Sentinel-2, Landsat or NAIP tiles, each with its attribution.
+      Geometry marked PROXY is stand-in data, not captured.
+    </footer>
+  </div>
+
+  <dialog id="dialog" class="dialog"><form method="dialog"><h3 id="dialog-title"></h3><p id="dialog-body"></p><button class="btn primary" type="submit">Close</button></form></dialog>
+  <script type="module" src="/src/settings-page.js"></script>
+</body>
+</html>

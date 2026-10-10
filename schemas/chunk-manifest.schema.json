@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "earth-gs chunk manifest",
+  "type": "object",
+  "required": ["id", "bounds", "ecefTransform", "lod", "bytes", "hash", "sources", "metrics", "configHash", "captureTime"],
+  "properties": {
+    "id": { "type": "string", "description": "Stable chunk ID = quadtile ID + version, e.g. q03311..._v1" },
+    "bounds": {
+      "type": "object",
+      "required": ["minLat", "minLon", "maxLat", "maxLon"],
+      "properties": {
+        "minLat": { "type": "number" }, "minLon": { "type": "number" },
+        "maxLat": { "type": "number" }, "maxLon": { "type": "number" }
+      }
+    },
+    "ecefTransform": {
+      "type": "object",
+      "required": ["originLat", "originLon", "originH", "rotationENUtoECEF", "translationECEF", "version", "registrationErrorM"],
+      "properties": {
+        "originLat": { "type": "number" },
+        "originLon": { "type": "number" },
+        "originH": { "type": "number", "description": "Ellipsoid height, checked vs Copernicus DEM" },
+        "rotationENUtoECEF": { "type": "array", "items": { "type": "number" }, "minItems": 9, "maxItems": 9 },
+        "translationECEF": { "type": "array", "items": { "type": "number" }, "minItems": 3, "maxItems": 3 },
+        "version": { "type": "integer", "minimum": 1 },
+        "registrationErrorM": { "type": ["number", "null"] },
+        "previousVersion": { "type": ["integer", "null"] }
+      }
+    },
+    "lod": { "type": "integer", "minimum": 0, "maximum": 5 },
+    "bytes": { "type": "integer", "minimum": 0 },
+    "hash": { "type": "string" },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["uri", "license", "tier"],
+        "properties": {
+          "uri": { "type": "string" },
+          "license": { "type": "string" },
+          "tier": { "type": "string", "enum": ["A", "B", "C", "D", "Hold"] }
+        }
+      }
+    },
+    "metrics": {
+      "type": "object",
+      "required": ["psnr", "lpips", "seamErrorPx", "registrationErrorM"],
+      "properties": {
+        "psnr": { "type": ["number", "null"] },
+        "lpips": { "type": ["number", "null"] },
+        "seamErrorPx": { "type": ["number", "null"] },
+        "registrationErrorM": { "type": ["number", "null"] }
+      }
+    },
+    "configHash": { "type": "string" },
+    "captureTime": { "type": ["string", "null"] }
+  }
+}

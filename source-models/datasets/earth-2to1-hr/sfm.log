@@ -1,0 +1,1085 @@
+[run]     D:\Programming\Artificial Intelligence\earth-gs\source-models\datasets\earth-2to1-hr\images -> D:\Programming\Artificial Intelligence\earth-gs\source-models\datasets\earth-2to1-hr\sfm
+[run]     Quality: high   Image size limit: 2400 px   Feature limit: 8192
+[run]     Capture type: individual
+[run]     Lens: opencv   Camera grouping: folder
+[run]     The presets set --max-image-size to 2400 (was 0)
+[run]     The presets set --aliked-max-features to 4096 (was 2048)
+[run]     The presets set --loma-max-features to 4096 (was 2048)
+[device]  Using NVIDIA GeForce RTX 3050 Laptop GPU [uuid:283975183d82999d0f869c686ca62957]
+[extract] 1/480   frame_0000.png   Features: 7072
+[extract] 2/480   frame_0001.png   Features: 6495
+[extract] 3/480   frame_0002.png   Features: 7437
+[extract] 4/480   frame_0003.png   Features: 6581
+[extract] 5/480   frame_0004.png   Features: 6491
+[extract] 6/480   frame_0005.png   Features: 7657
+[extract] 7/480   frame_0006.png   Features: 6007
+[extract] 8/480   frame_0007.png   Features: 7169
+[extract] 9/480   frame_0008.png   Features: 6823
+[extract] 10/480   frame_0009.png   Features: 5811
+[extract] 11/480   frame_0010.png   Features: 7955
+[extract] 12/480   frame_0011.png   Features: 6057
+[extract] 13/480   frame_0012.png   Features: 6265
+[extract] 14/480   frame_0013.png   Features: 7384
+[extract] 15/480   frame_0014.png   Features: 5465
+[extract] 16/480   frame_0015.png   Features: 7603
+[extract] 17/480   frame_0016.png   Features: 6285
+[extract] 18/480   frame_0017.png   Features: 5599
+[extract] 19/480   frame_0018.png   Features: 8027
+[extract] 20/480   frame_0019.png   Features: 5565
+[extract] 21/480   frame_0020.png   Features: 6727
+[extract] 22/480   frame_0021.png   Features: 6803
+[extract] 23/480   frame_0022.png   Features: 5000
+[extract] 24/480   frame_0023.png   Features: 8054
+[extract] 25/480   frame_0024.png   Features: 5749
+[extract] 26/480   frame_0025.png   Features: 5363
+[extract] 27/480   frame_0026.png   Features: 7812
+[extract] 28/480   frame_0027.png   Features: 5151
+[extract] 29/480   frame_0028.png   Features: 7182
+[extract] 30/480   frame_0029.png   Features: 6054
+[extract] 31/480   frame_0030.png   Features: 4757
+[extract] 32/480   frame_0031.png   Features: 8192
+[extract] 33/480   frame_0032.png   Features: 5377
+[extract] 34/480   frame_0033.png   Features: 5868
+[extract] 35/480   frame_0034.png   Features: 7009
+[extract] 36/480   frame_0035.png   Features: 4733
+[extract] 37/480   frame_0036.png   Features: 7916
+[extract] 38/480   frame_0037.png   Features: 5689
+[extract] 39/480   frame_0038.png   Features: 4439
+[extract] 40/480   frame_0039.png   Features: 8153
+[extract] 41/480   frame_0040.png   Features: 5032
+[extract] 42/480   frame_0041.png   Features: 6689
+[extract] 43/480   frame_0042.png   Features: 6066
+[extract] 44/480   frame_0043.png   Features: 4218
+[extract] 45/480   frame_0044.png   Features: 8192
+[extract] 46/480   frame_0045.png   Features: 5256
+[extract] 47/480   frame_0046.png   Features: 4870
+[extract] 48/480   frame_0047.png   Features: 7340
+[extract] 49/480   frame_0048.png   Features: 4583
+[extract] 50/480   frame_0049.png   Features: 7381
+[extract] 51/480   frame_0050.png   Features: 5451
+[extract] 52/480   frame_0051.png   Features: 3806
+[extract] 53/480   frame_0052.png   Features: 8192
+[extract] 54/480   frame_0053.png   Features: 4910
+[extract] 55/480   frame_0054.png   Features: 5881
+[extract] 56/480   frame_0055.png   Features: 6267
+[extract] 57/480   frame_0056.png   Features: 4087
+[extract] 58/480   frame_0057.png   Features: 8078
+[extract] 59/480   frame_0058.png   Features: 5177
+[extract] 60/480   frame_0059.png   Features: 3886
+[extract] 61/480   frame_0060.png   Features: 7895
+[extract] 62/480   frame_0061.png   Features: 4528
+[extract] 63/480   frame_0062.png   Features: 6658
+[extract] 64/480   frame_0063.png   Features: 5379
+[extract] 65/480   frame_0064.png   Features: 3404
+[extract] 66/480   frame_0065.png   Features: 8192
+[extract] 67/480   frame_0066.png   Features: 4991
+[extract] 68/480   frame_0067.png   Features: 4661
+[extract] 69/480   frame_0068.png   Features: 6700
+[extract] 70/480   frame_0069.png   Features: 3992
+[extract] 71/480   frame_0070.png   Features: 7571
+[extract] 72/480   frame_0071.png   Features: 4928
+[extract] 73/480   frame_0072.png   Features: 3176
+[extract] 74/480   frame_0073.png   Features: 8192
+[extract] 75/480   frame_0074.png   Features: 4455
+[extract] 76/480   frame_0075.png   Features: 5894
+[extract] 77/480   frame_0076.png   Features: 5621
+[extract] 78/480   frame_0077.png   Features: 3314
+[extract] 79/480   frame_0078.png   Features: 8142
+[extract] 80/480   frame_0079.png   Features: 4851
+[extract] 81/480   frame_0080.png   Features: 3738
+[extract] 82/480   frame_0081.png   Features: 7396
+[extract] 83/480   frame_0082.png   Features: 4123
+[extract] 84/480   frame_0083.png   Features: 6757
+[extract] 85/480   frame_0084.png   Features: 4781
+[extract] 86/480   frame_0085.png   Features: 2734
+[extract] 87/480   frame_0086.png   Features: 8192
+[extract] 88/480   frame_0087.png   Features: 4619
+[extract] 89/480   frame_0088.png   Features: 4964
+[extract] 90/480   frame_0089.png   Features: 6157
+[extract] 91/480   frame_0090.png   Features: 3407
+[extract] 92/480   frame_0091.png   Features: 7770
+[extract] 93/480   frame_0092.png   Features: 4611
+[extract] 94/480   frame_0093.png   Features: 2905
+[extract] 95/480   frame_0094.png   Features: 8057
+[extract] 96/480   frame_0095.png   Features: 4170
+[extract] 97/480   frame_0096.png   Features: 6139
+[extract] 98/480   frame_0097.png   Features: 5008
+[extract] 99/480   frame_0098.png   Features: 2732
+[extract] 100/480   frame_0099.png   Features: 8192
+[extract] 101/480   frame_0100.png   Features: 4654
+[extract] 102/480   frame_0101.png   Features: 3971
+[extract] 103/480   frame_0102.png   Features: 6858
+[extract] 104/480   frame_0103.png   Features: 3612
+[extract] 105/480   frame_0104.png   Features: 7010
+[extract] 106/480   frame_0105.png   Features: 4476
+[extract] 107/480   frame_0106.png   Features: 2270
+[extract] 108/480   frame_0107.png   Features: 8192
+[extract] 109/480   frame_0108.png   Features: 4420
+[extract] 110/480   frame_0109.png   Features: 5355
+[extract] 111/480   frame_0110.png   Features: 5527
+[extract] 112/480   frame_0111.png   Features: 2778
+[extract] 113/480   frame_0112.png   Features: 7740
+[extract] 114/480   frame_0113.png   Features: 4507
+[extract] 115/480   frame_0114.png   Features: 2918
+[extract] 116/480   frame_0115.png   Features: 7624
+[extract] 117/480   frame_0116.png   Features: 3788
+[extract] 118/480   frame_0117.png   Features: 6349
+[extract] 119/480   frame_0118.png   Features: 4566
+[extract] 120/480   frame_0119.png   Features: 2077
+[extract] 121/480   frame_0120.png   Features: 8136
+[extract] 122/480   frame_0121.png   Features: 4436
+[extract] 123/480   frame_0122.png   Features: 4402
+[extract] 124/480   frame_0123.png   Features: 6280
+[extract] 125/480   frame_0124.png   Features: 3041
+[extract] 126/480   frame_0125.png   Features: 7182
+[extract] 127/480   frame_0126.png   Features: 4356
+[extract] 128/480   frame_0127.png   Features: 2176
+[extract] 129/480   frame_0128.png   Features: 8076
+[extract] 130/480   frame_0129.png   Features: 4086
+[extract] 131/480   frame_0130.png   Features: 5705
+[extract] 132/480   frame_0131.png   Features: 4973
+[extract] 133/480   frame_0132.png   Features: 2240
+[extract] 134/480   frame_0133.png   Features: 7855
+[extract] 135/480   frame_0134.png   Features: 4369
+[extract] 136/480   frame_0135.png   Features: 3442
+[extract] 137/480   frame_0136.png   Features: 7084
+[extract] 138/480   frame_0137.png   Features: 3355
+[extract] 139/480   frame_0138.png   Features: 6483
+[extract] 140/480   frame_0139.png   Features: 4246
+[extract] 141/480   frame_0140.png   Features: 1766
+[extract] 142/480   frame_0141.png   Features: 8134
+[extract] 143/480   frame_0142.png   Features: 4164
+[extract] 144/480   frame_0143.png   Features: 4913
+[extract] 145/480   frame_0144.png   Features: 5692
+[extract] 146/480   frame_0145.png   Features: 2459
+[extract] 147/480   frame_0146.png   Features: 7197
+[extract] 148/480   frame_0147.png   Features: 4122
+[extract] 149/480   frame_0148.png   Features: 2366
+[extract] 150/480   frame_0149.png   Features: 7691
+[extract] 151/480   frame_0150.png   Features: 3665
+[extract] 152/480   frame_0151.png   Features: 6019
+[extract] 153/480   frame_0152.png   Features: 4505
+[extract] 154/480   frame_0153.png   Features: 1712
+[extract] 155/480   frame_0154.png   Features: 7729
+[extract] 156/480   frame_0155.png   Features: 4170
+[extract] 157/480   frame_0156.png   Features: 3883
+[extract] 158/480   frame_0157.png   Features: 6392
+[extract] 159/480   frame_0158.png   Features: 2720
+[extract] 160/480   frame_0159.png   Features: 6544
+[extract] 161/480   frame_0160.png   Features: 3947
+[extract] 162/480   frame_0161.png   Features: 1684
+[extract] 163/480   frame_0162.png   Features: 7903
+[extract] 164/480   frame_0163.png   Features: 3993
+[extract] 165/480   frame_0164.png   Features: 5288
+[extract] 166/480   frame_0165.png   Features: 5115
+[extract] 167/480   frame_0166.png   Features: 1848
+[extract] 168/480   frame_0167.png   Features: 7093
+[extract] 169/480   frame_0168.png   Features: 4006
+[extract] 170/480   frame_0169.png   Features: 2870
+[extract] 171/480   frame_0170.png   Features: 7110
+[extract] 172/480   frame_0171.png   Features: 3072
+[extract] 173/480   frame_0172.png   Features: 6094
+[extract] 174/480   frame_0173.png   Features: 4110
+[extract] 175/480   frame_0174.png   Features: 1388
+[extract] 176/480   frame_0175.png   Features: 7407
+[extract] 177/480   frame_0176.png   Features: 4075
+[extract] 178/480   frame_0177.png   Features: 4313
+[extract] 179/480   frame_0178.png   Features: 5803
+[extract] 180/480   frame_0179.png   Features: 2083
+[extract] 181/480   frame_0180.png   Features: 6479
+[extract] 182/480   frame_0181.png   Features: 3735
+[extract] 183/480   frame_0182.png   Features: 1946
+[extract] 184/480   frame_0183.png   Features: 7525
+[extract] 185/480   frame_0184.png   Features: 3491
+[extract] 186/480   frame_0185.png   Features: 5474
+[extract] 187/480   frame_0186.png   Features: 4525
+[extract] 188/480   frame_0187.png   Features: 1442
+[extract] 189/480   frame_0188.png   Features: 6969
+[extract] 190/480   frame_0189.png   Features: 3894
+[extract] 191/480   frame_0190.png   Features: 3303
+[extract] 192/480   frame_0191.png   Features: 6420
+[extract] 193/480   frame_0192.png   Features: 2467
+[extract] 194/480   frame_0193.png   Features: 5980
+[extract] 195/480   frame_0194.png   Features: 3795
+[extract] 196/480   frame_0195.png   Features: 1327
+[extract] 197/480   frame_0196.png   Features: 7332
+[extract] 198/480   frame_0197.png   Features: 3787
+[extract] 199/480   frame_0198.png   Features: 4671
+[extract] 200/480   frame_0199.png   Features: 5121
+[extract] 201/480   frame_0200.png   Features: 1605
+[extract] 202/480   frame_0201.png   Features: 6369
+[extract] 203/480   frame_0202.png   Features: 3699
+[extract] 204/480   frame_0203.png   Features: 2356
+[extract] 205/480   frame_0204.png   Features: 6874
+[extract] 206/480   frame_0205.png   Features: 2883
+[extract] 207/480   frame_0206.png   Features: 5502
+[extract] 208/480   frame_0207.png   Features: 3926
+[extract] 209/480   frame_0208.png   Features: 1074
+[extract] 210/480   frame_0209.png   Features: 6696
+[extract] 211/480   frame_0210.png   Features: 3696
+[extract] 212/480   frame_0211.png   Features: 3708
+[extract] 213/480   frame_0212.png   Features: 5711
+[extract] 214/480   frame_0213.png   Features: 1847
+[extract] 215/480   frame_0214.png   Features: 5731
+[extract] 216/480   frame_0215.png   Features: 3508
+[extract] 217/480   frame_0216.png   Features: 1527
+[extract] 218/480   frame_0217.png   Features: 6779
+[extract] 219/480   frame_0218.png   Features: 3309
+[extract] 220/480   frame_0219.png   Features: 4974
+[extract] 221/480   frame_0220.png   Features: 4429
+[extract] 222/480   frame_0221.png   Features: 1111
+[extract] 223/480   frame_0222.png   Features: 6082
+[extract] 224/480   frame_0223.png   Features: 3603
+[extract] 225/480   frame_0224.png   Features: 2784
+[extract] 226/480   frame_0225.png   Features: 6144
+[extract] 227/480   frame_0226.png   Features: 2236
+[extract] 228/480   frame_0227.png   Features: 5385
+[extract] 229/480   frame_0228.png   Features: 3586
+[extract] 230/480   frame_0229.png   Features: 917
+[extract] 231/480   frame_0230.png   Features: 6359
+[extract] 232/480   frame_0231.png   Features: 3503
+[extract] 233/480   frame_0232.png   Features: 4029
+[extract] 234/480   frame_0233.png   Features: 4996
+[extract] 235/480   frame_0234.png   Features: 1372
+[extract] 236/480   frame_0235.png   Features: 5621
+[extract] 237/480   frame_0236.png   Features: 3451
+[extract] 238/480   frame_0237.png   Features: 1845
+[extract] 239/480   frame_0238.png   Features: 6164
+[extract] 240/480   frame_0239.png   Features: 2854
+[extract] 241/480   frame_0240.png   Features: 4952
+[extract] 242/480   frame_0241.png   Features: 3794
+[extract] 243/480   frame_0242.png   Features: 752
+[extract] 244/480   frame_0243.png   Features: 5780
+[extract] 245/480   frame_0244.png   Features: 3516
+[extract] 246/480   frame_0245.png   Features: 3210
+[extract] 247/480   frame_0246.png   Features: 5389
+[extract] 248/480   frame_0247.png   Features: 1752
+[extract] 249/480   frame_0248.png   Features: 5142
+[extract] 250/480   frame_0249.png   Features: 3332
+[extract] 251/480   frame_0250.png   Features: 1165
+[extract] 252/480   frame_0251.png   Features: 5938
+[extract] 253/480   frame_0252.png   Features: 3165
+[extract] 254/480   frame_0253.png   Features: 4302
+[extract] 255/480   frame_0254.png   Features: 4245
+[extract] 256/480   frame_0255.png   Features: 909
+[extract] 257/480   frame_0256.png   Features: 5285
+[extract] 258/480   frame_0257.png   Features: 3330
+[extract] 259/480   frame_0258.png   Features: 2334
+[extract] 260/480   frame_0259.png   Features: 5544
+[extract] 261/480   frame_0260.png   Features: 2240
+[extract] 262/480   frame_0261.png   Features: 4732
+[extract] 263/480   frame_0262.png   Features: 3390
+[extract] 264/480   frame_0263.png   Features: 676
+[extract] 265/480   frame_0264.png   Features: 5448
+[extract] 266/480   frame_0265.png   Features: 3285
+[extract] 267/480   frame_0266.png   Features: 3560
+[extract] 268/480   frame_0267.png   Features: 4726
+[extract] 269/480   frame_0268.png   Features: 1246
+[extract] 270/480   frame_0269.png   Features: 4833
+[extract] 271/480   frame_0270.png   Features: 3250
+[extract] 272/480   frame_0271.png   Features: 1541
+[extract] 273/480   frame_0272.png   Features: 5238
+[extract] 274/480   frame_0273.png   Features: 2724
+[extract] 275/480   frame_0274.png   Features: 4380
+[extract] 276/480   frame_0275.png   Features: 3604
+[extract] 277/480   frame_0276.png   Features: 565
+[extract] 278/480   frame_0277.png   Features: 4888
+[extract] 279/480   frame_0278.png   Features: 3337
+[extract] 280/480   frame_0279.png   Features: 2791
+[extract] 281/480   frame_0280.png   Features: 4810
+[extract] 282/480   frame_0281.png   Features: 1752
+[extract] 283/480   frame_0282.png   Features: 4479
+[extract] 284/480   frame_0283.png   Features: 3155
+[extract] 285/480   frame_0284.png   Features: 955
+[extract] 286/480   frame_0285.png   Features: 4875
+[extract] 287/480   frame_0286.png   Features: 2972
+[extract] 288/480   frame_0287.png   Features: 3667
+[extract] 289/480   frame_0288.png   Features: 3928
+[extract] 290/480   frame_0289.png   Features: 733
+[extract] 291/480   frame_0290.png   Features: 4407
+[extract] 292/480   frame_0291.png   Features: 3131
+[extract] 293/480   frame_0292.png   Features: 1970
+[extract] 294/480   frame_0293.png   Features: 4628
+[extract] 295/480   frame_0294.png   Features: 2185
+[extract] 296/480   frame_0295.png   Features: 4166
+[extract] 297/480   frame_0296.png   Features: 3171
+[extract] 298/480   frame_0297.png   Features: 556
+[extract] 299/480   frame_0298.png   Features: 4365
+[extract] 300/480   frame_0299.png   Features: 3067
+[extract] 301/480   frame_0300.png   Features: 3067
+[extract] 302/480   frame_0301.png   Features: 4160
+[extract] 303/480   frame_0302.png   Features: 1182
+[extract] 304/480   frame_0303.png   Features: 4132
+[extract] 305/480   frame_0304.png   Features: 3038
+[extract] 306/480   frame_0305.png   Features: 1397
+[extract] 307/480   frame_0306.png   Features: 4306
+[extract] 308/480   frame_0307.png   Features: 2623
+[extract] 309/480   frame_0308.png   Features: 3737
+[extract] 310/480   frame_0309.png   Features: 3430
+[extract] 311/480   frame_0310.png   Features: 489
+[extract] 312/480   frame_0311.png   Features: 3921
+[extract] 313/480   frame_0312.png   Features: 3030
+[extract] 314/480   frame_0313.png   Features: 2420
+[extract] 315/480   frame_0314.png   Features: 4002
+[extract] 316/480   frame_0315.png   Features: 1697
+[extract] 317/480   frame_0316.png   Features: 3675
+[extract] 318/480   frame_0317.png   Features: 3083
+[extract] 319/480   frame_0318.png   Features: 876
+[extract] 320/480   frame_0319.png   Features: 3836
+[extract] 321/480   frame_0320.png   Features: 2821
+[extract] 322/480   frame_0321.png   Features: 3268
+[extract] 323/480   frame_0322.png   Features: 3640
+[extract] 324/480   frame_0323.png   Features: 719
+[extract] 325/480   frame_0324.png   Features: 3576
+[extract] 326/480   frame_0325.png   Features: 2884
+[extract] 327/480   frame_0326.png   Features: 1746
+[extract] 328/480   frame_0327.png   Features: 3666
+[extract] 329/480   frame_0328.png   Features: 2194
+[extract] 330/480   frame_0329.png   Features: 3599
+[extract] 331/480   frame_0330.png   Features: 2944
+[extract] 332/480   frame_0331.png   Features: 553
+[extract] 333/480   frame_0332.png   Features: 3364
+[extract] 334/480   frame_0333.png   Features: 2817
+[extract] 335/480   frame_0334.png   Features: 2722
+[extract] 336/480   frame_0335.png   Features: 3428
+[extract] 337/480   frame_0336.png   Features: 1198
+[extract] 338/480   frame_0337.png   Features: 3332
+[extract] 339/480   frame_0338.png   Features: 2820
+[extract] 340/480   frame_0339.png   Features: 1247
+[extract] 341/480   frame_0340.png   Features: 3392
+[extract] 342/480   frame_0341.png   Features: 2444
+[extract] 343/480   frame_0342.png   Features: 3165
+[extract] 344/480   frame_0343.png   Features: 3133
+[extract] 345/480   frame_0344.png   Features: 448
+[extract] 346/480   frame_0345.png   Features: 3033
+[extract] 347/480   frame_0346.png   Features: 2731
+[extract] 348/480   frame_0347.png   Features: 2127
+[extract] 349/480   frame_0348.png   Features: 3232
+[extract] 350/480   frame_0349.png   Features: 1699
+[extract] 351/480   frame_0350.png   Features: 3125
+[extract] 352/480   frame_0351.png   Features: 2687
+[extract] 353/480   frame_0352.png   Features: 840
+[extract] 354/480   frame_0353.png   Features: 2847
+[extract] 355/480   frame_0354.png   Features: 2615
+[extract] 356/480   frame_0355.png   Features: 2827
+[extract] 357/480   frame_0356.png   Features: 3042
+[extract] 358/480   frame_0357.png   Features: 809
+[extract] 359/480   frame_0358.png   Features: 2848
+[extract] 360/480   frame_0359.png   Features: 2689
+[extract] 361/480   frame_0360.png   Features: 1583
+[extract] 362/480   frame_0361.png   Features: 2872
+[extract] 363/480   frame_0362.png   Features: 2070
+[extract] 364/480   frame_0363.png   Features: 2979
+[extract] 365/480   frame_0364.png   Features: 2751
+[extract] 366/480   frame_0365.png   Features: 591
+[extract] 367/480   frame_0366.png   Features: 2580
+[extract] 368/480   frame_0367.png   Features: 2602
+[extract] 369/480   frame_0368.png   Features: 2385
+[extract] 370/480   frame_0369.png   Features: 2793
+[extract] 371/480   frame_0370.png   Features: 1307
+[extract] 372/480   frame_0371.png   Features: 2696
+[extract] 373/480   frame_0372.png   Features: 2580
+[extract] 374/480   frame_0373.png   Features: 1111
+[extract] 375/480   frame_0374.png   Features: 2369
+[extract] 376/480   frame_0375.png   Features: 2299
+[extract] 377/480   frame_0376.png   Features: 2782
+[extract] 378/480   frame_0377.png   Features: 2723
+[extract] 379/480   frame_0378.png   Features: 642
+[extract] 380/480   frame_0379.png   Features: 2426
+[extract] 381/480   frame_0380.png   Features: 2472
+[extract] 382/480   frame_0381.png   Features: 1806
+[extract] 383/480   frame_0382.png   Features: 2486
+[extract] 384/480   frame_0383.png   Features: 1646
+[extract] 385/480   frame_0384.png   Features: 2681
+[extract] 386/480   frame_0385.png   Features: 2547
+[extract] 387/480   frame_0386.png   Features: 861
+[extract] 388/480   frame_0387.png   Features: 2181
+[extract] 389/480   frame_0388.png   Features: 2349
+[extract] 390/480   frame_0389.png   Features: 2449
+[extract] 391/480   frame_0390.png   Features: 2384
+[extract] 392/480   frame_0391.png   Features: 998
+[extract] 393/480   frame_0392.png   Features: 2390
+[extract] 394/480   frame_0393.png   Features: 2407
+[extract] 395/480   frame_0394.png   Features: 1430
+[extract] 396/480   frame_0395.png   Features: 2133
+[extract] 397/480   frame_0396.png   Features: 1968
+[extract] 398/480   frame_0397.png   Features: 2668
+[extract] 399/480   frame_0398.png   Features: 2469
+[extract] 400/480   frame_0399.png   Features: 783
+[extract] 401/480   frame_0400.png   Features: 2104
+[extract] 402/480   frame_0401.png   Features: 2225
+[extract] 403/480   frame_0402.png   Features: 2039
+[extract] 404/480   frame_0403.png   Features: 2114
+[extract] 405/480   frame_0404.png   Features: 1382
+[extract] 406/480   frame_0405.png   Features: 2359
+[extract] 407/480   frame_0406.png   Features: 2354
+[extract] 408/480   frame_0407.png   Features: 1168
+[extract] 409/480   frame_0408.png   Features: 1848
+[extract] 410/480   frame_0409.png   Features: 2074
+[extract] 411/480   frame_0410.png   Features: 2392
+[extract] 412/480   frame_0411.png   Features: 2208
+[extract] 413/480   frame_0412.png   Features: 980
+[extract] 414/480   frame_0413.png   Features: 2053
+[extract] 415/480   frame_0414.png   Features: 2203
+[extract] 416/480   frame_0415.png   Features: 1682
+[extract] 417/480   frame_0416.png   Features: 1834
+[extract] 418/480   frame_0417.png   Features: 1621
+[extract] 419/480   frame_0418.png   Features: 2330
+[extract] 420/480   frame_0419.png   Features: 2315
+[extract] 421/480   frame_0420.png   Features: 1083
+[extract] 422/480   frame_0421.png   Features: 1863
+[extract] 423/480   frame_0422.png   Features: 2100
+[extract] 424/480   frame_0423.png   Features: 2065
+[extract] 425/480   frame_0424.png   Features: 1916
+[extract] 426/480   frame_0425.png   Features: 1201
+[extract] 427/480   frame_0426.png   Features: 2125
+[extract] 428/480   frame_0427.png   Features: 2187
+[extract] 429/480   frame_0428.png   Features: 1469
+[extract] 430/480   frame_0429.png   Features: 1659
+[extract] 431/480   frame_0430.png   Features: 1809
+[extract] 432/480   frame_0431.png   Features: 2198
+[extract] 433/480   frame_0432.png   Features: 2026
+[extract] 434/480   frame_0433.png   Features: 1064
+[extract] 435/480   frame_0434.png   Features: 1836
+[extract] 436/480   frame_0435.png   Features: 2086
+[extract] 437/480   frame_0436.png   Features: 1784
+[extract] 438/480   frame_0437.png   Features: 1676
+[extract] 439/480   frame_0438.png   Features: 1454
+[extract] 440/480   frame_0439.png   Features: 1973
+[extract] 441/480   frame_0440.png   Features: 2082
+[extract] 442/480   frame_0441.png   Features: 1294
+[extract] 443/480   frame_0442.png   Features: 1587
+[extract] 444/480   frame_0443.png   Features: 1899
+[extract] 445/480   frame_0444.png   Features: 1907
+[extract] 446/480   frame_0445.png   Features: 1728
+[extract] 447/480   frame_0446.png   Features: 1282
+[extract] 448/480   frame_0447.png   Features: 1799
+[extract] 449/480   frame_0448.png   Features: 1983
+[extract] 450/480   frame_0449.png   Features: 1621
+[extract] 451/480   frame_0450.png   Features: 1540
+[extract] 452/480   frame_0451.png   Features: 1612
+[extract] 453/480   frame_0452.png   Features: 1841
+[extract] 454/480   frame_0453.png   Features: 1838
+[extract] 455/480   frame_0454.png   Features: 1290
+[extract] 456/480   frame_0455.png   Features: 1598
+[extract] 457/480   frame_0456.png   Features: 1821
+[extract] 458/480   frame_0457.png   Features: 1710
+[extract] 459/480   frame_0458.png   Features: 1602
+[extract] 460/480   frame_0459.png   Features: 1456
+[extract] 461/480   frame_0460.png   Features: 1707
+[extract] 462/480   frame_0461.png   Features: 1803
+[extract] 463/480   frame_0462.png   Features: 1460
+[extract] 464/480   frame_0463.png   Features: 1450
+[extract] 465/480   frame_0464.png   Features: 1626
+[extract] 466/480   frame_0465.png   Features: 1693
+[extract] 467/480   frame_0466.png   Features: 1574
+[extract] 468/480   frame_0467.png   Features: 1388
+[extract] 469/480   frame_0468.png   Features: 1617
+[extract] 470/480   frame_0469.png   Features: 1597
+[extract] 471/480   frame_0470.png   Features: 1553
+[extract] 472/480   frame_0471.png   Features: 1465
+[extract] 473/480   frame_0472.png   Features: 1521
+[extract] 474/480   frame_0473.png   Features: 1582
+[extract] 475/480   frame_0474.png   Features: 1544
+[extract] 476/480   frame_0475.png   Features: 1429
+[extract] 477/480   frame_0476.png   Features: 1535
+[extract] 478/480   frame_0477.png   Features: 1478
+[extract] 479/480   frame_0478.png   Features: 1492
+[extract] 480/480   frame_0479.png   Features: 1470
+[match]   Images: 480, at or above the exhaustive cutoff -- switching from exhaustive pairing to content-based pair selection. --pairs exhaustive forces the old behaviour.
+[device]  Using NVIDIA GeForce RTX 3050 Laptop GPU [uuid:283975183d82999d0f869c686ca62957]
+[device]  Using NVIDIA GeForce RTX 3050 Laptop GPU [uuid:283975183d82999d0f869c686ca62957]
+[device]  Using NVIDIA GeForce RTX 3050 Laptop GPU [uuid:283975183d82999d0f869c686ca62957]
+[map]     Unused-feature compaction: features 1815938 -> 1707440; removed 108498 (5.97%); images 480; zero-active images 0; stored pairs 9309; correspondences 10736264
+[map]     Seed pair (86,141): points 3911, median angle 16.9 degrees, baseline sideways
+[device]  Using NVIDIA GeForce RTX 3050 Laptop GPU [uuid:283975183d82999d0f869c686ca62957]
+[map]     Global bundle adjustment (cost 1.092e+02): filtered 0 observations / 0 points, 3911 points remain
+[map]     Registered image 107 (PnP inliers 2692/3151); images in the model: 3
+[map]     Global bundle adjustment (cost 2.226e+03): filtered 4 observations / 2 points, 7070 points remain
+[map]     Registered image 73 (PnP inliers 3184/4570); images in the model: 4
+[map]     Global bundle adjustment (cost 3.636e+03): filtered 18 observations / 6 points, 8766 points remain
+[map]     Global bundle adjustment (cost 3.254e+03): filtered 2 observations / 0 points, 8806 points remain
+[map]     Registered image 65 (PnP inliers 3716/4715); images in the model: 5
+[map]     Camera 1: reset 1 runaway parameter(s)
+[map]     Global bundle adjustment (cost 3.981e+03): filtered 18817 observations / 6548 points, 3869 points remain
+[map]     Camera 1: reset 1 runaway parameter(s)
+[map]     Global bundle adjustment (cost 9.406e+02): filtered 14644 observations / 6629 points, 3923 points remain
+[map]     Registered image 120 (PnP inliers 2532/2619); images in the model: 6
+[map]     Camera 1: reset 1 runaway parameter(s)
+[map]     Global bundle adjustment (cost 8.286e+02): filtered 9018 observations / 3403 points, 4617 points remain
+[map]     Camera 1: reset 1 runaway parameter(s)
+[map]     Global bundle adjustment (cost 8.462e+02): filtered 17783 observations / 7828 points, 5222 points remain
+[map]     Registered image 94 (PnP inliers 2986/3079); images in the model: 7
+[map]     Camera 1: reset 1 runaway parameter(s)
+[map]     Global bundle adjustment (cost 6.839e+02): filtered 7126 observations / 2264 points, 6342 points remain
+[map]     Camera 1: reset 1 runaway parameter(s)
+[map]     Global bundle adjustment (cost 9.941e+02): filtered 16956 observations / 6930 points, 7658 points remain
+[map]     Registered image 52 (PnP inliers 4102/4174); images in the model: 8
+[map]     Camera 1: reset 1 runaway parameter(s)
+[map]     Global bundle adjustment (cost 8.500e+02): filtered 4930 observations / 1613 points, 8807 points remain
+[map]     Camera 1: reset 1 runaway parameter(s)
+[map]     Global bundle adjustment (cost 1.351e+03): filtered 11014 observations / 4034 points, 10819 points remain
+[map]     Registered image 60 (PnP inliers 4781/4835); images in the model: 9
+[map]     Camera 1: reset 1 runaway parameter(s)
+[map]     Global bundle adjustment (cost 1.140e+03): filtered 1012 observations / 346 points, 12076 points remain
+[map]     Global bundle adjustment (cost 1.913e+03): filtered 0 observations / 0 points, 14247 points remain
+[map]     Registered image 39 (PnP inliers 5849/5875); images in the model: 10
+[map]     Global bundle adjustment (cost 2.340e+03): filtered 1 observations / 0 points, 15112 points remain
+[map]     Registered image 31 (PnP inliers 5748/5790); images in the model: 11
+[map]     Global bundle adjustment (cost 2.896e+03): filtered 2 observations / 0 points, 15881 points remain
+[map]     Registered image 44 (PnP inliers 6019/6057); images in the model: 12
+[map]     Registered image 18 (PnP inliers 5672/5715); images in the model: 13
+[map]     Global bundle adjustment (cost 4.060e+03): filtered 2 observations / 0 points, 17486 points remain
+[map]     Registered image 23 (PnP inliers 5622/5671); images in the model: 14
+[map]     Registered image 47 (PnP inliers 5283/5333); images in the model: 15
+[map]     Global bundle adjustment (cost 5.233e+03): filtered 0 observations / 0 points, 18859 points remain
+[map]     Registered image 99 (PnP inliers 6408/6476); images in the model: 16
+[map]     Registered image 78 (PnP inliers 6355/6424); images in the model: 17
+[map]     Global bundle adjustment (cost 6.416e+03): filtered 1 observations / 0 points, 20141 points remain
+[map]     Registered image 57 (PnP inliers 6229/6283); images in the model: 18
+[map]     Registered image 36 (PnP inliers 5960/6006); images in the model: 19
+[map]     Camera 1: reset 1 runaway parameter(s)
+[map]     Global bundle adjustment (cost 7.732e+03): filtered 52 observations / 10 points, 21505 points remain
+[map]     Registered image 10 (PnP inliers 5857/5903); images in the model: 20
+[map]     Global bundle adjustment (cost 8.390e+03): filtered 5 observations / 0 points, 22237 points remain
+[map]     Seed pair (94,149): points 3870, median angle 18.6 degrees, baseline sideways
+[map]     Global bundle adjustment (cost 9.695e+01): filtered 0 observations / 0 points, 3870 points remain
+[map]     Registered image 128 (PnP inliers 3143/3146); images in the model: 3
+[map]     Global bundle adjustment (cost 2.653e+02): filtered 0 observations / 0 points, 6912 points remain
+[map]     Registered image 107 (PnP inliers 4659/4670); images in the model: 4
+[map]     Global bundle adjustment (cost 5.000e+02): filtered 0 observations / 0 points, 8468 points remain
+[map]     Registered image 86 (PnP inliers 4613/4634); images in the model: 5
+[map]     Global bundle adjustment (cost 7.928e+02): filtered 0 observations / 0 points, 9674 points remain
+[map]     Registered image 73 (PnP inliers 5691/5706); images in the model: 6
+[map]     Global bundle adjustment (cost 1.123e+03): filtered 0 observations / 0 points, 10929 points remain
+[map]     Registered image 60 (PnP inliers 5348/5371); images in the model: 7
+[map]     Global bundle adjustment (cost 1.520e+03): filtered 3 observations / 0 points, 11681 points remain
+[map]     Registered image 52 (PnP inliers 5586/5617); images in the model: 8
+[map]     Global bundle adjustment (cost 1.947e+03): filtered 1 observations / 0 points, 12656 points remain
+[map]     Registered image 39 (PnP inliers 5629/5658); images in the model: 9
+[map]     Global bundle adjustment (cost 2.396e+03): filtered 2 observations / 0 points, 13705 points remain
+[map]     Registered image 65 (PnP inliers 5784/5827); images in the model: 10
+[map]     Global bundle adjustment (cost 2.886e+03): filtered 1 observations / 0 points, 14505 points remain
+[map]     Registered image 31 (PnP inliers 5699/5741); images in the model: 11
+[map]     Global bundle adjustment (cost 3.455e+03): filtered 2 observations / 0 points, 15311 points remain
+[map]     Registered image 44 (PnP inliers 5869/5915); images in the model: 12
+[map]     Registered image 18 (PnP inliers 5667/5715); images in the model: 13
+[map]     Global bundle adjustment (cost 4.647e+03): filtered 3 observations / 0 points, 17003 points remain
+[map]     Registered image 23 (PnP inliers 5606/5655); images in the model: 14
+[map]     Registered image 47 (PnP inliers 5345/5402); images in the model: 15
+[map]     Global bundle adjustment (cost 5.856e+03): filtered 2 observations / 0 points, 18372 points remain
+[map]     Registered image 78 (PnP inliers 5858/5923); images in the model: 16
+[map]     Registered image 57 (PnP inliers 5948/6003); images in the model: 17
+[map]     Global bundle adjustment (cost 7.153e+03): filtered 5 observations / 0 points, 19715 points remain
+[map]     Registered image 99 (PnP inliers 6540/6600); images in the model: 18
+[map]     Registered image 36 (PnP inliers 5945/5986); images in the model: 19
+[map]     Global bundle adjustment (cost 8.429e+03): filtered 9 observations / 0 points, 21077 points remain
+[map]     Registered image 10 (PnP inliers 5867/5907); images in the model: 20
+[map]     Registered image 26 (PnP inliers 6258/6315); images in the model: 21
+[map]     Global bundle adjustment (cost 9.947e+03): filtered 2 observations / 0 points, 22426 points remain
+[map]     Registered image 15 (PnP inliers 5649/5710); images in the model: 22
+[map]     Registered image 120 (PnP inliers 6706/6766); images in the model: 23
+[map]     Registered image 13 (PnP inliers 5424/5466); images in the model: 24
+[map]     Global bundle adjustment (cost 1.220e+04): filtered 8 observations / 0 points, 23996 points remain
+[map]     Registered image 5 (PnP inliers 5835/5877); images in the model: 25
+[map]     Registered image 2 (PnP inliers 5586/5646); images in the model: 26
+[map]     Registered image 81 (PnP inliers 6073/6127); images in the model: 27
+[map]     Global bundle adjustment (cost 1.449e+04): filtered 12 observations / 0 points, 25803 points remain
+[map]     Registered image 34 (PnP inliers 5513/5584); images in the model: 28
+[map]     Registered image 49 (PnP inliers 5404/5474); images in the model: 29
+[map]     Registered image 21 (PnP inliers 5108/5182); images in the model: 30
+[map]     Global bundle adjustment (cost 1.682e+04): filtered 12 observations / 0 points, 27237 points remain
+[map]     Registered image 70 (PnP inliers 5771/5831); images in the model: 31
+[map]     Registered image 28 (PnP inliers 5711/5784); images in the model: 32
+[map]     Registered image 7 (PnP inliers 5685/5748); images in the model: 33
+[map]     Global bundle adjustment (cost 1.925e+04): filtered 15 observations / 3 points, 28881 points remain
+[map]     Registered image 115 (PnP inliers 6348/6399); images in the model: 34
+[map]     Registered image 141 (PnP inliers 6756/6815); images in the model: 35
+[map]     Registered image 91 (PnP inliers 6245/6314); images in the model: 36
+[map]     Registered image 112 (PnP inliers 6309/6368); images in the model: 37
+[map]     Global bundle adjustment (cost 2.210e+04): filtered 14 observations / 1 points, 31048 points remain
+[map]     Registered image 8 (PnP inliers 4974/5032); images in the model: 38
+[map]     Registered image 68 (PnP inliers 5502/5573); images in the model: 39
+[map]     Registered image 0 (PnP inliers 5555/5607); images in the model: 40
+[map]     Registered image 3 (PnP inliers 4868/4929); images in the model: 41
+[map]     Global bundle adjustment (cost 2.547e+04): filtered 23 observations / 2 points, 33021 points remain
+[map]     Registered image 133 (PnP inliers 6511/6592); images in the model: 42
+[map]     Registered image 55 (PnP inliers 4935/4992); images in the model: 43
+[map]     Registered image 16 (PnP inliers 4511/4583); images in the model: 44
+[map]     Registered image 29 (PnP inliers 4560/4642); images in the model: 45
+[map]     Registered image 42 (PnP inliers 4874/4944); images in the model: 46
+[map]     Global bundle adjustment (cost 2.922e+04): filtered 28 observations / 2 points, 35212 points remain
+[map]     Registered image 102 (PnP inliers 5690/5762); images in the model: 47
+[map]     Registered image 162 (PnP inliers 6407/6454); images in the model: 48
+[map]     Registered image 154 (PnP inliers 6438/6497); images in the model: 49
+[map]     Registered image 62 (PnP inliers 5015/5082); images in the model: 50
+[map]     Registered image 20 (PnP inliers 5196/5261); images in the model: 51
+[map]     Global bundle adjustment (cost 3.305e+04): filtered 26 observations / 1 points, 37342 points remain
+[map]     Registered image 41 (PnP inliers 5407/5479); images in the model: 52
+[map]     Registered image 83 (PnP inliers 5408/5484); images in the model: 53
+[map]     Registered image 104 (PnP inliers 5739/5826); images in the model: 54
+[map]     Registered image 11 (PnP inliers 4275/4333); images in the model: 55
+[map]     Registered image 125 (PnP inliers 5863/5931); images in the model: 56
+[map]     Registered image 146 (PnP inliers 5918/6000); images in the model: 57
+[map]     Global bundle adjustment (cost 3.742e+04): filtered 25 observations / 2 points, 40070 points remain
+[map]     Registered image 1 (PnP inliers 5090/5151); images in the model: 58
+[map]     Registered image 4 (PnP inliers 5201/5250); images in the model: 59
+[map]     Registered image 12 (PnP inliers 5101/5179); images in the model: 60
+[map]     Registered image 175 (PnP inliers 6219/6276); images in the model: 61
+[map]     Registered image 6 (PnP inliers 4714/4784); images in the model: 62
+[map]     Registered image 89 (PnP inliers 4915/4993); images in the model: 63
+[map]     Global bundle adjustment (cost 4.235e+04): filtered 42 observations / 4 points, 42487 points remain
+[map]     Registered image 24 (PnP inliers 4329/4393); images in the model: 64
+[map]     Registered image 167 (PnP inliers 5928/6003); images in the model: 65
+[map]     Registered image 196 (PnP inliers 5808/5852); images in the model: 66
+[map]     Registered image 136 (PnP inliers 5926/5995); images in the model: 67
+[map]     Registered image 188 (PnP inliers 5817/5892); images in the model: 68
+[map]     Registered image 123 (PnP inliers 5123/5183); images in the model: 69
+[map]     Registered image 37 (PnP inliers 4242/4313); images in the model: 70
+[map]     Global bundle adjustment (cost 4.749e+04): filtered 26 observations / 1 points, 45327 points remain
+[map]     Registered image 50 (PnP inliers 4186/4250); images in the model: 71
+[map]     Registered image 63 (PnP inliers 4178/4270); images in the model: 72
+[map]     Registered image 76 (PnP inliers 4581/4655); images in the model: 73
+[map]     Registered image 9 (PnP inliers 4633/4687); images in the model: 74
+[map]     Registered image 183 (PnP inliers 6269/6328); images in the model: 75
+[map]     Registered image 170 (PnP inliers 6053/6116); images in the model: 76
+[map]     Registered image 19 (PnP inliers 4328/4393); images in the model: 77
+[map]     Global bundle adjustment (cost 5.284e+04): filtered 56 observations / 4 points, 47808 points remain
+[map]     Registered image 54 (PnP inliers 4432/4505); images in the model: 78
+[map]     Registered image 157 (PnP inliers 5378/5445); images in the model: 79
+[map]     Registered image 209 (PnP inliers 5548/5618); images in the model: 80
+[map]     Registered image 33 (PnP inliers 4680/4757); images in the model: 81
+[map]     Registered image 96 (PnP inliers 4908/4968); images in the model: 82
+[map]     Registered image 75 (PnP inliers 4854/4936); images in the model: 83
+[map]     Registered image 117 (PnP inliers 5251/5315); images in the model: 84
+[map]     Registered image 138 (PnP inliers 5385/5486); images in the model: 85
+[map]     Global bundle adjustment (cost 5.852e+04): filtered 44 observations / 1 points, 50603 points remain
+[map]     Registered image 159 (PnP inliers 5407/5491); images in the model: 86
+[map]     Registered image 180 (PnP inliers 5326/5411); images in the model: 87
+[map]     Registered image 71 (PnP inliers 3363/3436); images in the model: 88
+[map]     Registered image 58 (PnP inliers 3720/3771); images in the model: 89
+[map]     Registered image 45 (PnP inliers 4055/4115); images in the model: 90
+[map]     Registered image 32 (PnP inliers 4444/4509); images in the model: 91
+[map]     Registered image 14 (PnP inliers 4505/4568); images in the model: 92
+[map]     Registered image 110 (PnP inliers 4455/4510); images in the model: 93
+[map]     Registered image 217 (PnP inliers 5539/5598); images in the model: 94
+[map]     Global bundle adjustment (cost 6.469e+04): filtered 53 observations / 2 points, 53922 points remain
+[map]     Registered image 201 (PnP inliers 5254/5318); images in the model: 95
+[map]     Registered image 191 (PnP inliers 5354/5430); images in the model: 96
+[map]     Registered image 17 (PnP inliers 4490/4551); images in the model: 97
+[map]     Registered image 25 (PnP inliers 4345/4428); images in the model: 98
+[map]     Registered image 84 (PnP inliers 3640/3716); images in the model: 99
+[map]     Registered image 97 (PnP inliers 3973/4052); images in the model: 100
+[map]     Registered image 204 (PnP inliers 5919/5974); images in the model: 101
+[map]     Registered image 92 (PnP inliers 3135/3183); images in the model: 102
+[map]     Registered image 27 (PnP inliers 4143/4209); images in the model: 103
+[map]     Registered image 79 (PnP inliers 3598/3652); images in the model: 104
+[map]     Global bundle adjustment (cost 7.189e+04): filtered 73 observations / 5 points, 57296 points remain
+[map]     Registered image 66 (PnP inliers 3920/3977); images in the model: 105
+[map]     Registered image 144 (PnP inliers 4750/4809); images in the model: 106
+[map]     Registered image 178 (PnP inliers 4884/4942); images in the model: 107
+[map]     Registered image 105 (PnP inliers 3364/3438); images in the model: 108
+[map]     Registered image 118 (PnP inliers 3469/3540); images in the model: 109
+[map]     Registered image 172 (PnP inliers 4616/4690); images in the model: 110
+[map]     Registered image 53 (PnP inliers 4011/4056); images in the model: 111
+[map]     Registered image 238 (PnP inliers 5085/5153); images in the model: 112
+[map]     Registered image 230 (PnP inliers 5324/5384); images in the model: 113
+[map]     Registered image 22 (PnP inliers 4220/4285); images in the model: 114
+[map]     Registered image 131 (PnP inliers 4030/4111); images in the model: 115
+[map]     Global bundle adjustment (cost 7.925e+04): filtered 77 observations / 1 points, 60695 points remain
+[map]     Registered image 165 (PnP inliers 4156/4218); images in the model: 116
+[map]     Registered image 40 (PnP inliers 4314/4371); images in the model: 117
+[map]     Registered image 222 (PnP inliers 5018/5081); images in the model: 118
+[map]     Registered image 225 (PnP inliers 5292/5354); images in the model: 119
+[map]     Registered image 193 (PnP inliers 4738/4810); images in the model: 120
+[map]     Registered image 151 (PnP inliers 4932/4987); images in the model: 121
+[map]     Registered image 130 (PnP inliers 4745/4808); images in the model: 122
+[map]     Registered image 109 (PnP inliers 4410/4473); images in the model: 123
+[map]     Registered image 212 (PnP inliers 4921/4991); images in the model: 124
+[map]     Registered image 46 (PnP inliers 3826/3895); images in the model: 125
+[map]     Registered image 214 (PnP inliers 4683/4767); images in the model: 126
+[map]     Registered image 152 (PnP inliers 3389/3469); images in the model: 127
+[map]     Global bundle adjustment (cost 8.743e+04): filtered 86 observations / 6 points, 64508 points remain
+[map]     Registered image 139 (PnP inliers 3084/3139); images in the model: 128
+[map]     Registered image 113 (PnP inliers 3169/3225); images in the model: 129
+[map]     Registered image 100 (PnP inliers 3596/3666); images in the model: 130
+[map]     Registered image 87 (PnP inliers 3709/3758); images in the model: 131
+[map]     Registered image 126 (PnP inliers 3310/3375); images in the model: 132
+[map]     Registered image 67 (PnP inliers 3693/3766); images in the model: 133
+[map]     Registered image 88 (PnP inliers 4107/4174); images in the model: 134
+[map]     Registered image 147 (PnP inliers 2755/2828); images in the model: 135
+[map]     Registered image 243 (PnP inliers 4708/4778); images in the model: 136
+[map]     Registered image 160 (PnP inliers 2787/2855); images in the model: 137
+[map]     Registered image 30 (PnP inliers 3812/3884); images in the model: 138
+[map]     Registered image 206 (PnP inliers 4153/4209); images in the model: 139
+[map]     Registered image 61 (PnP inliers 3723/3778); images in the model: 140
+[map]     Global bundle adjustment (cost 9.564e+04): filtered 73 observations / 3 points, 68509 points remain
+[map]     Registered image 199 (PnP inliers 4247/4304); images in the model: 141
+[map]     Registered image 251 (PnP inliers 4927/4984); images in the model: 142
+[map]     Registered image 134 (PnP inliers 3320/3378); images in the model: 143
+[map]     Registered image 173 (PnP inliers 3040/3103); images in the model: 144
+[map]     Registered image 121 (PnP inliers 3546/3591); images in the model: 145
+[map]     Registered image 38 (PnP inliers 3608/3672); images in the model: 146
+[map]     Registered image 74 (PnP inliers 3839/3887); images in the model: 147
+[map]     Registered image 185 (PnP inliers 4272/4316); images in the model: 148
+[map]     Registered image 164 (PnP inliers 4299/4349); images in the model: 149
+[map]     Registered image 235 (PnP inliers 4556/4627); images in the model: 150
+[map]     Registered image 35 (PnP inliers 4000/4081); images in the model: 151
+[map]     Registered image 48 (PnP inliers 3955/4024); images in the model: 152
+[map]     Registered image 256 (PnP inliers 4209/4290); images in the model: 153
+[map]     Registered image 227 (PnP inliers 4423/4480); images in the model: 154
+[map]     Global bundle adjustment (cost 1.048e+05): filtered 97 observations / 4 points, 72638 points remain
+[map]     Registered image 259 (PnP inliers 4650/4710); images in the model: 155
+[map]     Registered image 246 (PnP inliers 4654/4701); images in the model: 156
+[map]     Registered image 186 (PnP inliers 3615/3696); images in the model: 157
+[map]     Registered image 248 (PnP inliers 4113/4173); images in the model: 158
+[map]     Registered image 143 (PnP inliers 4015/4066); images in the model: 159
+[map]     Registered image 122 (PnP inliers 3527/3596); images in the model: 160
+[map]     Registered image 168 (PnP inliers 2798/2852); images in the model: 161
+[map]     Registered image 207 (PnP inliers 2864/2940); images in the model: 162
+[map]     Registered image 264 (PnP inliers 4445/4507); images in the model: 163
+[map]     Registered image 194 (PnP inliers 2698/2756); images in the model: 164
+[map]     Registered image 272 (PnP inliers 4438/4505); images in the model: 165
+[map]     Registered image 233 (PnP inliers 4222/4290); images in the model: 166
+[map]     Registered image 181 (PnP inliers 2760/2814); images in the model: 167
+[map]     Registered image 202 (PnP inliers 2527/2588); images in the model: 168
+[map]     Registered image 155 (PnP inliers 3326/3392); images in the model: 169
+[map]     Registered image 189 (PnP inliers 2913/2976); images in the model: 170
+[map]     Global bundle adjustment (cost 1.144e+05): filtered 68 observations / 3 points, 77358 points remain
+[map]     Registered image 59 (PnP inliers 3038/3091); images in the model: 171
+[map]     Registered image 220 (PnP inliers 3608/3682); images in the model: 172
+[map]     Registered image 177 (PnP inliers 3125/3178); images in the model: 173
+[map]     Registered image 108 (PnP inliers 3741/3795); images in the model: 174
+[map]     Registered image 43 (PnP inliers 3533/3599); images in the model: 175
+[map]     Registered image 198 (PnP inliers 3566/3617); images in the model: 176
+[map]     Registered image 219 (PnP inliers 3940/4001); images in the model: 177
+[map]     Registered image 240 (PnP inliers 4042/4102); images in the model: 178
+[map]     Registered image 215 (PnP inliers 2571/2614); images in the model: 179
+[map]     Registered image 228 (PnP inliers 2635/2688); images in the model: 180
+[map]     Registered image 277 (PnP inliers 3840/3911); images in the model: 181
+[map]     Registered image 269 (PnP inliers 3822/3883); images in the model: 182
+[map]     Registered image 285 (PnP inliers 4015/4080); images in the model: 183
+[map]     Registered image 261 (PnP inliers 3894/3943); images in the model: 184
+[map]     Registered image 290 (PnP inliers 3351/3427); images in the model: 185
+[map]     Registered image 142 (PnP inliers 3464/3522); images in the model: 186
+[map]     Registered image 280 (PnP inliers 4053/4112); images in the model: 187
+[map]     Registered image 253 (PnP inliers 3187/3253); images in the model: 188
+[map]     Global bundle adjustment (cost 1.253e+05): filtered 92 observations / 4 points, 82128 points remain
+[map]     Registered image 236 (PnP inliers 2489/2532); images in the model: 189
+[map]     Registered image 241 (PnP inliers 2959/3018); images in the model: 190
+[map]     Registered image 254 (PnP inliers 3483/3571); images in the model: 191
+[map]     Registered image 293 (PnP inliers 3957/4011); images in the model: 192
+[map]     Registered image 80 (PnP inliers 2877/2928); images in the model: 193
+[map]     Registered image 101 (PnP inliers 3227/3303); images in the model: 194
+[map]     Registered image 51 (PnP inliers 3135/3202); images in the model: 195
+[map]     Registered image 69 (PnP inliers 3334/3396); images in the model: 196
+[map]     Registered image 156 (PnP inliers 3058/3127); images in the model: 197
+[map]     Registered image 298 (PnP inliers 3395/3449); images in the model: 198
+[map]     Registered image 232 (PnP inliers 3122/3165); images in the model: 199
+[map]     Registered image 267 (PnP inliers 4076/4159); images in the model: 200
+[map]     Registered image 176 (PnP inliers 3332/3371); images in the model: 201
+[map]     Registered image 311 (PnP inliers 2849/2910); images in the model: 202
+[map]     Registered image 282 (PnP inliers 3585/3643); images in the model: 203
+[map]     Registered image 274 (PnP inliers 3574/3621); images in the model: 204
+[map]     Registered image 56 (PnP inliers 3516/3583); images in the model: 205
+[map]     Registered image 262 (PnP inliers 2500/2552); images in the model: 206
+[map]     Registered image 275 (PnP inliers 2788/2867); images in the model: 207
+[map]     Global bundle adjustment (cost 1.364e+05): filtered 94 observations / 8 points, 86682 points remain
+[map]     Registered image 95 (PnP inliers 3666/3722); images in the model: 208
+[map]     Registered image 211 (PnP inliers 2904/2953); images in the model: 209
+[map]     Registered image 306 (PnP inliers 3561/3636); images in the model: 210
+[map]     Registered image 135 (PnP inliers 2674/2739); images in the model: 211
+[map]     Registered image 303 (PnP inliers 3181/3246); images in the model: 212
+[map]     Registered image 82 (PnP inliers 3647/3699); images in the model: 213
+[map]     Registered image 295 (PnP inliers 3413/3462); images in the model: 214
+[map]     Registered image 249 (PnP inliers 2578/2620); images in the model: 215
+[map]     Registered image 288 (PnP inliers 3221/3289); images in the model: 216
+[map]     Registered image 301 (PnP inliers 3515/3564); images in the model: 217
+[map]     Registered image 210 (PnP inliers 2931/2981); images in the model: 218
+[map]     Registered image 129 (PnP inliers 3476/3530); images in the model: 219
+[map]     Registered image 223 (PnP inliers 2925/2967); images in the model: 220
+[map]     Registered image 163 (PnP inliers 3321/3382); images in the model: 221
+[map]     Registered image 72 (PnP inliers 2455/2515); images in the model: 222
+[map]     Registered image 308 (PnP inliers 2877/2923); images in the model: 223
+[map]     Registered image 287 (PnP inliers 3019/3064); images in the model: 224
+[map]     Registered image 316 (PnP inliers 2980/3030); images in the model: 225
+[map]     Registered image 324 (PnP inliers 2680/2744); images in the model: 226
+[map]     Registered image 257 (PnP inliers 2565/2616); images in the model: 227
+[map]     Registered image 244 (PnP inliers 2822/2874); images in the model: 228
+[map]     Global bundle adjustment (cost 1.469e+05): filtered 99 observations / 5 points, 91229 points remain
+[map]     Registered image 270 (PnP inliers 2562/2613); images in the model: 229
+[map]     Registered image 322 (PnP inliers 2822/2866); images in the model: 230
+[map]     Registered image 197 (PnP inliers 3086/3125); images in the model: 231
+[map]     Registered image 314 (PnP inliers 3421/3475); images in the model: 232
+[map]     Registered image 319 (PnP inliers 3049/3108); images in the model: 233
+[map]     Registered image 114 (PnP inliers 2187/2254); images in the model: 234
+[map]     Registered image 93 (PnP inliers 2227/2282); images in the model: 235
+[map]     Registered image 283 (PnP inliers 2450/2501); images in the model: 236
+[map]     Registered image 332 (PnP inliers 2516/2566); images in the model: 237
+[map]     Registered image 64 (PnP inliers 2821/2885); images in the model: 238
+[map]     Registered image 190 (PnP inliers 2603/2663); images in the model: 239
+[map]     Registered image 116 (PnP inliers 3349/3406); images in the model: 240
+[map]     Registered image 169 (PnP inliers 2188/2241); images in the model: 241
+[map]     Registered image 309 (PnP inliers 2642/2718); images in the model: 242
+[map]     Registered image 296 (PnP inliers 2540/2597); images in the model: 243
+[map]     Registered image 337 (PnP inliers 2544/2596); images in the model: 244
+[map]     Registered image 291 (PnP inliers 2433/2475); images in the model: 245
+[map]     Registered image 304 (PnP inliers 2355/2397); images in the model: 246
+[map]     Registered image 329 (PnP inliers 2974/3020); images in the model: 247
+[map]     Registered image 266 (PnP inliers 3012/3061); images in the model: 248
+[map]     Registered image 245 (PnP inliers 2654/2713); images in the model: 249
+[map]     Registered image 340 (PnP inliers 2690/2757); images in the model: 250
+[map]     Registered image 343 (PnP inliers 2258/2311); images in the model: 251
+[map]     Global bundle adjustment (cost 1.579e+05): filtered 97 observations / 3 points, 95795 points remain
+[map]     Registered image 317 (PnP inliers 2407/2454); images in the model: 252
+[map]     Registered image 103 (PnP inliers 3145/3200); images in the model: 253
+[map]     Registered image 327 (PnP inliers 3173/3224); images in the model: 254
+[map]     Registered image 335 (PnP inliers 2903/2963); images in the model: 255
+[map]     Registered image 356 (PnP inliers 2418/2472); images in the model: 256
+[map]     Registered image 330 (PnP inliers 2377/2421); images in the model: 257
+[map]     Registered image 278 (PnP inliers 2735/2775); images in the model: 258
+[map]     Registered image 231 (PnP inliers 2922/2964); images in the model: 259
+[map]     Registered image 77 (PnP inliers 2780/2846); images in the model: 260
+[map]     Registered image 265 (PnP inliers 2700/2750); images in the model: 261
+[map]     Registered image 150 (PnP inliers 3187/3232); images in the model: 262
+[map]     Registered image 90 (PnP inliers 2969/3031); images in the model: 263
+[map]     Registered image 184 (PnP inliers 2958/3006); images in the model: 264
+[map]     Registered image 345 (PnP inliers 2273/2322); images in the model: 265
+[map]     Registered image 350 (PnP inliers 2537/2585); images in the model: 266
+[map]     Registered image 358 (PnP inliers 2139/2198); images in the model: 267
+[map]     Registered image 366 (PnP inliers 1844/1892); images in the model: 268
+[map]     Registered image 353 (PnP inliers 2242/2302); images in the model: 269
+[map]     Registered image 348 (PnP inliers 2779/2841); images in the model: 270
+[map]     Registered image 364 (PnP inliers 2024/2070); images in the model: 271
+[map]     Registered image 377 (PnP inliers 2056/2114); images in the model: 272
+[map]     Registered image 369 (PnP inliers 2346/2402); images in the model: 273
+[map]     Registered image 148 (PnP inliers 1708/1773); images in the model: 274
+[map]     Registered image 371 (PnP inliers 2139/2178); images in the model: 275
+[map]     Registered image 321 (PnP inliers 2639/2687); images in the model: 276
+[map]     Registered image 342 (PnP inliers 2650/2697); images in the model: 277
+[map]     Global bundle adjustment (cost 1.693e+05): filtered 107 observations / 14 points, 100358 points remain
+[map]     Registered image 300 (PnP inliers 2608/2654); images in the model: 278
+[map]     Registered image 363 (PnP inliers 2538/2591); images in the model: 279
+[map]     Registered image 338 (PnP inliers 2219/2260); images in the model: 280
+[map]     Registered image 351 (PnP inliers 2154/2196); images in the model: 281
+[map]     Registered image 372 (PnP inliers 1929/1971); images in the model: 282
+[map]     Registered image 312 (PnP inliers 2478/2521); images in the model: 283
+[map]     Registered image 299 (PnP inliers 2568/2611); images in the model: 284
+[map]     Registered image 325 (PnP inliers 2444/2497); images in the model: 285
+[map]     Registered image 359 (PnP inliers 2241/2301); images in the model: 286
+[map]     Registered image 385 (PnP inliers 1968/2015); images in the model: 287
+[map]     Registered image 346 (PnP inliers 2310/2365); images in the model: 288
+[map]     Registered image 379 (PnP inliers 1769/1810); images in the model: 289
+[map]     Registered image 218 (PnP inliers 2724/2766); images in the model: 290
+[map]     Registered image 398 (PnP inliers 1802/1831); images in the model: 291
+[map]     Registered image 224 (PnP inliers 2246/2281); images in the model: 292
+[map]     Registered image 279 (PnP inliers 2349/2398); images in the model: 293
+[map]     Registered image 390 (PnP inliers 1867/1924); images in the model: 294
+[map]     Registered image 252 (PnP inliers 2639/2682); images in the model: 295
+[map]     Registered image 333 (PnP inliers 2399/2440); images in the model: 296
+[map]     Registered image 355 (PnP inliers 2331/2374); images in the model: 297
+[map]     Registered image 85 (PnP inliers 2154/2206); images in the model: 298
+[map]     Registered image 411 (PnP inliers 1616/1649); images in the model: 299
+[map]     Registered image 406 (PnP inliers 1746/1798); images in the model: 300
+[map]     Registered image 380 (PnP inliers 2018/2084); images in the model: 301
+[map]     Registered image 367 (PnP inliers 2166/2224); images in the model: 302
+[map]     Registered image 392 (PnP inliers 1792/1839); images in the model: 303
+[map]     Registered image 419 (PnP inliers 1718/1765); images in the model: 304
+[map]     Registered image 393 (PnP inliers 1987/2060); images in the model: 305
+[map]     Global bundle adjustment (cost 1.791e+05): filtered 99 observations / 9 points, 104894 points remain
+[map]     Registered image 106 (PnP inliers 1703/1757); images in the model: 306
+[map]     Registered image 127 (PnP inliers 1632/1679); images in the model: 307
+[map]     Registered image 286 (PnP inliers 2507/2543); images in the model: 308
+[map]     Registered image 137 (PnP inliers 2881/2944); images in the model: 309
+[map]     Registered image 374 (PnP inliers 1882/1937); images in the model: 310
+[map]     Registered image 361 (PnP inliers 2447/2504); images in the model: 311
+[map]     Registered image 387 (PnP inliers 1619/1676); images in the model: 312
+[map]     Registered image 320 (PnP inliers 2395/2428); images in the model: 313
+[map]     Registered image 384 (PnP inliers 2270/2323); images in the model: 314
+[map]     Registered image 376 (PnP inliers 2366/2404); images in the model: 315
+[map]     Registered image 397 (PnP inliers 2263/2306); images in the model: 316
+[map]     Registered image 405 (PnP inliers 1887/1946); images in the model: 317
+[map]     Registered image 334 (PnP inliers 2374/2416); images in the model: 318
+[map]     Registered image 418 (PnP inliers 1870/1918); images in the model: 319
+[map]     Registered image 414 (PnP inliers 1763/1803); images in the model: 320
+[map]     Registered image 427 (PnP inliers 1682/1716); images in the model: 321
+[map]     Registered image 354 (PnP inliers 2244/2284); images in the model: 322
+[map]     Registered image 313 (PnP inliers 2037/2076); images in the model: 323
+[map]     Registered image 203 (PnP inliers 1837/1881); images in the model: 324
+[map]     Registered image 258 (PnP inliers 1984/2029); images in the model: 325
+[map]     Registered image 413 (PnP inliers 1414/1473); images in the model: 326
+[map]     Registered image 400 (PnP inliers 1547/1600); images in the model: 327
+[map]     Registered image 426 (PnP inliers 1574/1631); images in the model: 328
+[map]     Registered image 182 (PnP inliers 1439/1492); images in the model: 329
+[map]     Registered image 205 (PnP inliers 2304/2352); images in the model: 330
+[map]     Registered image 440 (PnP inliers 1498/1539); images in the model: 331
+[map]     Registered image 432 (PnP inliers 1511/1538); images in the model: 332
+[map]     Registered image 424 (PnP inliers 1477/1507); images in the model: 333
+[map]     Registered image 403 (PnP inliers 1732/1792); images in the model: 334
+[map]     Registered image 395 (PnP inliers 1721/1791); images in the model: 335
+[map]     Registered image 408 (PnP inliers 1390/1449); images in the model: 336
+[map]     Global bundle adjustment (cost 1.901e+05): filtered 97 observations / 9 points, 108936 points remain
+[map]     Registered image 171 (PnP inliers 2648/2701); images in the model: 337
+[map]     Registered image 439 (PnP inliers 1453/1506); images in the model: 338
+[map]     Registered image 421 (PnP inliers 1327/1386); images in the model: 339
+[map]     Registered image 273 (PnP inliers 2171/2218); images in the model: 340
+[map]     Registered image 307 (PnP inliers 2122/2159); images in the model: 341
+[map]     Registered image 239 (PnP inliers 2405/2450); images in the model: 342
+[map]     Registered image 382 (PnP inliers 2172/2228); images in the model: 343
+[map]     Registered image 410 (PnP inliers 1968/2027); images in the model: 344
+[map]     Registered image 375 (PnP inliers 1813/1859); images in the model: 345
+[map]     Registered image 401 (PnP inliers 1933/1976); images in the model: 346
+[map]     Registered image 431 (PnP inliers 1767/1806); images in the model: 347
+[map]     Registered image 237 (PnP inliers 1428/1466); images in the model: 348
+[map]     Registered image 452 (PnP inliers 1324/1377); images in the model: 349
+[map]     Registered image 98 (PnP inliers 2215/2276); images in the model: 350
+[map]     Registered image 434 (PnP inliers 1279/1341); images in the model: 351
+[map]     Registered image 292 (PnP inliers 1676/1720); images in the model: 352
+[map]     Registered image 124 (PnP inliers 2622/2669); images in the model: 353
+[map]     Registered image 111 (PnP inliers 2353/2406); images in the model: 354
+[map]     Registered image 389 (PnP inliers 2127/2190); images in the model: 355
+[map]     Registered image 341 (PnP inliers 2079/2118); images in the model: 356
+[map]     Registered image 435 (PnP inliers 1596/1637); images in the model: 357
+[map]     Registered image 388 (PnP inliers 2106/2145); images in the model: 358
+[map]     Registered image 422 (PnP inliers 1741/1786); images in the model: 359
+[map]     Registered image 453 (PnP inliers 1323/1353); images in the model: 360
+[map]     Registered image 445 (PnP inliers 1316/1353); images in the model: 361
+[map]     Registered image 409 (PnP inliers 1736/1769); images in the model: 362
+[map]     Registered image 448 (PnP inliers 1601/1642); images in the model: 363
+[map]     Registered image 460 (PnP inliers 1153/1193); images in the model: 364
+[map]     Registered image 444 (PnP inliers 1546/1599); images in the model: 365
+[map]     Registered image 161 (PnP inliers 1164/1220); images in the model: 366
+[map]     Registered image 423 (PnP inliers 1752/1801); images in the model: 367
+[map]     Registered image 466 (PnP inliers 1117/1161); images in the model: 368
+[map]     Registered image 458 (PnP inliers 1178/1219); images in the model: 369
+[map]     Registered image 416 (PnP inliers 1552/1612); images in the model: 370
+[map]     Global bundle adjustment (cost 2.012e+05): filtered 109 observations / 7 points, 113119 points remain
+[map]     Registered image 437 (PnP inliers 1389/1435); images in the model: 371
+[map]     Registered image 429 (PnP inliers 1315/1370); images in the model: 372
+[map]     Registered image 461 (PnP inliers 1477/1508); images in the model: 373
+[map]     Registered image 456 (PnP inliers 1450/1492); images in the model: 374
+[map]     Registered image 368 (PnP inliers 2130/2180); images in the model: 375
+[map]     Registered image 447 (PnP inliers 1420/1477); images in the model: 376
+[map]     Registered image 436 (PnP inliers 1347/1392); images in the model: 377
+[map]     Registered image 119 (PnP inliers 1671/1712); images in the model: 378
+[map]     Registered image 468 (PnP inliers 1089/1128); images in the model: 379
+[map]     Registered image 455 (PnP inliers 1207/1250); images in the model: 380
+[map]     Registered image 473 (PnP inliers 1152/1190); images in the model: 381
+[map]     Registered image 474 (PnP inliers 1217/1255); images in the model: 382
+[map]     Registered image 469 (PnP inliers 1364/1395); images in the model: 383
+[map]     Registered image 443 (PnP inliers 1591/1641); images in the model: 384
+[map]     Registered image 430 (PnP inliers 1495/1532); images in the model: 385
+[map]     Registered image 362 (PnP inliers 1625/1669); images in the model: 386
+[map]     Registered image 442 (PnP inliers 1290/1327); images in the model: 387
+[map]     Registered image 450 (PnP inliers 1278/1321); images in the model: 388
+[map]     Registered image 463 (PnP inliers 1155/1205); images in the model: 389
+[map]     Registered image 479 (PnP inliers 1020/1072); images in the model: 390
+[map]     Registered image 457 (PnP inliers 1376/1415); images in the model: 391
+[map]     Registered image 158 (PnP inliers 2297/2348); images in the model: 392
+[map]     Registered image 396 (PnP inliers 1627/1663); images in the model: 393
+[map]     Registered image 402 (PnP inliers 1784/1824); images in the model: 394
+[map]     Registered image 471 (PnP inliers 1185/1218); images in the model: 395
+[map]     Registered image 347 (PnP inliers 1884/1928); images in the model: 396
+[map]     Registered image 140 (PnP inliers 1367/1423); images in the model: 397
+[map]     Registered image 449 (PnP inliers 1177/1215); images in the model: 398
+[map]     Registered image 464 (PnP inliers 1317/1372); images in the model: 399
+[map]     Registered image 192 (PnP inliers 2036/2081); images in the model: 400
+[map]     Registered image 465 (PnP inliers 1450/1496); images in the model: 401
+[map]     Registered image 470 (PnP inliers 1243/1279); images in the model: 402
+[map]     Registered image 476 (PnP inliers 1215/1271); images in the model: 403
+[map]     Registered image 477 (PnP inliers 1187/1245); images in the model: 404
+[map]     Registered image 472 (PnP inliers 1203/1262); images in the model: 405
+[map]     Registered image 216 (PnP inliers 1108/1147); images in the model: 406
+[map]     Registered image 326 (PnP inliers 1483/1525); images in the model: 407
+[map]     Registered image 478 (PnP inliers 1219/1281); images in the model: 408
+[map]     Global bundle adjustment (cost 2.119e+05): filtered 96 observations / 6 points, 116793 points remain
+[map]     Registered image 132 (PnP inliers 1833/1893); images in the model: 409
+[map]     Registered image 381 (PnP inliers 1594/1625); images in the model: 410
+[map]     Registered image 417 (PnP inliers 1312/1336); images in the model: 411
+[map]     Registered image 145 (PnP inliers 2100/2152); images in the model: 412
+[map]     Registered image 271 (PnP inliers 1289/1325); images in the model: 413
+[map]     Registered image 328 (PnP inliers 1706/1739); images in the model: 414
+[map]     Registered image 475 (PnP inliers 1201/1231); images in the model: 415
+[map]     Registered image 467 (PnP inliers 1112/1147); images in the model: 416
+[map]     Registered image 195 (PnP inliers 871/909); images in the model: 417
+[map]     Registered image 415 (PnP inliers 1387/1434); images in the model: 418
+[map]     Registered image 459 (PnP inliers 1142/1186); images in the model: 419
+[map]     Registered image 438 (PnP inliers 1167/1205); images in the model: 420
+[map]     Registered image 451 (PnP inliers 1414/1447); images in the model: 421
+[map]     Registered image 428 (PnP inliers 1123/1168); images in the model: 422
+[map]     Registered image 441 (PnP inliers 948/977); images in the model: 423
+[map]     Registered image 462 (PnP inliers 1260/1296); images in the model: 424
+[map]     Registered image 454 (PnP inliers 1053/1089); images in the model: 425
+[map]     Registered image 394 (PnP inliers 1182/1223); images in the model: 426
+[map]     Registered image 153 (PnP inliers 1358/1411); images in the model: 427
+[map]     Registered image 260 (PnP inliers 1725/1769); images in the model: 428
+[map]     Registered image 294 (PnP inliers 1777/1829); images in the model: 429
+[map]     Registered image 226 (PnP inliers 1854/1900); images in the model: 430
+[map]     Registered image 349 (PnP inliers 1216/1268); images in the model: 431
+[map]     Registered image 383 (PnP inliers 1300/1345); images in the model: 432
+[map]     Registered image 174 (PnP inliers 993/1047); images in the model: 433
+[map]     Registered image 446 (PnP inliers 1039/1074); images in the model: 434
+[map]     Registered image 404 (PnP inliers 1057/1108); images in the model: 435
+[map]     Registered image 425 (PnP inliers 960/1001); images in the model: 436
+[map]     Registered image 315 (PnP inliers 1234/1305); images in the model: 437
+[map]     Registered image 360 (PnP inliers 1372/1420); images in the model: 438
+[map]     Registered image 420 (PnP inliers 743/790); images in the model: 439
+[map]     Registered image 179 (PnP inliers 1753/1806); images in the model: 440
+[map]     Registered image 305 (PnP inliers 1167/1215); images in the model: 441
+[map]     Registered image 407 (PnP inliers 911/950); images in the model: 442
+[map]     Registered image 370 (PnP inliers 918/974); images in the model: 443
+[map]     Registered image 433 (PnP inliers 873/903); images in the model: 444
+[map]     Registered image 412 (PnP inliers 707/751); images in the model: 445
+[map]     Registered image 373 (PnP inliers 919/965); images in the model: 446
+[map]     Registered image 339 (PnP inliers 1053/1103); images in the model: 447
+[map]     Registered image 250 (PnP inliers 919/962); images in the model: 448
+[map]     Registered image 229 (PnP inliers 616/651); images in the model: 449
+[map]     Global bundle adjustment (cost 2.236e+05): filtered 95 observations / 6 points, 120330 points remain
+[map]     Registered image 166 (PnP inliers 1545/1588); images in the model: 450
+[map]     Registered image 247 (PnP inliers 1347/1405); images in the model: 451
+[map]     Registered image 213 (PnP inliers 1548/1585); images in the model: 452
+[map]     Registered image 200 (PnP inliers 1281/1332); images in the model: 453
+[map]     Registered image 336 (PnP inliers 802/853); images in the model: 454
+[map]     Registered image 391 (PnP inliers 792/833); images in the model: 455
+[map]     Registered image 378 (PnP inliers 400/444); images in the model: 456
+[map]     Registered image 281 (PnP inliers 1397/1457); images in the model: 457
+[map]     Registered image 187 (PnP inliers 1105/1153); images in the model: 458
+[map]     Registered image 208 (PnP inliers 755/784); images in the model: 459
+[map]     Registered image 284 (PnP inliers 790/830); images in the model: 460
+[map]     Registered image 268 (PnP inliers 842/897); images in the model: 461
+[map]     Registered image 323 (PnP inliers 350/400); images in the model: 462
+[map]     Registered image 357 (PnP inliers 565/603); images in the model: 463
+[map]     Registered image 399 (PnP inliers 578/621); images in the model: 464
+[map]     Registered image 386 (PnP inliers 667/704); images in the model: 465
+[map]     Registered image 302 (PnP inliers 903/955); images in the model: 466
+[map]     Registered image 234 (PnP inliers 1087/1147); images in the model: 467
+[map]     Registered image 344 (PnP inliers 249/279); images in the model: 468
+[map]     Registered image 263 (PnP inliers 491/521); images in the model: 469
+[map]     Registered image 352 (PnP inliers 645/694); images in the model: 470
+[map]     Registered image 318 (PnP inliers 752/779); images in the model: 471
+[map]     Registered image 221 (PnP inliers 825/879); images in the model: 472
+[map]     Registered image 365 (PnP inliers 438/470); images in the model: 473
+[map]     Registered image 297 (PnP inliers 449/482); images in the model: 474
+[map]     Registered image 242 (PnP inliers 510/559); images in the model: 475
+[map]     Registered image 276 (PnP inliers 379/412); images in the model: 476
+[map]     Registered image 331 (PnP inliers 439/471); images in the model: 477
+[map]     Registered image 289 (PnP inliers 493/552); images in the model: 478
+[map]     Registered image 255 (PnP inliers 690/734); images in the model: 479
+[map]     Registered image 310 (PnP inliers 320/358); images in the model: 480
+[map]     Global bundle adjustment (cost 2.302e+05): filtered 98 observations / 22 points, 122259 points remain
+[map]     Models: 1, covering 480/480 distinct images
+[map]     Model 0: images 480, points 122259
+[map]     Assembly: 00:00:00.000   Models: 1 -> 1 over 0 level(s)   Merged: 0   Refused: 0   Grown: 0 image(s)   Coverage: 480 -> 480 images
+[map]     Finishing passes (00:00:02.469): split 0, folds cut 0, reseeded 0, dropped 0, repaired by the audit 0, dropped by the audit 0
+[map]     Global bundle adjustment (cost 2.298e+05): filtered 7 observations / 2 points, 122257 points remain
+[orient]  Model 0: levelled on the ground plane (6% of the points), scaled by 0.2583
+[run]     Summary
+[run]     Extraction: 00:00:18.313   Images: 480   Features: 1815938
+[run]     Matching: 00:01:10.210   Pairs kept: 9309/9310   Inliers: 10736264/11006951
+[run]     Mapping: 00:02:47.422   Registered: 480/480 images   Points: 122257   Cameras: 1
+[run]     Assembly: 00:00:02.469   Models: 1 -> 1 over 0 level(s)   Merged: 0   Refused: 0   Grown: 0 image(s)   Coverage: 480 -> 480 images
+[run]     Finishing passes (00:00:02.469): split 0, folds cut 0, reseeded 0, dropped 0, repaired by the audit 0, dropped by the audit 0
+[run]     Total: 00:04:15.944
+[run]     Reprojection error: mean 0.345 px, median 0.204 px, over 1670217 observations
+[run]     Written to D:\Programming\Artificial Intelligence\earth-gs\source-models\datasets\earth-2to1-hr\sfm\sparse\0
+[run]     RESULT: OK -- 100% of the images registered, 0.34 px mean reprojection

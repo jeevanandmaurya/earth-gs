@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>earth·gs — a real-scale Earth</title>
+  <meta name="description" content="Browse a real-scale Earth. Places, detail levels and the sky all come from one UTC clock." />
+  <!-- Apply the saved theme before first paint, so the page does not flash -->
+  <script>
+    (function () {
+      var theme = 'dark';
+      try {
+        var s = JSON.parse(localStorage.getItem('earth-gs:settings') || '{}');
+        if (s.theme === 'light' || s.theme === 'dark') theme = s.theme;
+        else if (s.theme === 'system') theme = matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+      } catch (e) {}
+      document.documentElement.dataset.theme = theme;
+    })();
+  </script>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='12' fill='%2305070b' stroke='%23d9a84f' stroke-width='2'/%3E%3Cpath d='M4 16h24' stroke='%23d9a84f' stroke-width='1.5'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400&family=JetBrains+Mono:wght@400;500&display=swap"
+  />
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body data-page="globe">
+  <div class="app">
+    <header class="masthead">
+      <a class="brand" href="./index.html" aria-label="earth gs, go to globe">
+        <span class="brand-name"><em>earth</em><span class="brand-dot">·</span>gs</span>
+      </a>
+
+      <nav class="nav" aria-label="Main">
+        <a class="nav-link" href="./index.html" data-route="globe">Globe</a>
+        <a class="nav-link" href="./docs.html" data-route="docs">Docs</a>
+        <a class="nav-link" href="./settings.html" data-route="settings">Settings</a>
+      </nav>
+
+      <div class="mast-tools">
+        <button id="rail-toggle" class="icon-tool" type="button" aria-expanded="true" aria-controls="rail" aria-label="Show or hide the side panel" title="Side panel"><span data-icon="panel"></span></button>
+        <button id="fullscreen-toggle" class="icon-tool" type="button" aria-pressed="false" aria-label="Full screen" title="Full screen (F)"><span data-icon="expand" class="i-expand"></span><span data-icon="collapse" class="i-collapse"></span></button>
+        <button id="theme-toggle" class="icon-tool" type="button" title="Switch light and dark theme" aria-label="Switch light and dark theme"><span data-icon="sun" class="i-sun"></span><span data-icon="moon" class="i-moon"></span></button>
+        <div class="clock" aria-live="off">
+          <span id="clock-label" class="clock-label">SIM UTC</span>
+          <time id="clock">—</time>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- Globe page -->
+      <section id="view-globe" class="view view-globe" aria-label="Globe">
+        <div id="layout" class="layout">
+          <div class="stage" id="stage">
+            <div id="canvas-host" class="canvas-host"></div>
+            <div id="labels" class="labels"></div>
+            <div id="fps" class="fps" aria-hidden="true">-- fps</div>
+            <div id="ticker" class="ticker" aria-live="off"></div>
+            <div id="training-status" class="training-status" aria-live="polite" hidden></div>
+            <div id="measure-out" class="measure-out" hidden></div>
+            <button id="splat-toggle" class="overlay-toggle splat-toggle" type="button" aria-pressed="true" aria-label="Show or hide splats" title="Splats (show or hide)"><span data-icon="layers"></span></button>
+            <button id="overlay-toggle" class="overlay-toggle" type="button" aria-pressed="true" aria-label="Show labels and readout" title="Labels and readout"><span data-icon="eye" class="i-eye"></span><span data-icon="eyeOff" class="i-eye-off"></span></button>
+
+            <div id="timeline" class="timeline" role="group" aria-label="Time controls">
+              <button id="timeline-toggle" class="timeline-toggle" type="button" aria-expanded="false" aria-controls="timeline-body">
+                <span class="timeline-toggle-label">Time</span>
+                <span id="timeline-summary" class="timeline-summary">live · now</span>
+                <span class="timeline-caret" aria-hidden="true">▴</span>
+              </button>
+              <div id="timeline-body" class="timeline-body">
+                <div class="seg" role="group" aria-label="Time mode">
+                  <button id="mode-live" class="seg-btn" type="button" aria-pressed="true">Live</button>
+                  <button id="mode-capture" class="seg-btn" type="button" aria-pressed="false">Capture</button>
+                </div>
+                <button id="play" class="icon-btn" type="button" aria-label="Play">▶</button>
+                <select id="speed" aria-label="Playback speed">
+                  <option value="1">1×</option>
+                  <option value="60" selected>60×</option>
+                  <option value="600">600×</option>
+                  <option value="3600">3600×</option>
+                </select>
+                <input id="scrub" type="range" min="-12" max="12" step="0.02" value="0" aria-label="Scrub time in hours from now" />
+                <output id="scrub-out" for="scrub">now</output>
+                <p id="notice" class="notice" role="status"></p>
+              </div>
+            </div>
+          </div>
+
+          <aside id="rail" class="rail" aria-label="Places and controls">
+            <nav class="tabs" role="tablist" aria-label="Sidebar pages">
+              <button id="tab-places" class="tab" type="button" role="tab" data-tab="places" aria-selected="true" aria-controls="page-places">Places</button>
+              <button id="tab-details" class="tab" type="button" role="tab" data-tab="details" aria-selected="false" aria-controls="page-details">Details</button>
+              <button id="tab-camera" class="tab" type="button" role="tab" data-tab="camera" aria-selected="false" aria-controls="page-camera">Camera</button>
+            </nav>
+
+            <section id="page-places" class="page page-places" role="tabpanel" aria-labelledby="tab-places">
+              <div class="kicker-row">
+                <h2 class="kicker">Places</h2>
+                <span id="place-count" class="count"></span>
+              </div>
+              <input id="search" type="search" placeholder="Search by name" aria-label="Search places" />
+              <div id="chips" class="chips"></div>
+              <ol id="place-list" class="place-list"></ol>
+            </section>
+
+            <section id="page-details" class="page page-details" role="tabpanel" aria-labelledby="tab-details" hidden>
+              <div id="detail" class="detail" aria-live="polite"></div>
+            </section>
+
+            <section id="page-camera" class="page page-camera" role="tabpanel" aria-labelledby="tab-camera" hidden>
+              <h2 class="kicker">Camera</h2>
+              <form id="pose-form" class="pose-form" autocomplete="off">
+                <label>Look at · lat<input name="lat" type="number" step="any" inputmode="decimal" /></label>
+                <label>lon<input name="lon" type="number" step="any" inputmode="decimal" /></label>
+                <label>Eye altitude · m<input name="alt" type="number" step="1" inputmode="numeric" /></label>
+                <label>Heading · °<input name="hd" type="number" step="any" inputmode="decimal" /></label>
+                <label>Pitch · °<input name="pt" type="number" step="any" inputmode="decimal" /></label>
+                <button class="btn primary" type="submit">Fly</button>
+              </form>
+              <div class="row-btns">
+                <button id="share" class="btn ghost" type="button">Copy link</button>
+                <button id="measure" class="btn ghost" type="button" aria-pressed="false">Measure</button>
+              </div>
+            </section>
+          </aside>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="foot">
+      Basemap is a placeholder grid. Replace it with OpenStreetMap, Sentinel-2, Landsat or NAIP tiles, each with its attribution.
+      Geometry marked PROXY is stand-in data, not captured.
+    </footer>
+  </div>
+
+  <dialog id="dialog" class="dialog">
+    <form method="dialog">
+      <h3 id="dialog-title"></h3>
+      <p id="dialog-body"></p>
+      <button class="btn primary" type="submit">Close</button>
+    </form>
+  </dialog>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

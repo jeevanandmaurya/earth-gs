@@ -1,0 +1,1489 @@
+[gpu] running on uuid:283975183d82999d0f869c686ca62957
+[extract] Images: 480   Decoding threads: 12   Window: 24   Peak memory: about 1152 MB
+[extract] Detector: sift
+[extract] Octaves: 4   Raw keypoints: 6160
+[extract] Oriented: 7072   Selected: 7072 (scale at least 0.000)
+[extract] Features: 7072
+[extract] Octaves: 4   Raw keypoints: 5653
+[extract] Oriented: 6495   Selected: 6495 (scale at least 0.000)
+[extract] Features: 6495
+[extract] Octaves: 4   Raw keypoints: 6471
+[extract] Oriented: 7437   Selected: 7437 (scale at least 0.000)
+[extract] Features: 7437
+[extract] Octaves: 4   Raw keypoints: 5741
+[extract] Oriented: 6581   Selected: 6581 (scale at least 0.000)
+[extract] Features: 6581
+[extract] Octaves: 4   Raw keypoints: 5668
+[extract] Oriented: 6491   Selected: 6491 (scale at least 0.000)
+[extract] Features: 6491
+[extract] Octaves: 4   Raw keypoints: 6681
+[extract] Oriented: 7657   Selected: 7657 (scale at least 0.000)
+[extract] Features: 7657
+[extract] Octaves: 4   Raw keypoints: 5249
+[extract] Oriented: 6007   Selected: 6007 (scale at least 0.000)
+[extract] Features: 6007
+[extract] Octaves: 4   Raw keypoints: 6277
+[extract] Oriented: 7169   Selected: 7169 (scale at least 0.000)
+[extract] Features: 7169
+[extract] Octaves: 4   Raw keypoints: 5948
+[extract] Oriented: 6823   Selected: 6823 (scale at least 0.000)
+[extract] Features: 6823
+[extract] Octaves: 4   Raw keypoints: 5044
+[extract] Oriented: 5811   Selected: 5811 (scale at least 0.000)
+[extract] Features: 5811
+[extract] Octaves: 4   Raw keypoints: 6945
+[extract] Oriented: 7955   Selected: 7955 (scale at least 0.000)
+[extract] Features: 7955
+[extract] Octaves: 4   Raw keypoints: 5285
+[extract] Oriented: 6057   Selected: 6057 (scale at least 0.000)
+[extract] Features: 6057
+[extract] Octaves: 4   Raw keypoints: 5466
+[extract] Oriented: 6265   Selected: 6265 (scale at least 0.000)
+[extract] Features: 6265
+[extract] Octaves: 4   Raw keypoints: 6481
+[extract] Oriented: 7384   Selected: 7384 (scale at least 0.000)
+[extract] Features: 7384
+[extract] Octaves: 4   Raw keypoints: 4757
+[extract] Oriented: 5465   Selected: 5465 (scale at least 0.000)
+[extract] Features: 5465
+[extract] Octaves: 4   Raw keypoints: 6633
+[extract] Oriented: 7603   Selected: 7603 (scale at least 0.000)
+[extract] Features: 7603
+[extract] Octaves: 4   Raw keypoints: 5511
+[extract] Oriented: 6285   Selected: 6285 (scale at least 0.000)
+[extract] Features: 6285
+[extract] Octaves: 4   Raw keypoints: 4865
+[extract] Oriented: 5599   Selected: 5599 (scale at least 0.000)
+[extract] Features: 5599
+[extract] Octaves: 4   Raw keypoints: 7042
+[extract] Oriented: 8027   Selected: 8027 (scale at least 0.000)
+[extract] Features: 8027
+[extract] Octaves: 4   Raw keypoints: 4841
+[extract] Oriented: 5565   Selected: 5565 (scale at least 0.000)
+[extract] Features: 5565
+[extract] Octaves: 4   Raw keypoints: 5825
+[extract] Oriented: 6727   Selected: 6727 (scale at least 0.000)
+[extract] Features: 6727
+[extract] Octaves: 4   Raw keypoints: 5958
+[extract] Oriented: 6803   Selected: 6803 (scale at least 0.000)
+[extract] Features: 6803
+[extract] Octaves: 4   Raw keypoints: 4339
+[extract] Oriented: 5000   Selected: 5000 (scale at least 0.000)
+[extract] Features: 5000
+[extract] Octaves: 4   Raw keypoints: 7032
+[extract] Oriented: 8054   Selected: 8054 (scale at least 0.000)
+[extract] Features: 8054
+[extract] Octaves: 4   Raw keypoints: 5064
+[extract] Oriented: 5749   Selected: 5749 (scale at least 0.000)
+[extract] Features: 5749
+[extract] Octaves: 4   Raw keypoints: 4671
+[extract] Oriented: 5363   Selected: 5363 (scale at least 0.000)
+[extract] Features: 5363
+[extract] Octaves: 4   Raw keypoints: 6826
+[extract] Oriented: 7812   Selected: 7812 (scale at least 0.000)
+[extract] Features: 7812
+[extract] Octaves: 4   Raw keypoints: 4446
+[extract] Oriented: 5151   Selected: 5151 (scale at least 0.000)
+[extract] Features: 5151
+[extract] Octaves: 4   Raw keypoints: 6211
+[extract] Oriented: 7182   Selected: 7182 (scale at least 0.000)
+[extract] Features: 7182
+[extract] Octaves: 4   Raw keypoints: 5347
+[extract] Oriented: 6054   Selected: 6054 (scale at least 0.000)
+[extract] Features: 6054
+[extract] Octaves: 4   Raw keypoints: 4095
+[extract] Oriented: 4757   Selected: 4757 (scale at least 0.000)
+[extract] Features: 4757
+[extract] Octaves: 4   Raw keypoints: 7350
+[extract] Oriented: 8456   Selected: 8194 (scale at least 0.922)
+[extract] Features: 8192
+[extract] Octaves: 4   Raw keypoints: 4711
+[extract] Oriented: 5377   Selected: 5377 (scale at least 0.000)
+[extract] Features: 5377
+[extract] Octaves: 4   Raw keypoints: 5092
+[extract] Oriented: 5868   Selected: 5868 (scale at least 0.000)
+[extract] Features: 5868
+[extract] Octaves: 4   Raw keypoints: 6118
+[extract] Oriented: 7009   Selected: 7009 (scale at least 0.000)
+[extract] Features: 7009
+[extract] Octaves: 4   Raw keypoints: 4103
+[extract] Oriented: 4733   Selected: 4733 (scale at least 0.000)
+[extract] Features: 4733
+[extract] Octaves: 4   Raw keypoints: 6865
+[extract] Oriented: 7916   Selected: 7916 (scale at least 0.000)
+[extract] Features: 7916
+[extract] Octaves: 4   Raw keypoints: 4984
+[extract] Oriented: 5689   Selected: 5689 (scale at least 0.000)
+[extract] Features: 5689
+[extract] Octaves: 4   Raw keypoints: 3838
+[extract] Oriented: 4439   Selected: 4439 (scale at least 0.000)
+[extract] Features: 4439
+[extract] Octaves: 4   Raw keypoints: 7148
+[extract] Oriented: 8153   Selected: 8153 (scale at least 0.000)
+[extract] Features: 8153
+[extract] Octaves: 4   Raw keypoints: 4391
+[extract] Oriented: 5032   Selected: 5032 (scale at least 0.000)
+[extract] Features: 5032
+[extract] Octaves: 4   Raw keypoints: 5788
+[extract] Oriented: 6689   Selected: 6689 (scale at least 0.000)
+[extract] Features: 6689
+[extract] Octaves: 4   Raw keypoints: 5327
+[extract] Oriented: 6066   Selected: 6066 (scale at least 0.000)
+[extract] Features: 6066
+[extract] Octaves: 4   Raw keypoints: 3659
+[extract] Oriented: 4218   Selected: 4218 (scale at least 0.000)
+[extract] Features: 4218
+[extract] Octaves: 4   Raw keypoints: 7215
+[extract] Oriented: 8286   Selected: 8201 (scale at least 0.909)
+[extract] Features: 8192
+[extract] Octaves: 4   Raw keypoints: 4628
+[extract] Oriented: 5256   Selected: 5256 (scale at least 0.000)
+[extract] Features: 5256
+[extract] Octaves: 4   Raw keypoints: 4231
+[extract] Oriented: 4870   Selected: 4870 (scale at least 0.000)
+[extract] Features: 4870
+[extract] Octaves: 4   Raw keypoints: 6422
+[extract] Oriented: 7340   Selected: 7340 (scale at least 0.000)
+[extract] Features: 7340
+[extract] Octaves: 4   Raw keypoints: 3993
+[extract] Oriented: 4583   Selected: 4583 (scale at least 0.000)
+[extract] Features: 4583
+[extract] Octaves: 4   Raw keypoints: 6358
+[extract] Oriented: 7381   Selected: 7381 (scale at least 0.000)
+[extract] Features: 7381
+[extract] Octaves: 4   Raw keypoints: 4805
+[extract] Oriented: 5451   Selected: 5451 (scale at least 0.000)
+[extract] Features: 5451
+[extract] Octaves: 4   Raw keypoints: 3301
+[extract] Oriented: 3806   Selected: 3806 (scale at least 0.000)
+[extract] Features: 3806
+[extract] Octaves: 4   Raw keypoints: 7390
+[extract] Oriented: 8466   Selected: 8195 (scale at least 0.928)
+[extract] Features: 8192
+[extract] Octaves: 4   Raw keypoints: 4321
+[extract] Oriented: 4910   Selected: 4910 (scale at least 0.000)
+[extract] Features: 4910
+[extract] Octaves: 4   Raw keypoints: 5038
+[extract] Oriented: 5881   Selected: 5881 (scale at least 0.000)
+[extract] Features: 5881
+[extract] Octaves: 4   Raw keypoints: 5504
+[extract] Oriented: 6267   Selected: 6267 (scale at least 0.000)
+[extract] Features: 6267
+[extract] Octaves: 4   Raw keypoints: 3539
+[extract] Oriented: 4087   Selected: 4087 (scale at least 0.000)
+[extract] Features: 4087
+[extract] Octaves: 4   Raw keypoints: 7006
+[extract] Oriented: 8078   Selected: 8078 (scale at least 0.000)
+[extract] Features: 8078
+[extract] Octaves: 4   Raw keypoints: 4552
+[extract] Oriented: 5177   Selected: 5177 (scale at least 0.000)
+[extract] Features: 5177
+[extract] Octaves: 4   Raw keypoints: 3358
+[extract] Oriented: 3886   Selected: 3886 (scale at least 0.000)
+[extract] Features: 3886
+[extract] Octaves: 4   Raw keypoints: 6878
+[extract] Oriented: 7895   Selected: 7895 (scale at least 0.000)
+[extract] Features: 7895
+[extract] Octaves: 4   Raw keypoints: 3939
+[extract] Oriented: 4528   Selected: 4528 (scale at least 0.000)
+[extract] Features: 4528
+[extract] Octaves: 4   Raw keypoints: 5725
+[extract] Oriented: 6658   Selected: 6658 (scale at least 0.000)
+[extract] Features: 6658
+[extract] Octaves: 4   Raw keypoints: 4711
+[extract] Oriented: 5379   Selected: 5379 (scale at least 0.000)
+[extract] Features: 5379
+[extract] Octaves: 4   Raw keypoints: 2973
+[extract] Oriented: 3404   Selected: 3404 (scale at least 0.000)
+[extract] Features: 3404
+[extract] Octaves: 4   Raw keypoints: 7317
+[extract] Oriented: 8467   Selected: 8206 (scale at least 0.924)
+[extract] Features: 8192
+[extract] Octaves: 4   Raw keypoints: 4364
+[extract] Oriented: 4991   Selected: 4991 (scale at least 0.000)
+[extract] Features: 4991
+[extract] Octaves: 4   Raw keypoints: 4037
+[extract] Oriented: 4661   Selected: 4661 (scale at least 0.000)
+[extract] Features: 4661
+[extract] Octaves: 4   Raw keypoints: 5879
+[extract] Oriented: 6700   Selected: 6700 (scale at least 0.000)
+[extract] Features: 6700
+[extract] Octaves: 4   Raw keypoints: 3473
+[extract] Oriented: 3992   Selected: 3992 (scale at least 0.000)
+[extract] Features: 3992
+[extract] Octaves: 4   Raw keypoints: 6519
+[extract] Oriented: 7571   Selected: 7571 (scale at least 0.000)
+[extract] Features: 7571
+[extract] Octaves: 4   Raw keypoints: 4335
+[extract] Oriented: 4928   Selected: 4928 (scale at least 0.000)
+[extract] Features: 4928
+[extract] Octaves: 4   Raw keypoints: 2775
+[extract] Oriented: 3176   Selected: 3176 (scale at least 0.000)
+[extract] Features: 3176
+[extract] Octaves: 4   Raw keypoints: 7292
+[extract] Oriented: 8375   Selected: 8196 (scale at least 0.917)
+[extract] Features: 8192
+[extract] Octaves: 4   Raw keypoints: 3895
+[extract] Oriented: 4455   Selected: 4455 (scale at least 0.000)
+[extract] Features: 4455
+[extract] Octaves: 4   Raw keypoints: 5071
+[extract] Oriented: 5894   Selected: 5894 (scale at least 0.000)
+[extract] Features: 5894
+[extract] Octaves: 4   Raw keypoints: 4924
+[extract] Oriented: 5621   Selected: 5621 (scale at least 0.000)
+[extract] Features: 5621
+[extract] Octaves: 4   Raw keypoints: 2901
+[extract] Oriented: 3314   Selected: 3314 (scale at least 0.000)
+[extract] Features: 3314
+[extract] Octaves: 4   Raw keypoints: 7062
+[extract] Oriented: 8142   Selected: 8142 (scale at least 0.000)
+[extract] Features: 8142
+[extract] Octaves: 4   Raw keypoints: 4266
+[extract] Oriented: 4851   Selected: 4851 (scale at least 0.000)
+[extract] Features: 4851
+[extract] Octaves: 4   Raw keypoints: 3216
+[extract] Oriented: 3738   Selected: 3738 (scale at least 0.000)
+[extract] Features: 3738
+[extract] Octaves: 4   Raw keypoints: 6475
+[extract] Oriented: 7396   Selected: 7396 (scale at least 0.000)
+[extract] Features: 7396
+[extract] Octaves: 4   Raw keypoints: 3564
+[extract] Oriented: 4123   Selected: 4123 (scale at least 0.000)
+[extract] Features: 4123
+[extract] Octaves: 4   Raw keypoints: 5850
+[extract] Oriented: 6757   Selected: 6757 (scale at least 0.000)
+[extract] Features: 6757
+[extract] Octaves: 4   Raw keypoints: 4242
+[extract] Oriented: 4781   Selected: 4781 (scale at least 0.000)
+[extract] Features: 4781
+[extract] Octaves: 4   Raw keypoints: 2382
+[extract] Oriented: 2734   Selected: 2734 (scale at least 0.000)
+[extract] Features: 2734
+[extract] Octaves: 4   Raw keypoints: 7378
+[extract] Oriented: 8512   Selected: 8194 (scale at least 0.930)
+[extract] Features: 8192
+[extract] Octaves: 4   Raw keypoints: 4015
+[extract] Oriented: 4619   Selected: 4619 (scale at least 0.000)
+[extract] Features: 4619
+[extract] Octaves: 4   Raw keypoints: 4286
+[extract] Oriented: 4964   Selected: 4964 (scale at least 0.000)
+[extract] Features: 4964
+[extract] Octaves: 4   Raw keypoints: 5389
+[extract] Oriented: 6157   Selected: 6157 (scale at least 0.000)
+[extract] Features: 6157
+[extract] Octaves: 4   Raw keypoints: 2949
+[extract] Oriented: 3407   Selected: 3407 (scale at least 0.000)
+[extract] Features: 3407
+[extract] Octaves: 4   Raw keypoints: 6712
+[extract] Oriented: 7770   Selected: 7770 (scale at least 0.000)
+[extract] Features: 7770
+[extract] Octaves: 4   Raw keypoints: 4075
+[extract] Oriented: 4611   Selected: 4611 (scale at least 0.000)
+[extract] Features: 4611
+[extract] Octaves: 4   Raw keypoints: 2514
+[extract] Oriented: 2905   Selected: 2905 (scale at least 0.000)
+[extract] Features: 2905
+[extract] Octaves: 4   Raw keypoints: 7030
+[extract] Oriented: 8057   Selected: 8057 (scale at least 0.000)
+[extract] Features: 8057
+[extract] Octaves: 4   Raw keypoints: 3628
+[extract] Oriented: 4170   Selected: 4170 (scale at least 0.000)
+[extract] Features: 4170
+[extract] Octaves: 4   Raw keypoints: 5260
+[extract] Oriented: 6139   Selected: 6139 (scale at least 0.000)
+[extract] Features: 6139
+[extract] Octaves: 4   Raw keypoints: 4408
+[extract] Oriented: 5008   Selected: 5008 (scale at least 0.000)
+[extract] Features: 5008
+[extract] Octaves: 4   Raw keypoints: 2361
+[extract] Oriented: 2732   Selected: 2732 (scale at least 0.000)
+[extract] Features: 2732
+[extract] Octaves: 4   Raw keypoints: 7193
+[extract] Oriented: 8317   Selected: 8202 (scale at least 0.911)
+[extract] Features: 8192
+[extract] Octaves: 4   Raw keypoints: 4049
+[extract] Oriented: 4654   Selected: 4654 (scale at least 0.000)
+[extract] Features: 4654
+[extract] Octaves: 4   Raw keypoints: 3413
+[extract] Oriented: 3971   Selected: 3971 (scale at least 0.000)
+[extract] Features: 3971
+[extract] Octaves: 4   Raw keypoints: 5986
+[extract] Oriented: 6858   Selected: 6858 (scale at least 0.000)
+[extract] Features: 6858
+[extract] Octaves: 4   Raw keypoints: 3124
+[extract] Oriented: 3612   Selected: 3612 (scale at least 0.000)
+[extract] Features: 3612
+[extract] Octaves: 4   Raw keypoints: 6037
+[extract] Oriented: 7010   Selected: 7010 (scale at least 0.000)
+[extract] Features: 7010
+[extract] Octaves: 4   Raw keypoints: 3937
+[extract] Oriented: 4476   Selected: 4476 (scale at least 0.000)
+[extract] Features: 4476
+[extract] Octaves: 4   Raw keypoints: 1975
+[extract] Oriented: 2270   Selected: 2270 (scale at least 0.000)
+[extract] Features: 2270
+[extract] Octaves: 4   Raw keypoints: 7286
+[extract] Oriented: 8369   Selected: 8213 (scale at least 0.913)
+[extract] Features: 8192
+[extract] Octaves: 4   Raw keypoints: 3821
+[extract] Oriented: 4420   Selected: 4420 (scale at least 0.000)
+[extract] Features: 4420
+[extract] Octaves: 4   Raw keypoints: 4612
+[extract] Oriented: 5355   Selected: 5355 (scale at least 0.000)
+[extract] Features: 5355
+[extract] Octaves: 4   Raw keypoints: 4846
+[extract] Oriented: 5527   Selected: 5527 (scale at least 0.000)
+[extract] Features: 5527
+[extract] Octaves: 4   Raw keypoints: 2402
+[extract] Oriented: 2778   Selected: 2778 (scale at least 0.000)
+[extract] Features: 2778
+[extract] Octaves: 4   Raw keypoints: 6724
+[extract] Oriented: 7740   Selected: 7740 (scale at least 0.000)
+[extract] Features: 7740
+[extract] Octaves: 4   Raw keypoints: 3968
+[extract] Oriented: 4507   Selected: 4507 (scale at least 0.000)
+[extract] Features: 4507
+[extract] Octaves: 4   Raw keypoints: 2535
+[extract] Oriented: 2918   Selected: 2918 (scale at least 0.000)
+[extract] Features: 2918
+[extract] Octaves: 4   Raw keypoints: 6681
+[extract] Oriented: 7624   Selected: 7624 (scale at least 0.000)
+[extract] Features: 7624
+[extract] Octaves: 4   Raw keypoints: 3298
+[extract] Oriented: 3788   Selected: 3788 (scale at least 0.000)
+[extract] Features: 3788
+[extract] Octaves: 4   Raw keypoints: 5486
+[extract] Oriented: 6349   Selected: 6349 (scale at least 0.000)
+[extract] Features: 6349
+[extract] Octaves: 4   Raw keypoints: 3979
+[extract] Oriented: 4566   Selected: 4566 (scale at least 0.000)
+[extract] Features: 4566
+[extract] Octaves: 4   Raw keypoints: 1836
+[extract] Oriented: 2077   Selected: 2077 (scale at least 0.000)
+[extract] Features: 2077
+[extract] Octaves: 4   Raw keypoints: 7070
+[extract] Oriented: 8136   Selected: 8136 (scale at least 0.000)
+[extract] Features: 8136
+[extract] Octaves: 4   Raw keypoints: 3882
+[extract] Oriented: 4436   Selected: 4436 (scale at least 0.000)
+[extract] Features: 4436
+[extract] Octaves: 4   Raw keypoints: 3826
+[extract] Oriented: 4402   Selected: 4402 (scale at least 0.000)
+[extract] Features: 4402
+[extract] Octaves: 4   Raw keypoints: 5537
+[extract] Oriented: 6280   Selected: 6280 (scale at least 0.000)
+[extract] Features: 6280
+[extract] Octaves: 4   Raw keypoints: 2630
+[extract] Oriented: 3041   Selected: 3041 (scale at least 0.000)
+[extract] Features: 3041
+[extract] Octaves: 4   Raw keypoints: 6177
+[extract] Oriented: 7182   Selected: 7182 (scale at least 0.000)
+[extract] Features: 7182
+[extract] Octaves: 4   Raw keypoints: 3829
+[extract] Oriented: 4356   Selected: 4356 (scale at least 0.000)
+[extract] Features: 4356
+[extract] Octaves: 4   Raw keypoints: 1897
+[extract] Oriented: 2176   Selected: 2176 (scale at least 0.000)
+[extract] Features: 2176
+[extract] Octaves: 4   Raw keypoints: 7060
+[extract] Oriented: 8076   Selected: 8076 (scale at least 0.000)
+[extract] Features: 8076
+[extract] Octaves: 4   Raw keypoints: 3548
+[extract] Oriented: 4086   Selected: 4086 (scale at least 0.000)
+[extract] Features: 4086
+[extract] Octaves: 4   Raw keypoints: 4942
+[extract] Oriented: 5705   Selected: 5705 (scale at least 0.000)
+[extract] Features: 5705
+[extract] Octaves: 4   Raw keypoints: 4381
+[extract] Oriented: 4973   Selected: 4973 (scale at least 0.000)
+[extract] Features: 4973
+[extract] Octaves: 4   Raw keypoints: 1954
+[extract] Oriented: 2240   Selected: 2240 (scale at least 0.000)
+[extract] Features: 2240
+[extract] Octaves: 4   Raw keypoints: 6802
+[extract] Oriented: 7855   Selected: 7855 (scale at least 0.000)
+[extract] Features: 7855
+[extract] Octaves: 4   Raw keypoints: 3822
+[extract] Oriented: 4369   Selected: 4369 (scale at least 0.000)
+[extract] Features: 4369
+[extract] Octaves: 4   Raw keypoints: 2957
+[extract] Oriented: 3442   Selected: 3442 (scale at least 0.000)
+[extract] Features: 3442
+[extract] Octaves: 4   Raw keypoints: 6225
+[extract] Oriented: 7084   Selected: 7084 (scale at least 0.000)
+[extract] Features: 7084
+[extract] Octaves: 4   Raw keypoints: 2907
+[extract] Oriented: 3355   Selected: 3355 (scale at least 0.000)
+[extract] Features: 3355
+[extract] Octaves: 4   Raw keypoints: 5622
+[extract] Oriented: 6483   Selected: 6483 (scale at least 0.000)
+[extract] Features: 6483
+[extract] Octaves: 4   Raw keypoints: 3721
+[extract] Oriented: 4246   Selected: 4246 (scale at least 0.000)
+[extract] Features: 4246
+[extract] Octaves: 4   Raw keypoints: 1533
+[extract] Oriented: 1766   Selected: 1766 (scale at least 0.000)
+[extract] Features: 1766
+[extract] Octaves: 4   Raw keypoints: 7092
+[extract] Oriented: 8134   Selected: 8134 (scale at least 0.000)
+[extract] Features: 8134
+[extract] Octaves: 4   Raw keypoints: 3632
+[extract] Oriented: 4164   Selected: 4164 (scale at least 0.000)
+[extract] Features: 4164
+[extract] Octaves: 4   Raw keypoints: 4265
+[extract] Oriented: 4913   Selected: 4913 (scale at least 0.000)
+[extract] Features: 4913
+[extract] Octaves: 4   Raw keypoints: 5013
+[extract] Oriented: 5692   Selected: 5692 (scale at least 0.000)
+[extract] Features: 5692
+[extract] Octaves: 4   Raw keypoints: 2122
+[extract] Oriented: 2459   Selected: 2459 (scale at least 0.000)
+[extract] Features: 2459
+[extract] Octaves: 4   Raw keypoints: 6292
+[extract] Oriented: 7197   Selected: 7197 (scale at least 0.000)
+[extract] Features: 7197
+[extract] Octaves: 4   Raw keypoints: 3634
+[extract] Oriented: 4122   Selected: 4122 (scale at least 0.000)
+[extract] Features: 4122
+[extract] Octaves: 4   Raw keypoints: 2026
+[extract] Oriented: 2366   Selected: 2366 (scale at least 0.000)
+[extract] Features: 2366
+[extract] Octaves: 4   Raw keypoints: 6716
+[extract] Oriented: 7691   Selected: 7691 (scale at least 0.000)
+[extract] Features: 7691
+[extract] Octaves: 4   Raw keypoints: 3179
+[extract] Oriented: 3665   Selected: 3665 (scale at least 0.000)
+[extract] Features: 3665
+[extract] Octaves: 4   Raw keypoints: 5199
+[extract] Oriented: 6019   Selected: 6019 (scale at least 0.000)
+[extract] Features: 6019
+[extract] Octaves: 4   Raw keypoints: 3924
+[extract] Oriented: 4505   Selected: 4505 (scale at least 0.000)
+[extract] Features: 4505
+[extract] Octaves: 4   Raw keypoints: 1503
+[extract] Oriented: 1712   Selected: 1712 (scale at least 0.000)
+[extract] Features: 1712
+[extract] Octaves: 4   Raw keypoints: 6717
+[extract] Oriented: 7729   Selected: 7729 (scale at least 0.000)
+[extract] Features: 7729
+[extract] Octaves: 4   Raw keypoints: 3656
+[extract] Oriented: 4170   Selected: 4170 (scale at least 0.000)
+[extract] Features: 4170
+[extract] Octaves: 4   Raw keypoints: 3381
+[extract] Oriented: 3883   Selected: 3883 (scale at least 0.000)
+[extract] Features: 3883
+[extract] Octaves: 4   Raw keypoints: 5605
+[extract] Oriented: 6392   Selected: 6392 (scale at least 0.000)
+[extract] Features: 6392
+[extract] Octaves: 4   Raw keypoints: 2375
+[extract] Oriented: 2720   Selected: 2720 (scale at least 0.000)
+[extract] Features: 2720
+[extract] Octaves: 4   Raw keypoints: 5669
+[extract] Oriented: 6544   Selected: 6544 (scale at least 0.000)
+[extract] Features: 6544
+[extract] Octaves: 4   Raw keypoints: 3477
+[extract] Oriented: 3947   Selected: 3947 (scale at least 0.000)
+[extract] Features: 3947
+[extract] Octaves: 4   Raw keypoints: 1450
+[extract] Oriented: 1684   Selected: 1684 (scale at least 0.000)
+[extract] Features: 1684
+[extract] Octaves: 4   Raw keypoints: 6883
+[extract] Oriented: 7903   Selected: 7903 (scale at least 0.000)
+[extract] Features: 7903
+[extract] Octaves: 4   Raw keypoints: 3475
+[extract] Oriented: 3993   Selected: 3993 (scale at least 0.000)
+[extract] Features: 3993
+[extract] Octaves: 4   Raw keypoints: 4597
+[extract] Oriented: 5288   Selected: 5288 (scale at least 0.000)
+[extract] Features: 5288
+[extract] Octaves: 4   Raw keypoints: 4512
+[extract] Oriented: 5115   Selected: 5115 (scale at least 0.000)
+[extract] Features: 5115
+[extract] Octaves: 4   Raw keypoints: 1612
+[extract] Oriented: 1848   Selected: 1848 (scale at least 0.000)
+[extract] Features: 1848
+[extract] Octaves: 4   Raw keypoints: 6217
+[extract] Oriented: 7093   Selected: 7093 (scale at least 0.000)
+[extract] Features: 7093
+[extract] Octaves: 4   Raw keypoints: 3517
+[extract] Oriented: 4006   Selected: 4006 (scale at least 0.000)
+[extract] Features: 4006
+[extract] Octaves: 4   Raw keypoints: 2452
+[extract] Oriented: 2870   Selected: 2870 (scale at least 0.000)
+[extract] Features: 2870
+[extract] Octaves: 4   Raw keypoints: 6246
+[extract] Oriented: 7110   Selected: 7110 (scale at least 0.000)
+[extract] Features: 7110
+[extract] Octaves: 4   Raw keypoints: 2671
+[extract] Oriented: 3072   Selected: 3072 (scale at least 0.000)
+[extract] Features: 3072
+[extract] Octaves: 4   Raw keypoints: 5307
+[extract] Oriented: 6094   Selected: 6094 (scale at least 0.000)
+[extract] Features: 6094
+[extract] Octaves: 4   Raw keypoints: 3592
+[extract] Oriented: 4110   Selected: 4110 (scale at least 0.000)
+[extract] Features: 4110
+[extract] Octaves: 4   Raw keypoints: 1210
+[extract] Oriented: 1388   Selected: 1388 (scale at least 0.000)
+[extract] Features: 1388
+[extract] Octaves: 4   Raw keypoints: 6491
+[extract] Oriented: 7407   Selected: 7407 (scale at least 0.000)
+[extract] Features: 7407
+[extract] Octaves: 4   Raw keypoints: 3542
+[extract] Oriented: 4075   Selected: 4075 (scale at least 0.000)
+[extract] Features: 4075
+[extract] Octaves: 4   Raw keypoints: 3759
+[extract] Oriented: 4313   Selected: 4313 (scale at least 0.000)
+[extract] Features: 4313
+[extract] Octaves: 4   Raw keypoints: 5140
+[extract] Oriented: 5803   Selected: 5803 (scale at least 0.000)
+[extract] Features: 5803
+[extract] Octaves: 4   Raw keypoints: 1839
+[extract] Oriented: 2083   Selected: 2083 (scale at least 0.000)
+[extract] Features: 2083
+[extract] Octaves: 4   Raw keypoints: 5637
+[extract] Oriented: 6479   Selected: 6479 (scale at least 0.000)
+[extract] Features: 6479
+[extract] Octaves: 4   Raw keypoints: 3297
+[extract] Oriented: 3735   Selected: 3735 (scale at least 0.000)
+[extract] Features: 3735
+[extract] Octaves: 4   Raw keypoints: 1690
+[extract] Oriented: 1946   Selected: 1946 (scale at least 0.000)
+[extract] Features: 1946
+[extract] Octaves: 4   Raw keypoints: 6588
+[extract] Oriented: 7525   Selected: 7525 (scale at least 0.000)
+[extract] Features: 7525
+[extract] Octaves: 4   Raw keypoints: 3049
+[extract] Oriented: 3491   Selected: 3491 (scale at least 0.000)
+[extract] Features: 3491
+[extract] Octaves: 4   Raw keypoints: 4723
+[extract] Oriented: 5474   Selected: 5474 (scale at least 0.000)
+[extract] Features: 5474
+[extract] Octaves: 4   Raw keypoints: 3984
+[extract] Oriented: 4525   Selected: 4525 (scale at least 0.000)
+[extract] Features: 4525
+[extract] Octaves: 4   Raw keypoints: 1273
+[extract] Oriented: 1442   Selected: 1442 (scale at least 0.000)
+[extract] Features: 1442
+[extract] Octaves: 4   Raw keypoints: 6068
+[extract] Oriented: 6969   Selected: 6969 (scale at least 0.000)
+[extract] Features: 6969
+[extract] Octaves: 4   Raw keypoints: 3394
+[extract] Oriented: 3894   Selected: 3894 (scale at least 0.000)
+[extract] Features: 3894
+[extract] Octaves: 4   Raw keypoints: 2892
+[extract] Oriented: 3303   Selected: 3303 (scale at least 0.000)
+[extract] Features: 3303
+[extract] Octaves: 4   Raw keypoints: 5635
+[extract] Oriented: 6420   Selected: 6420 (scale at least 0.000)
+[extract] Features: 6420
+[extract] Octaves: 4   Raw keypoints: 2161
+[extract] Oriented: 2467   Selected: 2467 (scale at least 0.000)
+[extract] Features: 2467
+[extract] Octaves: 4   Raw keypoints: 5203
+[extract] Oriented: 5980   Selected: 5980 (scale at least 0.000)
+[extract] Features: 5980
+[extract] Octaves: 4   Raw keypoints: 3294
+[extract] Oriented: 3795   Selected: 3795 (scale at least 0.000)
+[extract] Features: 3795
+[extract] Octaves: 4   Raw keypoints: 1145
+[extract] Oriented: 1327   Selected: 1327 (scale at least 0.000)
+[extract] Features: 1327
+[extract] Octaves: 4   Raw keypoints: 6402
+[extract] Oriented: 7332   Selected: 7332 (scale at least 0.000)
+[extract] Features: 7332
+[extract] Octaves: 4   Raw keypoints: 3298
+[extract] Oriented: 3787   Selected: 3787 (scale at least 0.000)
+[extract] Features: 3787
+[extract] Octaves: 4   Raw keypoints: 4039
+[extract] Oriented: 4671   Selected: 4671 (scale at least 0.000)
+[extract] Features: 4671
+[extract] Octaves: 4   Raw keypoints: 4521
+[extract] Oriented: 5121   Selected: 5121 (scale at least 0.000)
+[extract] Features: 5121
+[extract] Octaves: 4   Raw keypoints: 1413
+[extract] Oriented: 1605   Selected: 1605 (scale at least 0.000)
+[extract] Features: 1605
+[extract] Octaves: 4   Raw keypoints: 5560
+[extract] Oriented: 6369   Selected: 6369 (scale at least 0.000)
+[extract] Features: 6369
+[extract] Octaves: 4   Raw keypoints: 3217
+[extract] Oriented: 3699   Selected: 3699 (scale at least 0.000)
+[extract] Features: 3699
+[extract] Octaves: 4   Raw keypoints: 2042
+[extract] Oriented: 2356   Selected: 2356 (scale at least 0.000)
+[extract] Features: 2356
+[extract] Octaves: 4   Raw keypoints: 6043
+[extract] Oriented: 6874   Selected: 6874 (scale at least 0.000)
+[extract] Features: 6874
+[extract] Octaves: 4   Raw keypoints: 2534
+[extract] Oriented: 2883   Selected: 2883 (scale at least 0.000)
+[extract] Features: 2883
+[extract] Octaves: 4   Raw keypoints: 4783
+[extract] Oriented: 5502   Selected: 5502 (scale at least 0.000)
+[extract] Features: 5502
+[extract] Octaves: 4   Raw keypoints: 3444
+[extract] Oriented: 3926   Selected: 3926 (scale at least 0.000)
+[extract] Features: 3926
+[extract] Octaves: 4   Raw keypoints: 942
+[extract] Oriented: 1074   Selected: 1074 (scale at least 0.000)
+[extract] Features: 1074
+[extract] Octaves: 4   Raw keypoints: 5884
+[extract] Oriented: 6696   Selected: 6696 (scale at least 0.000)
+[extract] Features: 6696
+[extract] Octaves: 4   Raw keypoints: 3243
+[extract] Oriented: 3696   Selected: 3696 (scale at least 0.000)
+[extract] Features: 3696
+[extract] Octaves: 4   Raw keypoints: 3198
+[extract] Oriented: 3708   Selected: 3708 (scale at least 0.000)
+[extract] Features: 3708
+[extract] Octaves: 4   Raw keypoints: 5065
+[extract] Oriented: 5711   Selected: 5711 (scale at least 0.000)
+[extract] Features: 5711
+[extract] Octaves: 4   Raw keypoints: 1632
+[extract] Oriented: 1847   Selected: 1847 (scale at least 0.000)
+[extract] Features: 1847
+[extract] Octaves: 4   Raw keypoints: 4998
+[extract] Oriented: 5731   Selected: 5731 (scale at least 0.000)
+[extract] Features: 5731
+[extract] Octaves: 4   Raw keypoints: 3082
+[extract] Oriented: 3508   Selected: 3508 (scale at least 0.000)
+[extract] Features: 3508
+[extract] Octaves: 4   Raw keypoints: 1327
+[extract] Oriented: 1527   Selected: 1527 (scale at least 0.000)
+[extract] Features: 1527
+[extract] Octaves: 4   Raw keypoints: 5920
+[extract] Oriented: 6779   Selected: 6779 (scale at least 0.000)
+[extract] Features: 6779
+[extract] Octaves: 4   Raw keypoints: 2892
+[extract] Oriented: 3309   Selected: 3309 (scale at least 0.000)
+[extract] Features: 3309
+[extract] Octaves: 4   Raw keypoints: 4335
+[extract] Oriented: 4974   Selected: 4974 (scale at least 0.000)
+[extract] Features: 4974
+[extract] Octaves: 4   Raw keypoints: 3901
+[extract] Oriented: 4429   Selected: 4429 (scale at least 0.000)
+[extract] Features: 4429
+[extract] Octaves: 4   Raw keypoints: 974
+[extract] Oriented: 1111   Selected: 1111 (scale at least 0.000)
+[extract] Features: 1111
+[extract] Octaves: 4   Raw keypoints: 5371
+[extract] Oriented: 6082   Selected: 6082 (scale at least 0.000)
+[extract] Features: 6082
+[extract] Octaves: 4   Raw keypoints: 3132
+[extract] Oriented: 3603   Selected: 3603 (scale at least 0.000)
+[extract] Features: 3603
+[extract] Octaves: 4   Raw keypoints: 2433
+[extract] Oriented: 2784   Selected: 2784 (scale at least 0.000)
+[extract] Features: 2784
+[extract] Octaves: 4   Raw keypoints: 5406
+[extract] Oriented: 6144   Selected: 6144 (scale at least 0.000)
+[extract] Features: 6144
+[extract] Octaves: 4   Raw keypoints: 1987
+[extract] Oriented: 2236   Selected: 2236 (scale at least 0.000)
+[extract] Features: 2236
+[extract] Octaves: 4   Raw keypoints: 4712
+[extract] Oriented: 5385   Selected: 5385 (scale at least 0.000)
+[extract] Features: 5385
+[extract] Octaves: 4   Raw keypoints: 3108
+[extract] Oriented: 3586   Selected: 3586 (scale at least 0.000)
+[extract] Features: 3586
+[extract] Octaves: 4   Raw keypoints: 803
+[extract] Oriented: 917   Selected: 917 (scale at least 0.000)
+[extract] Features: 917
+[extract] Octaves: 4   Raw keypoints: 5597
+[extract] Oriented: 6359   Selected: 6359 (scale at least 0.000)
+[extract] Features: 6359
+[extract] Octaves: 4   Raw keypoints: 3067
+[extract] Oriented: 3503   Selected: 3503 (scale at least 0.000)
+[extract] Features: 3503
+[extract] Octaves: 4   Raw keypoints: 3480
+[extract] Oriented: 4029   Selected: 4029 (scale at least 0.000)
+[extract] Features: 4029
+[extract] Octaves: 4   Raw keypoints: 4401
+[extract] Oriented: 4996   Selected: 4996 (scale at least 0.000)
+[extract] Features: 4996
+[extract] Octaves: 4   Raw keypoints: 1204
+[extract] Oriented: 1372   Selected: 1372 (scale at least 0.000)
+[extract] Features: 1372
+[extract] Octaves: 4   Raw keypoints: 4924
+[extract] Oriented: 5621   Selected: 5621 (scale at least 0.000)
+[extract] Features: 5621
+[extract] Octaves: 4   Raw keypoints: 2990
+[extract] Oriented: 3451   Selected: 3451 (scale at least 0.000)
+[extract] Features: 3451
+[extract] Octaves: 4   Raw keypoints: 1596
+[extract] Oriented: 1845   Selected: 1845 (scale at least 0.000)
+[extract] Features: 1845
+[extract] Octaves: 4   Raw keypoints: 5396
+[extract] Oriented: 6164   Selected: 6164 (scale at least 0.000)
+[extract] Features: 6164
+[extract] Octaves: 4   Raw keypoints: 2521
+[extract] Oriented: 2854   Selected: 2854 (scale at least 0.000)
+[extract] Features: 2854
+[extract] Octaves: 4   Raw keypoints: 4281
+[extract] Oriented: 4952   Selected: 4952 (scale at least 0.000)
+[extract] Features: 4952
+[extract] Octaves: 4   Raw keypoints: 3337
+[extract] Oriented: 3794   Selected: 3794 (scale at least 0.000)
+[extract] Features: 3794
+[extract] Octaves: 4   Raw keypoints: 662
+[extract] Oriented: 752   Selected: 752 (scale at least 0.000)
+[extract] Features: 752
+[extract] Octaves: 4   Raw keypoints: 5131
+[extract] Oriented: 5780   Selected: 5780 (scale at least 0.000)
+[extract] Features: 5780
+[extract] Octaves: 4   Raw keypoints: 3060
+[extract] Oriented: 3516   Selected: 3516 (scale at least 0.000)
+[extract] Features: 3516
+[extract] Octaves: 4   Raw keypoints: 2753
+[extract] Oriented: 3210   Selected: 3210 (scale at least 0.000)
+[extract] Features: 3210
+[extract] Octaves: 4   Raw keypoints: 4754
+[extract] Oriented: 5389   Selected: 5389 (scale at least 0.000)
+[extract] Features: 5389
+[extract] Octaves: 4   Raw keypoints: 1567
+[extract] Oriented: 1752   Selected: 1752 (scale at least 0.000)
+[extract] Features: 1752
+[extract] Octaves: 4   Raw keypoints: 4487
+[extract] Oriented: 5142   Selected: 5142 (scale at least 0.000)
+[extract] Features: 5142
+[extract] Octaves: 4   Raw keypoints: 2888
+[extract] Oriented: 3332   Selected: 3332 (scale at least 0.000)
+[extract] Features: 3332
+[extract] Octaves: 4   Raw keypoints: 1000
+[extract] Oriented: 1165   Selected: 1165 (scale at least 0.000)
+[extract] Features: 1165
+[extract] Octaves: 4   Raw keypoints: 5230
+[extract] Oriented: 5938   Selected: 5938 (scale at least 0.000)
+[extract] Features: 5938
+[extract] Octaves: 4   Raw keypoints: 2791
+[extract] Oriented: 3165   Selected: 3165 (scale at least 0.000)
+[extract] Features: 3165
+[extract] Octaves: 4   Raw keypoints: 3724
+[extract] Oriented: 4302   Selected: 4302 (scale at least 0.000)
+[extract] Features: 4302
+[extract] Octaves: 4   Raw keypoints: 3761
+[extract] Oriented: 4245   Selected: 4245 (scale at least 0.000)
+[extract] Features: 4245
+[extract] Octaves: 4   Raw keypoints: 797
+[extract] Oriented: 909   Selected: 909 (scale at least 0.000)
+[extract] Features: 909
+[extract] Octaves: 4   Raw keypoints: 4679
+[extract] Oriented: 5285   Selected: 5285 (scale at least 0.000)
+[extract] Features: 5285
+[extract] Octaves: 4   Raw keypoints: 2884
+[extract] Oriented: 3330   Selected: 3330 (scale at least 0.000)
+[extract] Features: 3330
+[extract] Octaves: 4   Raw keypoints: 2003
+[extract] Oriented: 2334   Selected: 2334 (scale at least 0.000)
+[extract] Features: 2334
+[extract] Octaves: 4   Raw keypoints: 4822
+[extract] Oriented: 5544   Selected: 5544 (scale at least 0.000)
+[extract] Features: 5544
+[extract] Octaves: 4   Raw keypoints: 2009
+[extract] Oriented: 2240   Selected: 2240 (scale at least 0.000)
+[extract] Features: 2240
+[extract] Octaves: 4   Raw keypoints: 4119
+[extract] Oriented: 4732   Selected: 4732 (scale at least 0.000)
+[extract] Features: 4732
+[extract] Octaves: 4   Raw keypoints: 2982
+[extract] Oriented: 3390   Selected: 3390 (scale at least 0.000)
+[extract] Features: 3390
+[extract] Octaves: 4   Raw keypoints: 584
+[extract] Oriented: 676   Selected: 676 (scale at least 0.000)
+[extract] Features: 676
+[extract] Octaves: 4   Raw keypoints: 4816
+[extract] Oriented: 5448   Selected: 5448 (scale at least 0.000)
+[extract] Features: 5448
+[extract] Octaves: 4   Raw keypoints: 2844
+[extract] Oriented: 3285   Selected: 3285 (scale at least 0.000)
+[extract] Features: 3285
+[extract] Octaves: 4   Raw keypoints: 3071
+[extract] Oriented: 3560   Selected: 3560 (scale at least 0.000)
+[extract] Features: 3560
+[extract] Octaves: 4   Raw keypoints: 4172
+[extract] Oriented: 4726   Selected: 4726 (scale at least 0.000)
+[extract] Features: 4726
+[extract] Octaves: 4   Raw keypoints: 1101
+[extract] Oriented: 1246   Selected: 1246 (scale at least 0.000)
+[extract] Features: 1246
+[extract] Octaves: 4   Raw keypoints: 4243
+[extract] Oriented: 4833   Selected: 4833 (scale at least 0.000)
+[extract] Features: 4833
+[extract] Octaves: 4   Raw keypoints: 2794
+[extract] Oriented: 3250   Selected: 3250 (scale at least 0.000)
+[extract] Features: 3250
+[extract] Octaves: 4   Raw keypoints: 1306
+[extract] Oriented: 1541   Selected: 1541 (scale at least 0.000)
+[extract] Features: 1541
+[extract] Octaves: 4   Raw keypoints: 4630
+[extract] Oriented: 5238   Selected: 5238 (scale at least 0.000)
+[extract] Features: 5238
+[extract] Octaves: 4   Raw keypoints: 2414
+[extract] Oriented: 2724   Selected: 2724 (scale at least 0.000)
+[extract] Features: 2724
+[extract] Octaves: 4   Raw keypoints: 3786
+[extract] Oriented: 4380   Selected: 4380 (scale at least 0.000)
+[extract] Features: 4380
+[extract] Octaves: 4   Raw keypoints: 3178
+[extract] Oriented: 3604   Selected: 3604 (scale at least 0.000)
+[extract] Features: 3604
+[extract] Octaves: 4   Raw keypoints: 488
+[extract] Oriented: 565   Selected: 565 (scale at least 0.000)
+[extract] Features: 565
+[extract] Octaves: 4   Raw keypoints: 4321
+[extract] Oriented: 4888   Selected: 4888 (scale at least 0.000)
+[extract] Features: 4888
+[extract] Octaves: 4   Raw keypoints: 2914
+[extract] Oriented: 3337   Selected: 3337 (scale at least 0.000)
+[extract] Features: 3337
+[extract] Octaves: 4   Raw keypoints: 2384
+[extract] Oriented: 2791   Selected: 2791 (scale at least 0.000)
+[extract] Features: 2791
+[extract] Octaves: 4   Raw keypoints: 4248
+[extract] Oriented: 4810   Selected: 4810 (scale at least 0.000)
+[extract] Features: 4810
+[extract] Octaves: 4   Raw keypoints: 1572
+[extract] Oriented: 1752   Selected: 1752 (scale at least 0.000)
+[extract] Features: 1752
+[extract] Octaves: 4   Raw keypoints: 3908
+[extract] Oriented: 4479   Selected: 4479 (scale at least 0.000)
+[extract] Features: 4479
+[extract] Octaves: 4   Raw keypoints: 2743
+[extract] Oriented: 3155   Selected: 3155 (scale at least 0.000)
+[extract] Features: 3155
+[extract] Octaves: 4   Raw keypoints: 818
+[extract] Oriented: 955   Selected: 955 (scale at least 0.000)
+[extract] Features: 955
+[extract] Octaves: 4   Raw keypoints: 4326
+[extract] Oriented: 4875   Selected: 4875 (scale at least 0.000)
+[extract] Features: 4875
+[extract] Octaves: 4   Raw keypoints: 2619
+[extract] Oriented: 2972   Selected: 2972 (scale at least 0.000)
+[extract] Features: 2972
+[extract] Octaves: 4   Raw keypoints: 3153
+[extract] Oriented: 3667   Selected: 3667 (scale at least 0.000)
+[extract] Features: 3667
+[extract] Octaves: 4   Raw keypoints: 3468
+[extract] Oriented: 3928   Selected: 3928 (scale at least 0.000)
+[extract] Features: 3928
+[extract] Octaves: 4   Raw keypoints: 652
+[extract] Oriented: 733   Selected: 733 (scale at least 0.000)
+[extract] Features: 733
+[extract] Octaves: 4   Raw keypoints: 3926
+[extract] Oriented: 4407   Selected: 4407 (scale at least 0.000)
+[extract] Features: 4407
+[extract] Octaves: 4   Raw keypoints: 2685
+[extract] Oriented: 3131   Selected: 3131 (scale at least 0.000)
+[extract] Features: 3131
+[extract] Octaves: 4   Raw keypoints: 1694
+[extract] Oriented: 1970   Selected: 1970 (scale at least 0.000)
+[extract] Features: 1970
+[extract] Octaves: 4   Raw keypoints: 4067
+[extract] Oriented: 4628   Selected: 4628 (scale at least 0.000)
+[extract] Features: 4628
+[extract] Octaves: 4   Raw keypoints: 1964
+[extract] Oriented: 2185   Selected: 2185 (scale at least 0.000)
+[extract] Features: 2185
+[extract] Octaves: 4   Raw keypoints: 3619
+[extract] Oriented: 4166   Selected: 4166 (scale at least 0.000)
+[extract] Features: 4166
+[extract] Octaves: 4   Raw keypoints: 2802
+[extract] Oriented: 3171   Selected: 3171 (scale at least 0.000)
+[extract] Features: 3171
+[extract] Octaves: 4   Raw keypoints: 479
+[extract] Oriented: 556   Selected: 556 (scale at least 0.000)
+[extract] Features: 556
+[extract] Octaves: 4   Raw keypoints: 3881
+[extract] Oriented: 4365   Selected: 4365 (scale at least 0.000)
+[extract] Features: 4365
+[extract] Octaves: 4   Raw keypoints: 2660
+[extract] Oriented: 3067   Selected: 3067 (scale at least 0.000)
+[extract] Features: 3067
+[extract] Octaves: 4   Raw keypoints: 2634
+[extract] Oriented: 3067   Selected: 3067 (scale at least 0.000)
+[extract] Features: 3067
+[extract] Octaves: 4   Raw keypoints: 3680
+[extract] Oriented: 4160   Selected: 4160 (scale at least 0.000)
+[extract] Features: 4160
+[extract] Octaves: 4   Raw keypoints: 1065
+[extract] Oriented: 1182   Selected: 1182 (scale at least 0.000)
+[extract] Features: 1182
+[extract] Octaves: 4   Raw keypoints: 3610
+[extract] Oriented: 4132   Selected: 4132 (scale at least 0.000)
+[extract] Features: 4132
+[extract] Octaves: 4   Raw keypoints: 2650
+[extract] Oriented: 3038   Selected: 3038 (scale at least 0.000)
+[extract] Features: 3038
+[extract] Octaves: 4   Raw keypoints: 1172
+[extract] Oriented: 1397   Selected: 1397 (scale at least 0.000)
+[extract] Features: 1397
+[extract] Octaves: 4   Raw keypoints: 3833
+[extract] Oriented: 4306   Selected: 4306 (scale at least 0.000)
+[extract] Features: 4306
+[extract] Octaves: 4   Raw keypoints: 2322
+[extract] Oriented: 2623   Selected: 2623 (scale at least 0.000)
+[extract] Features: 2623
+[extract] Octaves: 4   Raw keypoints: 3223
+[extract] Oriented: 3737   Selected: 3737 (scale at least 0.000)
+[extract] Features: 3737
+[extract] Octaves: 4   Raw keypoints: 3043
+[extract] Oriented: 3430   Selected: 3430 (scale at least 0.000)
+[extract] Features: 3430
+[extract] Octaves: 4   Raw keypoints: 426
+[extract] Oriented: 489   Selected: 489 (scale at least 0.000)
+[extract] Features: 489
+[extract] Octaves: 4   Raw keypoints: 3439
+[extract] Oriented: 3921   Selected: 3921 (scale at least 0.000)
+[extract] Features: 3921
+[extract] Octaves: 4   Raw keypoints: 2637
+[extract] Oriented: 3030   Selected: 3030 (scale at least 0.000)
+[extract] Features: 3030
+[extract] Octaves: 4   Raw keypoints: 2070
+[extract] Oriented: 2420   Selected: 2420 (scale at least 0.000)
+[extract] Features: 2420
+[extract] Octaves: 4   Raw keypoints: 3558
+[extract] Oriented: 4002   Selected: 4002 (scale at least 0.000)
+[extract] Features: 4002
+[extract] Octaves: 4   Raw keypoints: 1539
+[extract] Oriented: 1697   Selected: 1697 (scale at least 0.000)
+[extract] Features: 1697
+[extract] Octaves: 4   Raw keypoints: 3204
+[extract] Oriented: 3675   Selected: 3675 (scale at least 0.000)
+[extract] Features: 3675
+[extract] Octaves: 4   Raw keypoints: 2702
+[extract] Oriented: 3083   Selected: 3083 (scale at least 0.000)
+[extract] Features: 3083
+[extract] Octaves: 4   Raw keypoints: 742
+[extract] Oriented: 876   Selected: 876 (scale at least 0.000)
+[extract] Features: 876
+[extract] Octaves: 4   Raw keypoints: 3422
+[extract] Oriented: 3836   Selected: 3836 (scale at least 0.000)
+[extract] Features: 3836
+[extract] Octaves: 4   Raw keypoints: 2451
+[extract] Oriented: 2821   Selected: 2821 (scale at least 0.000)
+[extract] Features: 2821
+[extract] Octaves: 4   Raw keypoints: 2805
+[extract] Oriented: 3268   Selected: 3268 (scale at least 0.000)
+[extract] Features: 3268
+[extract] Octaves: 4   Raw keypoints: 3225
+[extract] Oriented: 3640   Selected: 3640 (scale at least 0.000)
+[extract] Features: 3640
+[extract] Octaves: 4   Raw keypoints: 655
+[extract] Oriented: 719   Selected: 719 (scale at least 0.000)
+[extract] Features: 719
+[extract] Octaves: 4   Raw keypoints: 3158
+[extract] Oriented: 3576   Selected: 3576 (scale at least 0.000)
+[extract] Features: 3576
+[extract] Octaves: 4   Raw keypoints: 2497
+[extract] Oriented: 2884   Selected: 2884 (scale at least 0.000)
+[extract] Features: 2884
+[extract] Octaves: 4   Raw keypoints: 1502
+[extract] Oriented: 1746   Selected: 1746 (scale at least 0.000)
+[extract] Features: 1746
+[extract] Octaves: 4   Raw keypoints: 3261
+[extract] Oriented: 3666   Selected: 3666 (scale at least 0.000)
+[extract] Features: 3666
+[extract] Octaves: 4   Raw keypoints: 1943
+[extract] Oriented: 2194   Selected: 2194 (scale at least 0.000)
+[extract] Features: 2194
+[extract] Octaves: 4   Raw keypoints: 3104
+[extract] Oriented: 3599   Selected: 3599 (scale at least 0.000)
+[extract] Features: 3599
+[extract] Octaves: 4   Raw keypoints: 2621
+[extract] Oriented: 2944   Selected: 2944 (scale at least 0.000)
+[extract] Features: 2944
+[extract] Octaves: 4   Raw keypoints: 484
+[extract] Oriented: 553   Selected: 553 (scale at least 0.000)
+[extract] Features: 553
+[extract] Octaves: 4   Raw keypoints: 2993
+[extract] Oriented: 3364   Selected: 3364 (scale at least 0.000)
+[extract] Features: 3364
+[extract] Octaves: 4   Raw keypoints: 2428
+[extract] Oriented: 2817   Selected: 2817 (scale at least 0.000)
+[extract] Features: 2817
+[extract] Octaves: 4   Raw keypoints: 2334
+[extract] Oriented: 2722   Selected: 2722 (scale at least 0.000)
+[extract] Features: 2722
+[extract] Octaves: 4   Raw keypoints: 3021
+[extract] Oriented: 3428   Selected: 3428 (scale at least 0.000)
+[extract] Features: 3428
+[extract] Octaves: 4   Raw keypoints: 1108
+[extract] Oriented: 1198   Selected: 1198 (scale at least 0.000)
+[extract] Features: 1198
+[extract] Octaves: 4   Raw keypoints: 2911
+[extract] Oriented: 3332   Selected: 3332 (scale at least 0.000)
+[extract] Features: 3332
+[extract] Octaves: 4   Raw keypoints: 2461
+[extract] Oriented: 2820   Selected: 2820 (scale at least 0.000)
+[extract] Features: 2820
+[extract] Octaves: 4   Raw keypoints: 1045
+[extract] Oriented: 1247   Selected: 1247 (scale at least 0.000)
+[extract] Features: 1247
+[extract] Octaves: 4   Raw keypoints: 3024
+[extract] Oriented: 3392   Selected: 3392 (scale at least 0.000)
+[extract] Features: 3392
+[extract] Octaves: 4   Raw keypoints: 2148
+[extract] Oriented: 2444   Selected: 2444 (scale at least 0.000)
+[extract] Features: 2444
+[extract] Octaves: 4   Raw keypoints: 2710
+[extract] Oriented: 3165   Selected: 3165 (scale at least 0.000)
+[extract] Features: 3165
+[extract] Octaves: 4   Raw keypoints: 2797
+[extract] Oriented: 3133   Selected: 3133 (scale at least 0.000)
+[extract] Features: 3133
+[extract] Octaves: 4   Raw keypoints: 400
+[extract] Oriented: 448   Selected: 448 (scale at least 0.000)
+[extract] Features: 448
+[extract] Octaves: 4   Raw keypoints: 2707
+[extract] Oriented: 3033   Selected: 3033 (scale at least 0.000)
+[extract] Features: 3033
+[extract] Octaves: 4   Raw keypoints: 2376
+[extract] Oriented: 2731   Selected: 2731 (scale at least 0.000)
+[extract] Features: 2731
+[extract] Octaves: 4   Raw keypoints: 1820
+[extract] Oriented: 2127   Selected: 2127 (scale at least 0.000)
+[extract] Features: 2127
+[extract] Octaves: 4   Raw keypoints: 2846
+[extract] Oriented: 3232   Selected: 3232 (scale at least 0.000)
+[extract] Features: 3232
+[extract] Octaves: 4   Raw keypoints: 1514
+[extract] Oriented: 1699   Selected: 1699 (scale at least 0.000)
+[extract] Features: 1699
+[extract] Octaves: 4   Raw keypoints: 2703
+[extract] Oriented: 3125   Selected: 3125 (scale at least 0.000)
+[extract] Features: 3125
+[extract] Octaves: 4   Raw keypoints: 2395
+[extract] Oriented: 2687   Selected: 2687 (scale at least 0.000)
+[extract] Features: 2687
+[extract] Octaves: 4   Raw keypoints: 711
+[extract] Oriented: 840   Selected: 840 (scale at least 0.000)
+[extract] Features: 840
+[extract] Octaves: 4   Raw keypoints: 2524
+[extract] Oriented: 2847   Selected: 2847 (scale at least 0.000)
+[extract] Features: 2847
+[extract] Octaves: 4   Raw keypoints: 2242
+[extract] Oriented: 2615   Selected: 2615 (scale at least 0.000)
+[extract] Features: 2615
+[extract] Octaves: 4   Raw keypoints: 2419
+[extract] Oriented: 2827   Selected: 2827 (scale at least 0.000)
+[extract] Features: 2827
+[extract] Octaves: 4   Raw keypoints: 2706
+[extract] Oriented: 3042   Selected: 3042 (scale at least 0.000)
+[extract] Features: 3042
+[extract] Octaves: 4   Raw keypoints: 730
+[extract] Oriented: 809   Selected: 809 (scale at least 0.000)
+[extract] Features: 809
+[extract] Octaves: 4   Raw keypoints: 2515
+[extract] Oriented: 2848   Selected: 2848 (scale at least 0.000)
+[extract] Features: 2848
+[extract] Octaves: 4   Raw keypoints: 2343
+[extract] Oriented: 2689   Selected: 2689 (scale at least 0.000)
+[extract] Features: 2689
+[extract] Octaves: 4   Raw keypoints: 1346
+[extract] Oriented: 1583   Selected: 1583 (scale at least 0.000)
+[extract] Features: 1583
+[extract] Octaves: 4   Raw keypoints: 2519
+[extract] Oriented: 2872   Selected: 2872 (scale at least 0.000)
+[extract] Features: 2872
+[extract] Octaves: 4   Raw keypoints: 1805
+[extract] Oriented: 2070   Selected: 2070 (scale at least 0.000)
+[extract] Features: 2070
+[extract] Octaves: 4   Raw keypoints: 2563
+[extract] Oriented: 2979   Selected: 2979 (scale at least 0.000)
+[extract] Features: 2979
+[extract] Octaves: 4   Raw keypoints: 2466
+[extract] Oriented: 2751   Selected: 2751 (scale at least 0.000)
+[extract] Features: 2751
+[extract] Octaves: 4   Raw keypoints: 514
+[extract] Oriented: 591   Selected: 591 (scale at least 0.000)
+[extract] Features: 591
+[extract] Octaves: 4   Raw keypoints: 2297
+[extract] Oriented: 2580   Selected: 2580 (scale at least 0.000)
+[extract] Features: 2580
+[extract] Octaves: 4   Raw keypoints: 2238
+[extract] Oriented: 2602   Selected: 2602 (scale at least 0.000)
+[extract] Features: 2602
+[extract] Octaves: 4   Raw keypoints: 2042
+[extract] Oriented: 2385   Selected: 2385 (scale at least 0.000)
+[extract] Features: 2385
+[extract] Octaves: 4   Raw keypoints: 2471
+[extract] Oriented: 2793   Selected: 2793 (scale at least 0.000)
+[extract] Features: 2793
+[extract] Octaves: 4   Raw keypoints: 1162
+[extract] Oriented: 1307   Selected: 1307 (scale at least 0.000)
+[extract] Features: 1307
+[extract] Octaves: 4   Raw keypoints: 2352
+[extract] Oriented: 2696   Selected: 2696 (scale at least 0.000)
+[extract] Features: 2696
+[extract] Octaves: 4   Raw keypoints: 2270
+[extract] Oriented: 2580   Selected: 2580 (scale at least 0.000)
+[extract] Features: 2580
+[extract] Octaves: 4   Raw keypoints: 951
+[extract] Oriented: 1111   Selected: 1111 (scale at least 0.000)
+[extract] Features: 1111
+[extract] Octaves: 4   Raw keypoints: 2108
+[extract] Oriented: 2369   Selected: 2369 (scale at least 0.000)
+[extract] Features: 2369
+[extract] Octaves: 4   Raw keypoints: 1993
+[extract] Oriented: 2299   Selected: 2299 (scale at least 0.000)
+[extract] Features: 2299
+[extract] Octaves: 4   Raw keypoints: 2365
+[extract] Oriented: 2782   Selected: 2782 (scale at least 0.000)
+[extract] Features: 2782
+[extract] Octaves: 4   Raw keypoints: 2425
+[extract] Oriented: 2723   Selected: 2723 (scale at least 0.000)
+[extract] Features: 2723
+[extract] Octaves: 4   Raw keypoints: 572
+[extract] Oriented: 642   Selected: 642 (scale at least 0.000)
+[extract] Features: 642
+[extract] Octaves: 4   Raw keypoints: 2151
+[extract] Oriented: 2426   Selected: 2426 (scale at least 0.000)
+[extract] Features: 2426
+[extract] Octaves: 4   Raw keypoints: 2137
+[extract] Oriented: 2472   Selected: 2472 (scale at least 0.000)
+[extract] Features: 2472
+[extract] Octaves: 4   Raw keypoints: 1543
+[extract] Oriented: 1806   Selected: 1806 (scale at least 0.000)
+[extract] Features: 1806
+[extract] Octaves: 4   Raw keypoints: 2195
+[extract] Oriented: 2486   Selected: 2486 (scale at least 0.000)
+[extract] Features: 2486
+[extract] Octaves: 4   Raw keypoints: 1444
+[extract] Oriented: 1646   Selected: 1646 (scale at least 0.000)
+[extract] Features: 1646
+[extract] Octaves: 4   Raw keypoints: 2287
+[extract] Oriented: 2681   Selected: 2681 (scale at least 0.000)
+[extract] Features: 2681
+[extract] Octaves: 4   Raw keypoints: 2257
+[extract] Oriented: 2547   Selected: 2547 (scale at least 0.000)
+[extract] Features: 2547
+[extract] Octaves: 4   Raw keypoints: 726
+[extract] Oriented: 861   Selected: 861 (scale at least 0.000)
+[extract] Features: 861
+[extract] Octaves: 4   Raw keypoints: 1937
+[extract] Oriented: 2181   Selected: 2181 (scale at least 0.000)
+[extract] Features: 2181
+[extract] Octaves: 4   Raw keypoints: 2028
+[extract] Oriented: 2349   Selected: 2349 (scale at least 0.000)
+[extract] Features: 2349
+[extract] Octaves: 4   Raw keypoints: 2088
+[extract] Oriented: 2449   Selected: 2449 (scale at least 0.000)
+[extract] Features: 2449
+[extract] Octaves: 4   Raw keypoints: 2129
+[extract] Oriented: 2384   Selected: 2384 (scale at least 0.000)
+[extract] Features: 2384
+[extract] Octaves: 4   Raw keypoints: 887
+[extract] Oriented: 998   Selected: 998 (scale at least 0.000)
+[extract] Features: 998
+[extract] Octaves: 4   Raw keypoints: 2067
+[extract] Oriented: 2390   Selected: 2390 (scale at least 0.000)
+[extract] Features: 2390
+[extract] Octaves: 4   Raw keypoints: 2100
+[extract] Oriented: 2407   Selected: 2407 (scale at least 0.000)
+[extract] Features: 2407
+[extract] Octaves: 4   Raw keypoints: 1217
+[extract] Oriented: 1430   Selected: 1430 (scale at least 0.000)
+[extract] Features: 1430
+[extract] Octaves: 4   Raw keypoints: 1890
+[extract] Oriented: 2133   Selected: 2133 (scale at least 0.000)
+[extract] Features: 2133
+[extract] Octaves: 4   Raw keypoints: 1701
+[extract] Oriented: 1968   Selected: 1968 (scale at least 0.000)
+[extract] Features: 1968
+[extract] Octaves: 4   Raw keypoints: 2289
+[extract] Oriented: 2668   Selected: 2668 (scale at least 0.000)
+[extract] Features: 2668
+[extract] Octaves: 4   Raw keypoints: 2201
+[extract] Oriented: 2469   Selected: 2469 (scale at least 0.000)
+[extract] Features: 2469
+[extract] Octaves: 4   Raw keypoints: 689
+[extract] Oriented: 783   Selected: 783 (scale at least 0.000)
+[extract] Features: 783
+[extract] Octaves: 4   Raw keypoints: 1877
+[extract] Oriented: 2104   Selected: 2104 (scale at least 0.000)
+[extract] Features: 2104
+[extract] Octaves: 4   Raw keypoints: 1934
+[extract] Oriented: 2225   Selected: 2225 (scale at least 0.000)
+[extract] Features: 2225
+[extract] Octaves: 4   Raw keypoints: 1718
+[extract] Oriented: 2039   Selected: 2039 (scale at least 0.000)
+[extract] Features: 2039
+[extract] Octaves: 4   Raw keypoints: 1885
+[extract] Oriented: 2114   Selected: 2114 (scale at least 0.000)
+[extract] Features: 2114
+[extract] Octaves: 4   Raw keypoints: 1225
+[extract] Oriented: 1382   Selected: 1382 (scale at least 0.000)
+[extract] Features: 1382
+[extract] Octaves: 4   Raw keypoints: 2047
+[extract] Oriented: 2359   Selected: 2359 (scale at least 0.000)
+[extract] Features: 2359
+[extract] Octaves: 4   Raw keypoints: 2083
+[extract] Oriented: 2354   Selected: 2354 (scale at least 0.000)
+[extract] Features: 2354
+[extract] Octaves: 4   Raw keypoints: 994
+[extract] Oriented: 1168   Selected: 1168 (scale at least 0.000)
+[extract] Features: 1168
+[extract] Octaves: 4   Raw keypoints: 1659
+[extract] Oriented: 1848   Selected: 1848 (scale at least 0.000)
+[extract] Features: 1848
+[extract] Octaves: 4   Raw keypoints: 1810
+[extract] Oriented: 2074   Selected: 2074 (scale at least 0.000)
+[extract] Features: 2074
+[extract] Octaves: 4   Raw keypoints: 2041
+[extract] Oriented: 2392   Selected: 2392 (scale at least 0.000)
+[extract] Features: 2392
+[extract] Octaves: 4   Raw keypoints: 1998
+[extract] Oriented: 2208   Selected: 2208 (scale at least 0.000)
+[extract] Features: 2208
+[extract] Octaves: 4   Raw keypoints: 864
+[extract] Oriented: 980   Selected: 980 (scale at least 0.000)
+[extract] Features: 980
+[extract] Octaves: 4   Raw keypoints: 1833
+[extract] Oriented: 2053   Selected: 2053 (scale at least 0.000)
+[extract] Features: 2053
+[extract] Octaves: 4   Raw keypoints: 1939
+[extract] Oriented: 2203   Selected: 2203 (scale at least 0.000)
+[extract] Features: 2203
+[extract] Octaves: 4   Raw keypoints: 1445
+[extract] Oriented: 1682   Selected: 1682 (scale at least 0.000)
+[extract] Features: 1682
+[extract] Octaves: 4   Raw keypoints: 1637
+[extract] Oriented: 1834   Selected: 1834 (scale at least 0.000)
+[extract] Features: 1834
+[extract] Octaves: 4   Raw keypoints: 1420
+[extract] Oriented: 1621   Selected: 1621 (scale at least 0.000)
+[extract] Features: 1621
+[extract] Octaves: 4   Raw keypoints: 2015
+[extract] Oriented: 2330   Selected: 2330 (scale at least 0.000)
+[extract] Features: 2330
+[extract] Octaves: 4   Raw keypoints: 2050
+[extract] Oriented: 2315   Selected: 2315 (scale at least 0.000)
+[extract] Features: 2315
+[extract] Octaves: 4   Raw keypoints: 957
+[extract] Oriented: 1083   Selected: 1083 (scale at least 0.000)
+[extract] Features: 1083
+[extract] Octaves: 4   Raw keypoints: 1649
+[extract] Oriented: 1863   Selected: 1863 (scale at least 0.000)
+[extract] Features: 1863
+[extract] Octaves: 4   Raw keypoints: 1827
+[extract] Oriented: 2100   Selected: 2100 (scale at least 0.000)
+[extract] Features: 2100
+[extract] Octaves: 4   Raw keypoints: 1770
+[extract] Oriented: 2065   Selected: 2065 (scale at least 0.000)
+[extract] Features: 2065
+[extract] Octaves: 4   Raw keypoints: 1692
+[extract] Oriented: 1916   Selected: 1916 (scale at least 0.000)
+[extract] Features: 1916
+[extract] Octaves: 4   Raw keypoints: 1073
+[extract] Oriented: 1201   Selected: 1201 (scale at least 0.000)
+[extract] Features: 1201
+[extract] Octaves: 4   Raw keypoints: 1849
+[extract] Oriented: 2125   Selected: 2125 (scale at least 0.000)
+[extract] Features: 2125
+[extract] Octaves: 4   Raw keypoints: 1937
+[extract] Oriented: 2187   Selected: 2187 (scale at least 0.000)
+[extract] Features: 2187
+[extract] Octaves: 4   Raw keypoints: 1266
+[extract] Oriented: 1469   Selected: 1469 (scale at least 0.000)
+[extract] Features: 1469
+[extract] Octaves: 4   Raw keypoints: 1470
+[extract] Oriented: 1659   Selected: 1659 (scale at least 0.000)
+[extract] Features: 1659
+[extract] Octaves: 4   Raw keypoints: 1567
+[extract] Oriented: 1809   Selected: 1809 (scale at least 0.000)
+[extract] Features: 1809
+[extract] Octaves: 4   Raw keypoints: 1893
+[extract] Oriented: 2198   Selected: 2198 (scale at least 0.000)
+[extract] Features: 2198
+[extract] Octaves: 4   Raw keypoints: 1816
+[extract] Oriented: 2026   Selected: 2026 (scale at least 0.000)
+[extract] Features: 2026
+[extract] Octaves: 4   Raw keypoints: 951
+[extract] Oriented: 1064   Selected: 1064 (scale at least 0.000)
+[extract] Features: 1064
+[extract] Octaves: 4   Raw keypoints: 1625
+[extract] Oriented: 1836   Selected: 1836 (scale at least 0.000)
+[extract] Features: 1836
+[extract] Octaves: 4   Raw keypoints: 1829
+[extract] Oriented: 2086   Selected: 2086 (scale at least 0.000)
+[extract] Features: 2086
+[extract] Octaves: 4   Raw keypoints: 1529
+[extract] Oriented: 1784   Selected: 1784 (scale at least 0.000)
+[extract] Features: 1784
+[extract] Octaves: 4   Raw keypoints: 1500
+[extract] Oriented: 1676   Selected: 1676 (scale at least 0.000)
+[extract] Features: 1676
+[extract] Octaves: 4   Raw keypoints: 1281
+[extract] Oriented: 1454   Selected: 1454 (scale at least 0.000)
+[extract] Features: 1454
+[extract] Octaves: 4   Raw keypoints: 1708
+[extract] Oriented: 1973   Selected: 1973 (scale at least 0.000)
+[extract] Features: 1973
+[extract] Octaves: 4   Raw keypoints: 1825
+[extract] Oriented: 2082   Selected: 2082 (scale at least 0.000)
+[extract] Features: 2082
+[extract] Octaves: 4   Raw keypoints: 1139
+[extract] Oriented: 1294   Selected: 1294 (scale at least 0.000)
+[extract] Features: 1294
+[extract] Octaves: 4   Raw keypoints: 1407
+[extract] Oriented: 1587   Selected: 1587 (scale at least 0.000)
+[extract] Features: 1587
+[extract] Octaves: 4   Raw keypoints: 1640
+[extract] Oriented: 1899   Selected: 1899 (scale at least 0.000)
+[extract] Features: 1899
+[extract] Octaves: 4   Raw keypoints: 1655
+[extract] Oriented: 1907   Selected: 1907 (scale at least 0.000)
+[extract] Features: 1907
+[extract] Octaves: 4   Raw keypoints: 1539
+[extract] Oriented: 1728   Selected: 1728 (scale at least 0.000)
+[extract] Features: 1728
+[extract] Octaves: 4   Raw keypoints: 1138
+[extract] Oriented: 1282   Selected: 1282 (scale at least 0.000)
+[extract] Features: 1282
+[extract] Octaves: 4   Raw keypoints: 1562
+[extract] Oriented: 1799   Selected: 1799 (scale at least 0.000)
+[extract] Features: 1799
+[extract] Octaves: 4   Raw keypoints: 1719
+[extract] Oriented: 1983   Selected: 1983 (scale at least 0.000)
+[extract] Features: 1983
+[extract] Octaves: 4   Raw keypoints: 1404
+[extract] Oriented: 1621   Selected: 1621 (scale at least 0.000)
+[extract] Features: 1621
+[extract] Octaves: 4   Raw keypoints: 1370
+[extract] Oriented: 1540   Selected: 1540 (scale at least 0.000)
+[extract] Features: 1540
+[extract] Octaves: 4   Raw keypoints: 1411
+[extract] Oriented: 1612   Selected: 1612 (scale at least 0.000)
+[extract] Features: 1612
+[extract] Octaves: 4   Raw keypoints: 1603
+[extract] Oriented: 1841   Selected: 1841 (scale at least 0.000)
+[extract] Features: 1841
+[extract] Octaves: 4   Raw keypoints: 1615
+[extract] Oriented: 1838   Selected: 1838 (scale at least 0.000)
+[extract] Features: 1838
+[extract] Octaves: 4   Raw keypoints: 1141
+[extract] Oriented: 1290   Selected: 1290 (scale at least 0.000)
+[extract] Features: 1290
+[extract] Octaves: 4   Raw keypoints: 1424
+[extract] Oriented: 1598   Selected: 1598 (scale at least 0.000)
+[extract] Features: 1598
+[extract] Octaves: 4   Raw keypoints: 1581
+[extract] Oriented: 1821   Selected: 1821 (scale at least 0.000)
+[extract] Features: 1821
+[extract] Octaves: 4   Raw keypoints: 1489
+[extract] Oriented: 1710   Selected: 1710 (scale at least 0.000)
+[extract] Features: 1710
+[extract] Octaves: 4   Raw keypoints: 1413
+[extract] Oriented: 1602   Selected: 1602 (scale at least 0.000)
+[extract] Features: 1602
+[extract] Octaves: 4   Raw keypoints: 1279
+[extract] Oriented: 1456   Selected: 1456 (scale at least 0.000)
+[extract] Features: 1456
+[extract] Octaves: 4   Raw keypoints: 1488
+[extract] Oriented: 1707   Selected: 1707 (scale at least 0.000)
+[extract] Features: 1707
+[extract] Octaves: 4   Raw keypoints: 1569
+[extract] Oriented: 1803   Selected: 1803 (scale at least 0.000)
+[extract] Features: 1803
+[extract] Octaves: 4   Raw keypoints: 1276
+[extract] Oriented: 1460   Selected: 1460 (scale at least 0.000)
+[extract] Features: 1460
+[extract] Octaves: 4   Raw keypoints: 1290
+[extract] Oriented: 1450   Selected: 1450 (scale at least 0.000)
+[extract] Features: 1450
+[extract] Octaves: 4   Raw keypoints: 1419
+[extract] Oriented: 1626   Selected: 1626 (scale at least 0.000)
+[extract] Features: 1626
+[extract] Octaves: 4   Raw keypoints: 1474
+[extract] Oriented: 1693   Selected: 1693 (scale at least 0.000)
+[extract] Features: 1693
+[extract] Octaves: 4   Raw keypoints: 1405
+[extract] Oriented: 1574   Selected: 1574 (scale at least 0.000)
+[extract] Features: 1574
+[extract] Octaves: 4   Raw keypoints: 1217
+[extract] Oriented: 1388   Selected: 1388 (scale at least 0.000)
+[extract] Features: 1388
+[extract] Octaves: 4   Raw keypoints: 1414
+[extract] Oriented: 1617   Selected: 1617 (scale at least 0.000)
+[extract] Features: 1617
+[extract] Octaves: 4   Raw keypoints: 1412
+[extract] Oriented: 1597   Selected: 1597 (scale at least 0.000)
+[extract] Features: 1597
+[extract] Octaves: 4   Raw keypoints: 1370
+[extract] Oriented: 1553   Selected: 1553 (scale at least 0.000)
+[extract] Features: 1553
+[extract] Octaves: 4   Raw keypoints: 1283
+[extract] Oriented: 1465   Selected: 1465 (scale at least 0.000)
+[extract] Features: 1465
+[extract] Octaves: 4   Raw keypoints: 1334
+[extract] Oriented: 1521   Selected: 1521 (scale at least 0.000)
+[extract] Features: 1521
+[extract] Octaves: 4   Raw keypoints: 1384
+[extract] Oriented: 1582   Selected: 1582 (scale at least 0.000)
+[extract] Features: 1582
+[extract] Octaves: 4   Raw keypoints: 1367
+[extract] Oriented: 1544   Selected: 1544 (scale at least 0.000)
+[extract] Features: 1544
+[extract] Octaves: 4   Raw keypoints: 1245
+[extract] Oriented: 1429   Selected: 1429 (scale at least 0.000)
+[extract] Features: 1429
+[extract] Octaves: 4   Raw keypoints: 1341
+[extract] Oriented: 1535   Selected: 1535 (scale at least 0.000)
+[extract] Features: 1535
+[extract] Octaves: 4   Raw keypoints: 1289
+[extract] Oriented: 1478   Selected: 1478 (scale at least 0.000)
+[extract] Features: 1478
+[extract] Octaves: 4   Raw keypoints: 1316
+[extract] Oriented: 1492   Selected: 1492 (scale at least 0.000)
+[extract] Features: 1492
+[extract] Octaves: 4   Raw keypoints: 1304
+[extract] Oriented: 1470   Selected: 1470 (scale at least 0.000)
+[extract] Features: 1470
+[match]   Camera grouping: folder (one camera per sub-folder, split by resolution)   Cameras: 1   Images: 480
+[match]   Camera 1: images 480, 2048x2048, opencv, focal 2457.6 px (guessed)
+[match]   pairs scored: 1150/229920[match]   pairs scored: 2300/229920[match]   pairs scored: 3450/229920[match]   pairs scored: 4600/229920[match]   pairs scored: 5750/229920[match]   pairs scored: 6900/229920[match]   pairs scored: 8050/229920[match]   pairs scored: 9200/229920[match]   pairs scored: 10350/229920[match]   pairs scored: 11500/229920[match]   pairs scored: 12650/229920[match]   pairs scored: 13800/229920[match]   pairs scored: 14950/229920[match]   pairs scored: 16100/229920[match]   pairs scored: 17250/229920[match]   pairs scored: 18400/229920[match]   pairs scored: 19550/229920[match]   pairs scored: 20700/229920[match]   pairs scored: 21850/229920[match]   pairs scored: 23000/229920[match]   pairs scored: 24150/229920[match]   pairs scored: 25300/229920[match]   pairs scored: 26450/229920[match]   pairs scored: 27600/229920[match]   pairs scored: 28750/229920[match]   pairs scored: 29900/229920[match]   pairs scored: 31050/229920[match]   pairs scored: 32200/229920[match]   pairs scored: 33350/229920[match]   pairs scored: 34500/229920[match]   pairs scored: 35650/229920[match]   pairs scored: 36800/229920[match]   pairs scored: 37950/229920[match]   pairs scored: 39100/229920[match]   pairs scored: 40250/229920[match]   pairs scored: 41400/229920[match]   pairs scored: 42550/229920[match]   pairs scored: 43700/229920[match]   pairs scored: 44850/229920[match]   pairs scored: 46000/229920[match]   pairs scored: 47150/229920[match]   pairs scored: 48300/229920[match]   pairs scored: 49450/229920[match]   pairs scored: 50600/229920[match]   pairs scored: 51750/229920[match]   pairs scored: 52900/229920[match]   pairs scored: 54050/229920[match]   pairs scored: 55200/229920[match]   pairs scored: 56350/229920[match]   pairs scored: 57500/229920[match]   pairs scored: 58650/229920[match]   pairs scored: 59800/229920[match]   pairs scored: 60950/229920[match]   pairs scored: 62100/229920[match]   pairs scored: 63250/229920[match]   pairs scored: 64400/229920[match]   pairs scored: 65550/229920[match]   pairs scored: 66700/229920[match]   pairs scored: 67850/229920[match]   pairs scored: 69000/229920[match]   pairs scored: 70150/229920[match]   pairs scored: 71300/229920[match]   pairs scored: 72450/229920[match]   pairs scored: 73600/229920[match]   pairs scored: 74750/229920[match]   pairs scored: 75900/229920[match]   pairs scored: 77050/229920[match]   pairs scored: 78200/229920[match]   pairs scored: 79350/229920[match]   pairs scored: 80500/229920[match]   pairs scored: 81650/229920[match]   pairs scored: 82800/229920[match]   pairs scored: 83950/229920[match]   pairs scored: 85100/229920[match]   pairs scored: 86250/229920[match]   pairs scored: 87400/229920[match]   pairs scored: 88550/229920[match]   pairs scored: 89700/229920[match]   pairs scored: 90850/229920[match]   pairs scored: 92000/229920[match]   pairs scored: 93150/229920[match]   pairs scored: 94300/229920[match]   pairs scored: 95450/229920[match]   pairs scored: 96600/229920[match]   pairs scored: 97750/229920[match]   pairs scored: 98900/229920[match]   pairs scored: 100050/229920[match]   pairs scored: 101200/229920[match]   pairs scored: 102350/229920[match]   pairs scored: 103500/229920[match]   pairs scored: 104650/229920[match]   pairs scored: 105800/229920[match]   pairs scored: 106950/229920[match]   pairs scored: 108100/229920[match]   pairs scored: 109250/229920[match]   pairs scored: 110400/229920[match]   pairs scored: 111550/229920[match]   pairs scored: 112700/229920[match]   pairs scored: 113850/229920[match]   pairs scored: 114960/229920[match]   pairs scored: 115634/182280[match]   pairs scored: 116308/182280[match]   pairs scored: 116982/182280[match]   pairs scored: 117656/182280[match]   pairs scored: 118330/182280[match]   pairs scored: 119004/182280[match]   pairs scored: 119678/182280[match]   pairs scored: 120352/182280[match]   pairs scored: 121026/182280[match]   pairs scored: 121700/182280[match]   pairs scored: 122374/182280[match]   pairs scored: 123048/182280[match]   pairs scored: 123722/182280[match]   pairs scored: 124396/182280[match]   pairs scored: 125070/182280[match]   pairs scored: 125744/182280[match]   pairs scored: 126418/182280[match]   pairs scored: 127092/182280[match]   pairs scored: 127766/182280[match]   pairs scored: 128440/182280[match]   pairs scored: 129114/182280[match]   pairs scored: 129788/182280[match]   pairs scored: 130462/182280[match]   pairs scored: 131136/182280[match]   pairs scored: 131810/182280[match]   pairs scored: 132484/182280[match]   pairs scored: 133158/182280[match]   pairs scored: 133832/182280[match]   pairs scored: 134506/182280[match]   pairs scored: 135180/182280[match]   pairs scored: 135854/182280[match]   pairs scored: 136528/182280[match]   pairs scored: 137202/182280[match]   pairs scored: 137876/182280[match]   pairs scored: 138550/182280[match]   pairs scored: 139224/182280[match]   pairs scored: 139898/182280[match]   pairs scored: 140572/182280[match]   pairs scored: 141246/182280[match]   pairs scored: 141920/182280[match]   pairs scored: 142594/182280[match]   pairs scored: 143268/182280[match]   pairs scored: 143942/182280[match]   pairs scored: 144616/182280[match]   pairs scored: 145290/182280[match]   pairs scored: 145964/182280[match]   pairs scored: 146638/182280[match]   pairs scored: 147312/182280[match]   pairs scored: 147986/182280[match]   pairs scored: 148660/182280[match]   pairs scored: 149334/182280[match]   pairs scored: 150008/182280[match]   pairs scored: 150682/182280[match]   pairs scored: 151356/182280[match]   pairs scored: 152030/182280[match]   pairs scored: 152704/182280[match]   pairs scored: 153378/182280[match]   pairs scored: 154052/182280[match]   pairs scored: 154726/182280[match]   pairs scored: 155400/182280[match]   pairs scored: 156074/182280[match]   pairs scored: 156748/182280[match]   pairs scored: 157422/182280[match]   pairs scored: 158096/182280[match]   pairs scored: 158770/182280[match]   pairs scored: 159444/182280[match]   pairs scored: 160118/182280[match]   pairs scored: 160792/182280[match]   pairs scored: 161466/182280[match]   pairs scored: 162140/182280[match]   pairs scored: 162814/182280[match]   pairs scored: 163488/182280[match]   pairs scored: 164162/182280[match]   pairs scored: 164836/182280[match]   pairs scored: 165510/182280[match]   pairs scored: 166184/182280[match]   pairs scored: 166858/182280[match]   pairs scored: 167532/182280[match]   pairs scored: 168206/182280[match]   pairs scored: 168880/182280[match]   pairs scored: 169554/182280[match]   pairs scored: 170228/182280[match]   pairs scored: 170902/182280[match]   pairs scored: 171576/182280[match]   pairs scored: 172250/182280[match]   pairs scored: 172924/182280[match]   pairs scored: 173598/182280[match]   pairs scored: 174272/182280[match]   pairs scored: 174946/182280[match]   pairs scored: 175620/182280[match]   pairs scored: 176294/182280[match]   pairs scored: 176968/182280[match]   pairs scored: 177642/182280[match]   pairs scored: 178316/182280[match]   pairs scored: 178990/182280[match]   pairs scored: 179664/182280[match]   pairs scored: 180338/182280[match]   pairs scored: 181012/182280[match]   pairs scored: 181686/182280[match]   pairs scored: 182280/182280
+[match]   pair selection kept: 9310/114960; top features: 512, neighbours: 32 (00:00:05.380)
+[match]   Images: 480   Pairs: 9310   Pairing: prefilter
+[match]   pair selection -- top features: 512, neighbours: 32
+[focal] camera 1: 2458 -> 737 px from 62/150 epipolar vote(s), spread 4%
+[match]   epipolar focal search: 00:00:00.024
+[match]   Verifying on 12 thread(s)
+[match]   23/9310 pairs matched
+[match]   184/9310 pairs matched
+[match]   322/9310 pairs matched
+[match]   483/9310 pairs matched
+[match]   644/9310 pairs matched
+[match]   828/9310 pairs matched
+[match]   1012/9310 pairs matched
+[match]   1173/9310 pairs matched
+[match]   1357/9310 pairs matched
+[match]   1564/9310 pairs matched
+[match]   1725/9310 pairs matched
+[match]   1909/9310 pairs matched
+[match]   2093/9310 pairs matched
+[match]   2254/9310 pairs matched
+[match]   2438/9310 pairs matched
+[match]   2645/9310 pairs matched
+[match]   2829/9310 pairs matched
+[match]   3013/9310 pairs matched
+[match]   3197/9310 pairs matched
+[match]   3358/9310 pairs matched
+[match]   3565/9310 pairs matched
+[match]   3772/9310 pairs matched
+[match]   4002/9310 pairs matched
+[match]   4255/9310 pairs matched
+[match]   4554/9310 pairs matched
+[match]   4899/9310 pairs matched
+[match]   5290/9310 pairs matched
+[match]   5773/9310 pairs matched
+[match]   6486/9310 pairs matched
+[match]   7797/9310 pairs matched
+[match]   9269/9310 pairs matched
+[match]   9310/9310 pairs matched
+[map] focal probe at 737: 20 image(s), 143190 observation(s), orientations span 72.7 deg
+[map] focal 737 -> 2698 (probe refinement of a measured focal)
+[map] camera 1 principal point 1024.0,1024.0 -> 1024.0,1024.0 (0.0 px)
+[map]     Final intrinsics refinement over 1 model(s): 00:00:02.781
+[map]     Wrote model 0 (480 images, 122257 points) to D:\Programming\Artificial Intelligence\earth-gs\source-models\datasets\earth-2to1-hr\sfm\sparse\0
