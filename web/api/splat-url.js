@@ -17,7 +17,7 @@ async function authorize() {
   let bucketId = a.allowed?.bucketId;
   if (!bucketId) {
     // Key is not limited to one bucket: look the bucket up by name.
-    const lb = await fetch(`${a.apiInfo.storageApi.apiUrl}/b2api/v2/b2_list_buckets`, {
+    const lb = await fetch(`${a.apiUrl ?? a.apiInfo?.storageApi?.apiUrl}/b2api/v2/b2_list_buckets`, {
       method: 'POST',
       headers: { Authorization: a.authorizationToken, 'Content-Type': 'application/json' },
       body: JSON.stringify({ accountId: a.accountId, bucketName }),
@@ -28,8 +28,8 @@ async function authorize() {
   }
   cachedAuth = {
     token: a.authorizationToken,
-    apiUrl: a.apiInfo.storageApi.apiUrl,
-    downloadUrl: a.apiInfo.storageApi.downloadUrl,
+    apiUrl: a.apiUrl ?? a.apiInfo?.storageApi?.apiUrl,
+    downloadUrl: a.downloadUrl ?? a.apiInfo?.storageApi?.downloadUrl,
     accountId: a.accountId,
     bucketId,
     expiresAt: Date.now() + 20 * 60 * 1000, // re-authorize well before the account token expires
