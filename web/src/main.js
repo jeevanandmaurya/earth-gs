@@ -475,12 +475,30 @@ async function init() {
 
 let liveVersion = 0;
 
+/** Fallback when no live training is running: load the published splat through the Vercel link function. */
+let publishedLoaded = false;
+async function loadPublishedSplat() {
+  if (publishedLoaded) return;
+  try {
+    const meta = await fetch('/api/splat-url', { cache: 'no-store' });
+    if (!meta.ok) return;
+    const { url } = await meta.json();
+    const bin = await fetch(url);
+    if (!bin.ok) return;
+    await globe.setGlobalSplats(parseSplatBuffer(await bin.arrayBuffer()));
+    publishedLoaded = true;
+    document.querySelector('.stage').dataset.globalSplats = String(globe.globalCount);
+  } catch {
+    // no published splat available; the globe stays as it is
+  }
+}
 /** Poll the live training output: status line, and the splats whenever a new version is published. */
 async function pollLive() {
   try {
     const res = await fetch('./live/status.json', { cache: 'no-store' });
     if (!res.ok || !(res.headers.get('content-type') || '').includes('json')) {
       ui.setTraining(null);
+      loadPublishedSplat();
       return;
     }
     const status = await res.json();
