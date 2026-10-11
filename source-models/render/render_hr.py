@@ -1,10 +1,11 @@
-import base64, json, pathlib, sys, time
+import base64, json, os, pathlib, sys, time
 from playwright.sync_api import sync_playwright
 
 root = pathlib.Path(sys.argv[1])
 N = int(sys.argv[2])
 SIZE = int(sys.argv[3])
-out = root / 'source-models' / 'datasets' / sys.argv[4]
+data_root = pathlib.Path(os.environ.get('EARTH_GS_DATA', str(root.parent / 'earth-gs-data')))
+out = data_root / 'datasets' / sys.argv[4]
 (out / 'images').mkdir(parents=True, exist_ok=True)
 t0 = time.time()
 with sync_playwright() as p:
