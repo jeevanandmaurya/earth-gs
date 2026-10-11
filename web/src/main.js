@@ -546,5 +546,6 @@ async function liveTick() {
   liveDelay = liveAvailable ? 1500 : 60000; // no live training on the website: check once a minute
   setTimeout(liveTick, liveDelay);
 }
-liveTick();
+// Live training only exists on the training machine, so the published site never polls for it.
+if (!import.meta.env.PROD) liveTick();
 init();
