@@ -34,7 +34,7 @@ export default defineConfig({
   publicDir: '../registry',
   plugins: [liveTraining()],
   build: {
-    outDir: '../dist-web',
+    outDir: 'dist',
     emptyOutDir: true,
     target: 'esnext',
     chunkSizeWarningLimit: 700,
