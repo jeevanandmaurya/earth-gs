@@ -1,6 +1,6 @@
 import json, struct, pathlib
 import numpy as np
-root = pathlib.Path(r'D:\Programming\Artificial Intelligence\earth-gs/source-models')
+root = pathlib.Path(__file__).resolve().parent
 img_bytes = (root / 'bluemarble_2to1.jpg').read_bytes()
 R = 500.0
 LAT_N, LON_N = 360, 720            # grid resolution (degrees per cell: 0.5 lat, 0.5 lon)
