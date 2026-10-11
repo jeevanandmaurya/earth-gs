@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8" /><title>patch renderer</title></head>
+<body style="margin:0;background:#000">
+<script type="importmap">
+{ "imports": { "three": "/web/node_modules/three/build/three.module.js", "three/addons/": "/web/node_modules/three/examples/jsm/" } }
+</script>
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+const q = new URLSearchParams(location.search);
+const SIZE = parseInt(q.get('size') || '2048', 10);
+const PER = parseInt(q.get('per') || '80', 10);
+const ALT_KM = parseFloat(q.get('alt_km') || '2700');
+const R_KM = 6371.0088, R = 500.0;
+const ALT = ALT_KM / R_KM * R;
+const TILT = parseFloat(q.get('tilt_deg') || '25') * Math.PI / 180;
+const focuses = (q.get('focus') || '').split(';').map(s => s.split(',').map(Number));
+
+const renderer = new THREE.WebGLRenderer({ antialias: false, preserveDrawingBuffer: true });
+renderer.setPixelRatio(1); renderer.setSize(SIZE, SIZE);
+renderer.setClearColor(0x000000, 1);
+document.body.appendChild(renderer.domElement);
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(40, 1, 1, 20000);
+const gltf = await new GLTFLoader().loadAsync(q.get('glb'));
+gltf.scene.traverse((o) => {
+  if (!o.isMesh) return;
+  const src = Array.isArray(o.material) ? o.material[0] : o.material;
+  o.material = new THREE.MeshBasicMaterial({ map: src.map || null, side: THREE.DoubleSide });
+});
+scene.add(gltf.scene);
+
+// deterministic random for repeatable tilts
+let seed = 12345; const rnd = () => { seed = (seed * 16807) % 2147483647; return seed / 2147483647; };
+const latlon = (lat, lon) => {
+  const phi = (lon + 180) * Math.PI / 180, th = (90 - lat) * Math.PI / 180;
+  return new THREE.Vector3(-Math.cos(phi) * Math.sin(th), Math.cos(th), Math.sin(phi) * Math.sin(th)).multiplyScalar(R);
+};
+const poses = [];
+for (const [flat, flon] of focuses) {
+  const F = latlon(flat, flon), n = F.clone().normalize();
+  const e1 = new THREE.Vector3(0, 1, 0).sub(n.clone().multiplyScalar(n.y)).normalize();   // up on the tangent plane
+  const e2 = new THREE.Vector3().crossVectors(n, e1).normalize();
+  for (let k = 0; k < PER; k++) {
+    const a = rnd() * 2 * Math.PI, rr = Math.sqrt(rnd()) * Math.tan(TILT);
+    const dir = n.clone().add(e1.clone().multiplyScalar(Math.cos(a) * rr)).add(e2.clone().multiplyScalar(Math.sin(a) * rr)).normalize();
+    poses.push({ focus: [flat, flon], pos: F.clone().add(dir.multiplyScalar(ALT)), up: e1.clone(), target: F });
+  }
+}
+window.poseCount = poses.length;
+window.renderView = (i) => {
+  const p = poses[i];
+  camera.position.copy(p.pos); camera.up.copy(p.up); camera.lookAt(p.target);
+  camera.near = ALT * 0.2; camera.updateProjectionMatrix();
+  renderer.render(scene, camera);
+  return { image: renderer.domElement.toDataURL('image/png'), position: [p.pos.x, p.pos.y, p.pos.z], focus: p.focus, target: [p.target.x, p.target.y, p.target.z], radius_units: R };
+};
+window.ready = true;
+</script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-﻿__pycache__/
+__pycache__/
 node_modules/
 dist/
 dist-web/
@@ -13,7 +13,7 @@ source-models/**/images/
 source-models/bluemarble-1km/
 source-models/satellite/
 source-models/regions/
-source-models/render/
+source-models/render/*.png
 source-models/_backup_old_datasets/
 source-models/**/*.npz
 source-models/**/*.ply

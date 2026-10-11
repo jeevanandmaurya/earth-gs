@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8" /><title>orbit renderer</title></head>
+<body style="margin:0;background:#000">
+<script type="importmap">
+{ "imports": {
+    "three": "/web/node_modules/three/build/three.module.js",
+    "three/addons/": "/web/node_modules/three/examples/jsm/"
+} }
+</script>
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+
+const SIZE = parseInt(new URLSearchParams(location.search).get('size') || '1024', 10);
+const N = parseInt(new URLSearchParams(location.search).get('n') || '120', 10);
+
+const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
+renderer.setPixelRatio(1);
+renderer.setSize(SIZE, SIZE);
+renderer.setClearColor(0x000000, 1);
+document.body.appendChild(renderer.domElement);
+
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(40, 1, 10, 20000);
+scene.add(new THREE.HemisphereLight(0xffffff, 0x222222, 0.6));
+// Fixed sun, so every view has the same lighting
+const sun = new THREE.DirectionalLight(0xffffff, 2.2);
+sun.position.set(5000, 1500, 3000);
+scene.add(sun);
+
+const glbPath = new URLSearchParams(location.search).get('glb') || '/source-models/nasa-earth-with-clouds.glb';
+const gltf = await new GLTFLoader().loadAsync(glbPath);
+const root = gltf.scene;
+// Unlit colour: keep each texture's true daytime colours, so no shading is baked into the splats
+root.traverse((o) => {
+  if (!o.isMesh) return;
+  const src = Array.isArray(o.material) ? o.material[0] : o.material;
+  o.material = new THREE.MeshBasicMaterial({ map: src.map || null, color: src.map ? 0xffffff : src.color, side: THREE.FrontSide });
+});
+scene.add(root);
+const box = new THREE.Box3().setFromObject(root);
+const centre = box.getCenter(new THREE.Vector3());
+const size = box.getSize(new THREE.Vector3());
+root.position.sub(centre);
+const radius = Math.max(size.x, size.y, size.z) / 2;
+const dist = radius * 4.6; // Earth fills about 60% of the frame height
+
+// Evenly spread camera directions (Fibonacci sphere)
+const dirs = [];
+for (let i = 0; i < N; i++) {
+  const y = 1 - (2 * i + 1) / N;
+  const r = Math.sqrt(1 - y * y);
+  const t = i * 2.399963229728653;
+  dirs.push([Math.cos(t) * r, y, Math.sin(t) * r]);
+}
+
+window.renderView = (i) => {
+  const d = dirs[i];
+  camera.position.set(d[0] * dist, d[1] * dist, d[2] * dist);
+  camera.lookAt(0, 0, 0);
+  camera.updateMatrixWorld();
+  renderer.render(scene, camera);
+  return {
+    image: renderer.domElement.toDataURL('image/png'),
+    position: [camera.position.x, camera.position.y, camera.position.z],
+    radius,
+  };
+};
+window.ready = true;
+</script>
+</body>
+</html>
