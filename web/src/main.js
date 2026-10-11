@@ -455,7 +455,7 @@ async function init() {
 
   const q = readUrl();
   const fromUrl = q.get('place') && placeById(q.get('place'));
-  const start = fromUrl ? q.get('place') : defaultPlace(state.places)?.id;
+  const start = fromUrl ? q.get('place') : (placeById('colosseum') ? 'colosseum' : defaultPlace(state.places)?.id);
 
   if (start) {
     selectPlace(start, { fly: false, show: false });
@@ -489,6 +489,12 @@ let liveAvailable = false;
 let publishedLoaded = false;
 let publishedTriedAt = 0;
 async function loadPublishedSplat() {
+  const lodUrl = new URLSearchParams(location.search).get('lod'); // local test of the LOD format: ?lod=/lod-test/lod-meta.json
+  if (lodUrl) {
+    try { await globe.setLodSplats(lodUrl); document.querySelector('.stage').dataset.globalSplats = String(globe.globalCount); } catch (err) { console.warn('LOD load failed', err); }
+    splatReadyResolve();
+    return;
+  }
   if (publishedLoaded || Date.now() - publishedTriedAt < 60000) return;
   publishedTriedAt = Date.now();
   try {

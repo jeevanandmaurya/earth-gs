@@ -633,30 +633,12 @@ export class Globe {
     this.selectedId = id;
   }
 
-  /** A 4 km grid on the surface at a place. Fades in as the camera comes down. */
+  /** The ground grid is removed: any grid from an earlier place is cleared. */
   setGround(place) {
     if (this.ground) {
       this.ground.destroy();
       this.ground = null;
     }
-    if (!place) return;
-    const { up, east, north } = frameAt(place.lat, place.lon);
-    const mat = new pc.StandardMaterial();
-    mat.emissiveMap = texFromCanvas(this.app, groundCanvas());
-    mat.emissive = new pc.Color(1, 1, 1);
-    mat.useLighting = false;
-    mat.opacity = 0;
-    mat.blendType = pc.BLEND_NORMAL;
-    mat.update();
-    const e = new pc.Entity('ground');
-    e.addComponent('render', { type: 'plane', material: mat });
-    const size = 4000 / R;
-    const z = vecNorm(cross(east, up));
-    e.setRotation(quatFromColumns(east, up, z));
-    e.setPosition(up[0] * SURFACE_LIFT, up[1] * SURFACE_LIFT, up[2] * SURFACE_LIFT);
-    e.setLocalScale(size, size, size);
-    this.app.root.addChild(e);
-    this.ground = e;
   }
 
   /** Load a PLY from memory as a Gaussian splat entity. */
@@ -751,6 +733,24 @@ export class Globe {
   }
 
   /** Earth-centred splat set (metres) in the globe's frame, in place of the placeholder basemap. */
+  /** Streamed level-of-detail splats (PlayCanvas lod-meta.json). The engine loads only the detail the camera needs. */
+  setLodSplats(url) {
+    const asset = new pc.Asset('earth-lod', 'gsplat', { url, filename: 'lod-meta.json' });
+    this.app.assets.add(asset);
+    return new Promise((resolve, reject) => {
+      asset.ready(() => {
+        const e = new pc.Entity('earth-lod');
+        e.addComponent('gsplat', { asset });
+        e.enabled = this.splatsVisible && this.showGlobal;
+        this.app.root.addChild(e);
+        this.global = { entity: e, asset };
+        this.globalCount = asset.resource?.numGaussians ?? 0;
+        this._applyLayers();
+        resolve(this.globalCount);
+      });
+      asset.on('error', (err) => reject(new Error(String(err))));
+    });
+  }
   setGlobalSplats(s) {
     const token = ++this.tok.global;
     this._dropSplats(this.global);

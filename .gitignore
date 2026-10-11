@@ -31,3 +31,4 @@ web/regions/
 *.glb
 source-models/datasets/**/*.json
 source-models/datasets/**/*.log
+web/public/lod-test/
