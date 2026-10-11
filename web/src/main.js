@@ -261,7 +261,7 @@ function onFrame(now) {
     ui.renderTimeline(state, selected(), sky);
   }
 
-  ui.placeLabels(globe, labels, state.selectedId);
+  if (labels) ui.placeLabels(globe, labels, state.selectedId);
 
   if (now - lastSaveAt > 1000) {
     lastSaveAt = now;
@@ -419,6 +419,16 @@ function readUrl() {
   return q;
 }
 
+// Places and labels wait for the splat, so the globe shows the terrain first.
+let splatReadyResolve;
+const splatReady = new Promise((r) => (splatReadyResolve = r));
+function revealWhenSplatReady() {
+  Promise.race([splatReady, new Promise((r) => setTimeout(r, 6000))]).then(() => {
+    globe.setPlaces(state.places);
+    labels = ui.createLabels(state.places, (id) => selectPlace(id));
+  });
+}
+
 async function init() {
   mountShell();
 
@@ -433,9 +443,8 @@ async function init() {
     state.places = [];
   }
 
-  globe.setPlaces(state.places);
-  labels = ui.createLabels(state.places, (id) => selectPlace(id));
   globe.frameHooks.push(onFrame);
+  revealWhenSplatReady();
   bindControls();
 
   // Initial panel and overlay state from settings
@@ -474,6 +483,7 @@ async function init() {
 // ---------- live training ----------
 
 let liveVersion = 0;
+let liveAvailable = false;
 
 /** Fallback when no live training is running: load the published splat through the Vercel link function. */
 let publishedLoaded = false;
@@ -484,11 +494,19 @@ async function loadPublishedSplat() {
   try {
     const meta = await fetch('/api/splat-url', { cache: 'no-store' });
     if (!meta.ok) return;
-    const { url } = await meta.json();
-    const bin = await fetch(url);
-    if (!bin.ok) return;
-    await globe.setGlobalSplats(parseSplatBuffer(await bin.arrayBuffer()));
+    const { url, cacheKey } = await meta.json();
+    const store = await caches.open('earth-gs-splats');
+    const key = '/splat/' + cacheKey;
+    let res = await store.match(key);
+    if (!res) {
+      const fresh = await fetch(url);
+      if (!fresh.ok) return;
+      await store.put(key, fresh.clone());
+      res = fresh;
+    }
+    await globe.setGlobalSplats(parseSplatBuffer(await res.arrayBuffer()));
     publishedLoaded = true;
+    splatReadyResolve();
     document.querySelector('.stage').dataset.globalSplats = String(globe.globalCount);
   } catch {
     // no published splat available; the globe stays as it is
@@ -499,10 +517,12 @@ async function pollLive() {
   try {
     const res = await fetch('./live/status.json', { cache: 'no-store' });
     if (!res.ok || !(res.headers.get('content-type') || '').includes('json')) {
+      liveAvailable = false;
       ui.setTraining(null);
       loadPublishedSplat();
       return;
     }
+    liveAvailable = true;
     const status = await res.json();
     ui.setTraining(status);
     if (status.version && status.version !== liveVersion) {
@@ -510,14 +530,21 @@ async function pollLive() {
       if (bin.ok) {
         await globe.setGlobalSplats(parseSplatBuffer(await bin.arrayBuffer()));
         liveVersion = status.version;
+        splatReadyResolve();
         document.querySelector('.stage').dataset.globalSplats = String(globe.globalCount);
       }
     }
   } catch {
+    liveAvailable = false;
     ui.setTraining(null);
   }
 }
 
-setInterval(pollLive, 1500);
-pollLive();
+let liveDelay = 1500;
+async function liveTick() {
+  await pollLive();
+  liveDelay = liveAvailable ? 1500 : 60000; // no live training on the website: check once a minute
+  setTimeout(liveTick, liveDelay);
+}
+liveTick();
 init();

@@ -60,7 +60,7 @@ export default async function handler(req, res) {
     if (!dl.ok) throw new Error(`b2_get_download_authorization failed: ${dl.status}`);
     const { authorizationToken } = await dl.json();
     const url = `${auth.downloadUrl}/file/${bucketName}/${fileName}?Authorization=${authorizationToken}`;
-    res.status(200).json({ url, expiresInSeconds: seconds });
+    res.status(200).json({ url, expiresInSeconds: seconds, cacheKey: fileName });
   } catch (err) {
     res.status(502).json({ error: String(err.message || err) });
   }
