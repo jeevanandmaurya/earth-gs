@@ -53,7 +53,7 @@ if [ ! -d "$REPO_DIR/.git" ]; then
   log "cloning repository (sparse)"
   git clone -q --filter=blob:none --sparse "$REPO_URL" "$REPO_DIR"
 fi
-git -C "$REPO_DIR" sparse-checkout set source-models pipeline tiles tools schemas
+git -C "$REPO_DIR" sparse-checkout set source-models pipeline tiles tools schemas web
 git -C "$REPO_DIR" pull -q --ff-only
 
 # 5. Data folder and environment for later cells.
