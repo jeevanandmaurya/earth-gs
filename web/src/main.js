@@ -477,8 +477,10 @@ let liveVersion = 0;
 
 /** Fallback when no live training is running: load the published splat through the Vercel link function. */
 let publishedLoaded = false;
+let publishedTriedAt = 0;
 async function loadPublishedSplat() {
-  if (publishedLoaded) return;
+  if (publishedLoaded || Date.now() - publishedTriedAt < 60000) return;
+  publishedTriedAt = Date.now();
   try {
     const meta = await fetch('/api/splat-url', { cache: 'no-store' });
     if (!meta.ok) return;
